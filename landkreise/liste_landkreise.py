@@ -2,7 +2,9 @@ import pandas as pd
 
 # Ließt Idenitifier und Namen der Landkreise ein
 lk_all = pd.read_excel("AuszugGV2QAktuell.xlsx", sheet_name=1, header=[0, 1, 2, 3, 4, 5], na_values=['NA'],
-                      usecols=["C, D, E, F, H"])
+                      usecols=["C, D, E, F, H"], skiprows=[0, 1, 2, 4])
+
+print(lk_all)
 
 # kopiert alle Landkreise (d. h. alle Einträge mit NaN in VB) in neue Datei
 #lk_big = lk_all[lk_all['VB'].null()]

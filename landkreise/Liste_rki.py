@@ -26,5 +26,5 @@ data = np.array([[11001,"Berlin Mitte"], [11002, "Berlin Friedrichshain-Kreuzber
 df_RKI = pd.DataFrame(data)
 
 #print(df_RKI)
-df_RKI.to_csv("df_RKI.csv",index=None,columns=None, header=False)
+df_RKI.to_csv("df_RKI.csv",index=None,columns=None, header=False, encoding='utf-8')
 #df_RKI.to_csv("lk_fin.csv", mode='a')

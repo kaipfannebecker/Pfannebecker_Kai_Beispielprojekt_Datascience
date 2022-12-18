@@ -20,8 +20,11 @@ data = np.array([[11001, 11002, 11003, 11004, 11005, 11006, 11007, 11008, 11009,
          "Berlin Spandau", "Berlin Steglitz-Zehlendorf", "Berlin Tempelhof-Schöneberg", "Berlin Neukölln",
          "Berlin Treptow-Köpenick", "Berlin Marzahn-Hellersdorf", "Berlin Lichtenberg", "Berlin Reinickendorf"]])
 
+#print(data)
+#np.savetxt("data.csv", data, delimiter=",")
+
 df_RKI = pd.DataFrame(data)
 
-# print(df_RKI)
-df_RKI.to_csv("df_RKI.csv", mode='a')
+#print(df_RKI)
+df_RKI.to_csv("df_RKI.csv",index=None,columns=None, header=False)
 #df_RKI.to_csv("lk_fin.csv", mode='a')

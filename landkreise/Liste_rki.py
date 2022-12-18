@@ -12,9 +12,16 @@
 ## 11011 Berlin Lichtenberg
 ## 11012 Berlin Reinickendorf
 
-df_RKI = data.frame[(11001, 11002, 11003, 11004, 11005, 11006, 11007, 11008, 11009, 11010, 11011, 11012,),
-        ("Berlin Mitte", "Berlin Friedrichshain-Kreuzberg", "Berlin Pankow", "Berlin Charlottenburg-Wilmersdorf",
+import numpy as np
+import pandas as pd
+
+data = np.array([[11001, 11002, 11003, 11004, 11005, 11006, 11007, 11008, 11009, 11010, 11011, 11012],
+         ["Berlin Mitte", "Berlin Friedrichshain-Kreuzberg", "Berlin Pankow", "Berlin Charlottenburg-Wilmersdorf",
          "Berlin Spandau", "Berlin Steglitz-Zehlendorf", "Berlin Tempelhof-Schöneberg", "Berlin Neukölln",
-         "Berlin Treptow-Köpenick", "Berlin Marzahn-Hellersdorf", "Berlin Lichtenberg", "Berlin Reinickendorf")]
-print(df_RKI)
-# df_RKI.to_csv("lk_fin.csv", mode='a')
+         "Berlin Treptow-Köpenick", "Berlin Marzahn-Hellersdorf", "Berlin Lichtenberg", "Berlin Reinickendorf"]])
+
+df_RKI = pd.DataFrame(data)
+
+# print(df_RKI)
+df_RKI.to_csv("df_RKI.csv", mode='a')
+#df_RKI.to_csv("lk_fin.csv", mode='a')

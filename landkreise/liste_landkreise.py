@@ -13,24 +13,28 @@ print(lk_all)
 #print(lk_all)
 
 ## kopiert alle Landkreise (d. h. alle Einträge mit NaN in VB) in neue Datei
-#lk_big = lk_all[lk_all['VB'].null()]
-#lk_big = lk_all.drop([nonull:=True], inplace=False)
 
-#print(lk_big)
+lk_small = lk_all[lk_all['Unnamed: 5'].isna()]
 
-## löscht alle Zeilen, in denen die Spalte VB ausgefüllt ist
-#lk_small = lk_big.loc(lk_big["VB"])
+print(lk_small)
 
 ## Zellen C, D, E zu einer Nummer verbinden
 
-zweiter_wert = lk_all["Unnamed: 3"]
-dritter_wert = lk_all["Unnamed: 4"]
+zweiter_wert = lk_small["Unnamed: 3"]
+print(zweiter_wert)
+dritter_wert = lk_small["Unnamed: 4"]
+print(dritter_wert)
+print(lk_small["01"])
+lk_small["01"] = lk_small["01"].str.cat(zweiter_wert)
+lk_small["01"] = lk_small["01"].str.cat(dritter_wert)
 
-lk_all["01"] = lk_all["01"].str.cat(zweiter_wert)
-lk_all["01"] = lk_all["01"].str.cat(dritter_wert)
+# löschen der Zeilen D und E sowie VB
 
+lk_small = lk_all.drop(columns=lk_small.columns[3])
+lk_small = lk_all.drop(columns=lk_small.columns[2])
+lk_small = lk_all.drop(columns=lk_small.columns[1])
 
-print(lk_all)
+print(lk_small)
 #lk_fin = lk_small
 
 ## csv ausgeben

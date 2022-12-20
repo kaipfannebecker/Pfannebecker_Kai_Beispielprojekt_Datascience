@@ -7,7 +7,6 @@ lk_all = pd.read_excel("AuszugGV2QAktuell.xlsx", sheet_name=1, header=6, usecols
                       na_values=['NA'], dtype=str)
 
 #lk_all.to_csv("liste_LK.csv")
-print(lk_test)
 
 #lk_all = lk_all.drop(index=[0], columns=[0])
 #print(lk_all)
@@ -16,15 +15,15 @@ print(lk_test)
 
 lk_small = lk_all[lk_all['Unnamed: 5'].isna()]
 
-print(lk_small)
+# print(lk_small)
 
 ## Zellen C, D, E zu einer Nummer verbinden
 
 zweiter_wert = lk_small["Unnamed: 3"]
-print(zweiter_wert)
+# print(zweiter_wert)
 dritter_wert = lk_small["Unnamed: 4"]
-print(dritter_wert)
-print(lk_small["01"])
+# print(dritter_wert)
+# print(lk_small["01"])
 
 lk_small["01"] = lk_small["01"].str.cat(zweiter_wert)
 lk_small["01"] = lk_small["01"].str.cat(dritter_wert)
@@ -38,7 +37,7 @@ lk_fin = lk_small.drop(columns=lk_small.columns[1])
 
 
 # csv ausgeben
-lk_fin.to_csv("liste_landkreise_org.csv")
+lk_fin.to_csv("liste_landkreise_org.csv", index=False)
 
 # als csv Datei ausgeben
 # lk_fin.to_csv("landkreise.csv")

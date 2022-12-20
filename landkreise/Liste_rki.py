@@ -20,9 +20,6 @@ data = np.array([[11001,"Berlin Mitte"], [11002, "Berlin Friedrichshain-Kreuzber
                  [11007, "Berlin Tempelhof-Schöneberg"], [11008,"Berlin Neukölln"], [11009, "Berlin Treptow-Köpenick"],
                  [11010,"Berlin Marzahn-Hellersdorf"], [11011,"Berlin Lichtenberg"], [11012, "Berlin Reinickendorf"]])
 
-#print(data)
-#np.savetxt("data.csv", data, delimiter=",")
-
 df_RKI = pd.DataFrame(data)
 
 #print(df_RKI)

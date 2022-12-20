@@ -25,20 +25,20 @@ print(zweiter_wert)
 dritter_wert = lk_small["Unnamed: 4"]
 print(dritter_wert)
 print(lk_small["01"])
+
 lk_small["01"] = lk_small["01"].str.cat(zweiter_wert)
 lk_small["01"] = lk_small["01"].str.cat(dritter_wert)
-
 # löschen der Zeilen D und E sowie VB
 
-lk_small = lk_all.drop(columns=lk_small.columns[3])
-lk_small = lk_all.drop(columns=lk_small.columns[2])
-lk_small = lk_all.drop(columns=lk_small.columns[1])
+lk_small = lk_small.drop(columns=lk_small.columns[3])
+lk_small = lk_small.drop(columns=lk_small.columns[2])
+lk_fin = lk_small.drop(columns=lk_small.columns[1])
 
-print(lk_small)
-#lk_fin = lk_small
+#print(lk_small)
 
-## csv ausgeben
-#lk_fin.to_csv("lk_fin.csv")
+
+# csv ausgeben
+lk_fin.to_csv("liste_landkreise_org.csv")
 
 # als csv Datei ausgeben
 # lk_fin.to_csv("landkreise.csv")

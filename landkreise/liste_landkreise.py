@@ -7,7 +7,7 @@ lk_all = pd.read_excel("AuszugGV2QAktuell.xlsx", sheet_name=1, header=6, usecols
                       na_values=['NA'], dtype=str)
 
 #lk_all.to_csv("liste_LK.csv")
-print(lk_all)
+print(lk_test)
 
 #lk_all = lk_all.drop(index=[0], columns=[0])
 #print(lk_all)

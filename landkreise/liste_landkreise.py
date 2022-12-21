@@ -43,6 +43,10 @@ lk_small = lk_small.drop(columns=lk_small.columns[3])
 lk_small = lk_small.drop(columns=lk_small.columns[2])
 lk_fin = lk_small.drop(columns=lk_small.columns[1])
 
+## Identifier in String umwandeln
+#lk_fin[0] = lk_fin[0].astype("string")
+#print(lk_fin[0].apply(type))
+
 # csv ausgeben
 
 lk_fin.to_csv("liste_landkreise_org.csv", index=False)

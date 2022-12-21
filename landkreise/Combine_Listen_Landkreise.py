@@ -5,19 +5,29 @@ import numpy as np
 
 lk_org = pd.read_csv("liste_landkreise_org.csv", dtype=str, skiprows=[0], header=None)
 
+# Löschen der Zellen mit leeren Einträgen
+
+lk_org.replace('', np.nan, inplace=True)
+lk_org.dropna(inplace=True)
+
+# Ändern der Datentypen der Identifier in String
+lk_org[0] = lk_org[0].apply(str)
+
+
 # Importieren der Liste vom RKI
 
 lk_rki = pd.read_csv("liste_rki.csv", header=None)
+
+# Ändern der Datentypen der Identifier in String
+lk_rki[0] = lk_rki[0].apply(str)
+
 
 # Kombinieren der Dataframes
 
 listen = [lk_org, lk_rki]
 lk_fin = pd.concat(listen)
 
-# Löschen der Zellen mit leeren Einträgen
 
-lk_fin.replace('', np.nan, inplace=True)
-lk_fin.dropna(inplace=True)
 
 # Berlin_gesamt_löschen
 berlin = lk_fin[0].str.contains('11000')
@@ -28,16 +38,18 @@ berlin = lk_fin[0].str.contains('11000')
 ## Nach Code 11000 suchen und spalte mit True oder False hinzufügen
 lk_fin['berlin'] = lk_fin[0].str.contains('11000')
 
-# Alle Zeilen mit berlin = True löschen
+## Alle Zeilen mit berlin = True löschen
 
 lk_fin = lk_fin[lk_fin.berlin != True]
 
-# Spalte berlin löschen
+## Spalte berlin löschen
 
 lk_fin = lk_fin.drop(columns=lk_fin.columns[2])
 
-# to do:
-    # sortieren
+
+# sortieren nach Identifiern
+
+lk_fin = lk_fin.sort_values([0])
 
 # Identifier umwandeln in integer
 

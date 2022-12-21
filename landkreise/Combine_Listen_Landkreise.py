@@ -23,10 +23,10 @@ print (lk_fin[0])
 # Berlin_gesamt_löschen
 berlin = lk_fin[0].str.contains('11000')
 
-# Alle Regionen (d.h. kombinierte Landkreise) entfernen
-## haben nur eine einstellige Zahl in Spalte D
+# Berlin gesamt entfernen
+## trennt Daten des RKI in verschiedene Unterbezirke auf
 
-## Länge von Spalte D messen und in neue Spalte "length" anfügen
+## Nach Code 11000 suchen und spalte mit True oder False hinzufügen
 lk_fin['berlin'] = lk_fin[0].str.contains('11000')
 
 # Alle Zeilen mit berlin = True löschen

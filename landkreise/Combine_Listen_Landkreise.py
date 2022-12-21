@@ -3,8 +3,7 @@ import numpy as np
 
 # Importieren der Listen Landkreise_org
 
-#lk_org = pd.read_csv("liste_landkreise_org.csv", dtype = str, skiprows=[0], header=None)
-lk_org = pd.read_csv("liste_landkreise_org.csv", dtype = str, skiprows=[0], header=None)
+lk_org = pd.read_csv("liste_landkreise_org.csv", dtype=str, skiprows=[0], header=None)
 
 # Importieren der Liste vom RKI
 
@@ -19,11 +18,11 @@ lk_fin = pd.concat(listen)
 
 lk_fin.replace('', np.nan, inplace=True)
 lk_fin.dropna(inplace=True)
-print (lk_fin[0])
+
 # Berlin_gesamt_löschen
 berlin = lk_fin[0].str.contains('11000')
 
-# Berlin gesamt entfernen
+# Berlin_gesamt entfernen
 ## trennt Daten des RKI in verschiedene Unterbezirke auf
 
 ## Nach Code 11000 suchen und spalte mit True oder False hinzufügen
@@ -37,15 +36,6 @@ lk_fin = lk_fin[lk_fin.berlin != True]
 
 lk_fin = lk_fin.drop(columns=lk_fin.columns[2])
 
-#lk_fin = lk_fin.drop(berlin)
-#print(berlin)
-print(lk_fin)
-
-# lk_fin.sort_index(inplace=True)
-
+# Als .csv Datei ausgeben
 
 lk_fin.to_csv("Liste_der_Landkreise_fuer_Projekt.csv", index=False)
-
-# print(Liste_Landkreise_final)
-# print(lk_org)
-# print(lk_rki)

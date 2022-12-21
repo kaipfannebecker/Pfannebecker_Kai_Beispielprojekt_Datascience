@@ -38,9 +38,10 @@ lk_fin = lk_fin.drop(columns=lk_fin.columns[2])
 
 # to do:
     # sortieren
-    # Identifier umwandeln in integer
 
+# Identifier umwandeln in integer
 
+lk_fin[0] = pd.to_numeric(lk_fin[0])
 
 # Als .csv Datei ausgeben
 

@@ -33,6 +33,8 @@ lk_small = lk_small.drop(columns=lk_small.columns[3])
 lk_small = lk_small.drop(columns=lk_small.columns[2])
 lk_fin = lk_small.drop(columns=lk_small.columns[1])
 
+
+
 #print(lk_small)
 
 

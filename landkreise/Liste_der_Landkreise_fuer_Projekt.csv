@@ -1,4 +1,4 @@
-01,Schleswig-Holstein
+0,1
 01001,"Flensburg, Stadt"
 01002,"Kiel, Landeshauptstadt"
 01003,"Lübeck, Hansestadt"
@@ -14,10 +14,7 @@
 01060,Segeberg
 01061,Steinburg
 01062,Stormarn
-,Hamburg
 02000,"Hamburg, Freie und Hansestadt"
-,Niedersachsen
-,Statistische Region Braunschweig
 03101,"Braunschweig, Stadt"
 03102,"Salzgitter, Stadt"
 03103,"Wolfsburg, Stadt"
@@ -28,7 +25,6 @@
 03157,Peine
 03158,Wolfenbüttel
 03159,Göttingen
-,Statistische Region Hannover
 03241,Region Hannover
 03251,Diepholz
 03252,Hameln-Pyrmont
@@ -36,7 +32,6 @@
 03255,Holzminden
 03256,Nienburg (Weser)
 03257,Schaumburg
-,Statistische Region Lüneburg
 03351,Celle
 03352,Cuxhaven
 03353,Harburg
@@ -48,7 +43,6 @@
 03359,Stade
 03360,Uelzen
 03361,Verden
-,Statistische Region Weser-Ems
 03401,"Delmenhorst, Stadt"
 03402,"Emden, Stadt"
 03403,"Oldenburg (Oldenburg), Stadt"
@@ -66,11 +60,8 @@
 03460,Vechta
 03461,Wesermarsch
 03462,Wittmund
-,Bremen
 04011,"Bremen, Stadt"
 04012,"Bremerhaven, Stadt"
-,Nordrhein-Westfalen
-,Reg.-Bez. Düsseldorf
 05111,"Düsseldorf, Stadt"
 05112,"Duisburg, Stadt"
 05113,"Essen, Stadt"
@@ -86,7 +77,6 @@
 05162,Rhein-Kreis Neuss
 05166,Viersen
 05170,Wesel
-,Reg.-Bez. Köln
 05314,"Bonn, Stadt"
 05315,"Köln, Stadt"
 05316,"Leverkusen, Stadt"
@@ -98,7 +88,6 @@
 05374,Oberbergischer Kreis
 05378,Rheinisch-Bergischer Kreis
 05382,Rhein-Sieg-Kreis
-,Reg.-Bez. Münster
 05512,"Bottrop, Stadt"
 05513,"Gelsenkirchen, Stadt"
 05515,"Münster, Stadt"
@@ -107,7 +96,6 @@
 05562,Recklinghausen
 05566,Steinfurt
 05570,Warendorf
-,Reg.-Bez. Detmold
 05711,"Bielefeld, Stadt"
 05754,Gütersloh
 05758,Herford
@@ -115,7 +103,6 @@
 05766,Lippe
 05770,Minden-Lübbecke
 05774,Paderborn
-,Reg.-Bez. Arnsberg
 05911,"Bochum, Stadt"
 05913,"Dortmund, Stadt"
 05914,"Hagen, Stadt der FernUniversität"
@@ -128,8 +115,6 @@
 05970,Siegen-Wittgenstein
 05974,Soest
 05978,Unna
-,Hessen
-,Reg.-Bez. Darmstadt
 06411,"Darmstadt, Wissenschaftsstadt"
 06412,"Frankfurt am Main, Stadt"
 06413,"Offenbach am Main, Stadt"
@@ -144,13 +129,11 @@
 06438,Offenbach
 06439,Rheingau-Taunus-Kreis
 06440,Wetteraukreis
-,Reg.-Bez. Gießen
 06531,Gießen
 06532,Lahn-Dill-Kreis
 06533,Limburg-Weilburg
 06534,Marburg-Biedenkopf
 06535,Vogelsbergkreis
-,Reg.-Bez. Kassel
 06611,"Kassel, documenta-Stadt"
 06631,Fulda
 06632,Hersfeld-Rotenburg
@@ -158,8 +141,6 @@
 06634,Schwalm-Eder-Kreis
 06635,Waldeck-Frankenberg
 06636,Werra-Meißner-Kreis
-,Rheinland-Pfalz
-,früher: Reg.-Bez. Koblenz
 07111,"Koblenz, kreisfreie Stadt"
 07131,Ahrweiler
 07132,Altenkirchen (Westerwald)
@@ -171,13 +152,11 @@
 07140,Rhein-Hunsrück-Kreis
 07141,Rhein-Lahn-Kreis
 07143,Westerwaldkreis
-,früher: Reg.-Bez. Trier
 07211,"Trier, kreisfreie Stadt"
 07231,Bernkastel-Wittlich
 07232,Eifelkreis Bitburg-Prüm
 07233,Vulkaneifel
 07235,Trier-Saarburg
-,früher: Reg.-Bez. Rheinhessen-Pfalz
 07311,"Frankenthal (Pfalz), kreisfreie Stadt"
 07312,"Kaiserslautern, kreisfreie Stadt"
 07313,"Landau in der Pfalz, kreisfreie Stadt"
@@ -198,8 +177,6 @@
 07338,Rhein-Pfalz-Kreis
 07339,Mainz-Bingen
 07340,Südwestpfalz
-,Baden-Württemberg
-,Reg.-Bez. Stuttgart
 0811,Region Stuttgart
 08111,"Stuttgart, Stadtkreis"
 08115,Böblingen
@@ -216,7 +193,6 @@
 0813,Region Ostwürttemberg
 08135,Heidenheim
 08136,Ostalbkreis
-,Reg.-Bez. Karlsruhe
 0821,Region Mittlerer Oberrhein
 08211,"Baden-Baden, Stadtkreis"
 08212,"Karlsruhe, Stadtkreis"
@@ -232,7 +208,6 @@
 08235,Calw
 08236,Enzkreis
 08237,Freudenstadt
-,Reg.-Bez. Freiburg
 0831,Region Südlicher Oberrhein
 08311,"Freiburg im Breisgau, Stadtkreis"
 08315,Breisgau-Hochschwarzwald
@@ -246,7 +221,6 @@
 08335,Konstanz
 08336,Lörrach
 08337,Waldshut
-,Reg.-Bez. Tübingen
 0841,Region Neckar-Alb
 08415,Reutlingen
 08416,Tübingen
@@ -259,8 +233,6 @@
 08435,Bodenseekreis
 08436,Ravensburg
 08437,Sigmaringen
-,Bayern
-,Oberbayern
 09161,Ingolstadt
 09162,"München, Landeshauptstadt"
 09163,Rosenheim
@@ -284,7 +256,6 @@
 09188,Starnberg
 09189,Traunstein
 09190,Weilheim-Schongau
-,Niederbayern
 09261,Landshut
 09262,Passau
 09263,Straubing
@@ -297,7 +268,6 @@
 09277,Rottal-Inn
 09278,Straubing-Bogen
 09279,Dingolfing-Landau
-,Oberpfalz
 09361,Amberg
 09362,Regensburg
 09363,Weiden i.d.OPf.
@@ -308,7 +278,6 @@
 09375,Regensburg
 09376,Schwandorf
 09377,Tirschenreuth
-,Oberfranken
 09461,Bamberg
 09462,Bayreuth
 09463,Coburg
@@ -322,7 +291,6 @@
 09477,Kulmbach
 09478,Lichtenfels
 09479,Wunsiedel i.Fichtelgebirge
-,Mittelfranken
 09561,Ansbach
 09562,Erlangen
 09563,Fürth
@@ -335,7 +303,6 @@
 09575,Neustadt a.d.Aisch-Bad Windsheim
 09576,Roth
 09577,Weißenburg-Gunzenhausen
-,Unterfranken
 09661,Aschaffenburg
 09662,Schweinfurt
 09663,Würzburg
@@ -348,7 +315,6 @@
 09677,Main-Spessart
 09678,Schweinfurt
 09679,Würzburg
-,Schwaben
 09761,Augsburg
 09762,Kaufbeuren
 09763,Kempten (Allgäu)
@@ -363,16 +329,13 @@
 09778,Unterallgäu
 09779,Donau-Ries
 09780,Oberallgäu
-,Saarland
 10041,Regionalverband Saarbrücken
 10042,Merzig-Wadern
 10043,Neunkirchen
 10044,Saarlouis
 10045,Saarpfalz-Kreis
 10046,St. Wendel
-,Berlin
 11000,"Berlin, Stadt"
-,Brandenburg
 12051,"Brandenburg an der Havel, Stadt"
 12052,"Cottbus, Stadt"
 12053,"Frankfurt (Oder), Stadt"
@@ -391,7 +354,6 @@
 12071,Spree-Neiße
 12072,Teltow-Fläming
 12073,Uckermark
-,Mecklenburg-Vorpommern
 13003,Rostock
 13004,Schwerin
 13071,Mecklenburgische Seenplatte
@@ -400,24 +362,19 @@
 13074,Nordwestmecklenburg
 13075,Vorpommern-Greifswald
 13076,Ludwigslust-Parchim
-,Sachsen
-,früher: Direktionsbezirk Chemnitz
 14511,"Chemnitz, Stadt"
 14521,Erzgebirgskreis
 14522,Mittelsachsen
 14523,Vogtlandkreis
 14524,Zwickau
-,früher: Direktionsbezirk Dresden
 14612,"Dresden, Stadt"
 14625,Bautzen
 14626,Görlitz
 14627,Meißen
 14628,Sächsische Schweiz-Osterzgebirge
-,früher: Direktionsbezirk Leipzig
 14713,"Leipzig, Stadt"
 14729,Leipzig
 14730,Nordsachsen
-,Sachsen-Anhalt
 15001,"Dessau-Roßlau, Stadt"
 15002,"Halle (Saale), Stadt"
 15003,"Magdeburg, Landeshauptstadt"
@@ -432,7 +389,6 @@
 15089,Salzlandkreis
 15090,Stendal
 15091,Wittenberg
-,Thüringen
 16051,"Erfurt, Stadt"
 16052,"Gera, Stadt"
 16053,"Jena, Stadt"
@@ -455,15 +411,15 @@
 16075,Saale-Orla-Kreis
 16076,Greiz
 16077,Altenburger Land
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
+11001,Berlin Mitte
+11002,Berlin Friedrichshain-Kreuzberg
+11003,Berlin Pankow
+11004,Berlin Charlottenburg-Wilmersdorf
+11005,Berlin Spandau
+11006,Berlin Steglitz-Zehlendorf
+11007,Berlin Tempelhof-Schöneberg
+11008,Berlin Neukölln
+11009,Berlin Treptow-Köpenick
+11010,Berlin Marzahn-Hellersdorf
+11011,Berlin Lichtenberg
+11012,Berlin Reinickendorf

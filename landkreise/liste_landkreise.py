@@ -29,7 +29,6 @@ lk_small = lk_small[lk_small.length != 1]
 
 lk_small = lk_small.drop(columns=lk_small.columns[5])
 
-
 ## Zellen C, D, E zu einer Nummer verbinden
 
 zweiter_wert = lk_small["Unnamed: 3"]

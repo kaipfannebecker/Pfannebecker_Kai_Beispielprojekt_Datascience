@@ -15,38 +15,35 @@ lk_all = pd.read_excel("AuszugGV2QAktuell.xlsx", sheet_name=1, header=6, usecols
 
 lk_small = lk_all[lk_all['Unnamed: 5'].isna()]
 
-# print(lk_small)
+# Alle Regionen (d.h. kombinierte Landkreise) entfernen
+## haben nur eine einstellige Zahl in Spalte D
+
+## Länge von Spalte D messen und in neue Spalte "length" anfügen
+lk_small['length'] = lk_small["Unnamed: 4"].str.len()
+
+# Alle Zeilen mit length = 1 löschen
+
+lk_small = lk_small[lk_small.length != 1]
+
+# Spalte length löschen
+
+lk_small = lk_small.drop(columns=lk_small.columns[5])
+
 
 ## Zellen C, D, E zu einer Nummer verbinden
 
 zweiter_wert = lk_small["Unnamed: 3"]
-# print(zweiter_wert)
 dritter_wert = lk_small["Unnamed: 4"]
-# print(dritter_wert)
-# print(lk_small["01"])
 
 lk_small["01"] = lk_small["01"].str.cat(zweiter_wert)
 lk_small["01"] = lk_small["01"].str.cat(dritter_wert)
+
 # löschen der Zeilen D und E sowie VB
 
 lk_small = lk_small.drop(columns=lk_small.columns[3])
 lk_small = lk_small.drop(columns=lk_small.columns[2])
 lk_fin = lk_small.drop(columns=lk_small.columns[1])
 
-
-
-#print(lk_small)
-
-
 # csv ausgeben
+
 lk_fin.to_csv("liste_landkreise_org.csv", index=False)
-
-# als csv Datei ausgeben
-# lk_fin.to_csv("landkreise.csv")
-
-## Delete rows where case numbers are zero
-## This deletion is completed by "selecting" rows where case numbers are non zero
-# data = data.loc[data["cases"] != 0]
-# data.shape
-
-# lk_small = lk_big.loc(lk_big["VB"] != "NaN")

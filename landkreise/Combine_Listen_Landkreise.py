@@ -22,6 +22,10 @@ lk_fin.dropna(inplace=True)
 
 
 
+# lk_fin.drop(['"11000"'], inplace=True)
+# lk_fin.sort_index(inplace=True)
+
+
 lk_fin.to_csv("Liste_der_Landkreise_fuer_Projekt.csv", index=False)
 
 # print(Liste_Landkreise_final)

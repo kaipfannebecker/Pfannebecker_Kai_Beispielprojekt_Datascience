@@ -36,6 +36,12 @@ lk_fin = lk_fin[lk_fin.berlin != True]
 
 lk_fin = lk_fin.drop(columns=lk_fin.columns[2])
 
+# to do:
+    # sortieren
+    # Identifier umwandeln in integer
+
+
+
 # Als .csv Datei ausgeben
 
 lk_fin.to_csv("Liste_der_Landkreise_fuer_Projekt.csv", index=False)

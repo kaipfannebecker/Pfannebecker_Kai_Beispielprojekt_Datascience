@@ -9,7 +9,8 @@ from datetime import date
 
 ## aktuellen Datensatz des RKI importieren
 
-dataset_rki = pd.read_csv('https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/blob/main/Aktuell_Deutschland_SarsCov2_Infektionen.csv')
+# dataset_rki = pd.read_csv('https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/blob/main/Aktuell_Deutschland_SarsCov2_Infektionen.csv')
+dataset_rki = pd.read_csv('https://media.githubusercontent.com/media/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/main/Aktuell_Deutschland_SarsCov2_Infektionen.csv')
 
 # dataset_rki = pd.read_csv(f'https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland_Archiv/blob/master/Archiv/{date_today}_Deutschland_SarsCov2_Infektionen.csv')
 

@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import shutil
 
 # Importieren der Listen Landkreise_org
 
@@ -58,3 +59,6 @@ lk_fin[0] = pd.to_numeric(lk_fin[0])
 # Als .csv Datei ausgeben
 
 lk_fin.to_csv("Liste_der_Landkreise_fuer_Projekt.csv", index=False)
+
+# File in den Hauptordner kopieren
+shutil.copy('Liste_der_Landkreise_fuer_Projekt.csv' , r'C:\Users\Kai\Desktop\Projekt_Datascience')  # dst can be a folder; use shutil.copy2() to preserve timestamp

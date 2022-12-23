@@ -1,50 +1,52 @@
 import pandas as pd
 
-# Ließt Idenitifier und Namen der Landkreise ein
-lk_all = pd.read_excel("AuszugGV2QAktuell.xlsx", sheet_name=1, header=[0, 1, 2, 3, 4, 5], na_values=['NA'],
-                      usecols=["C, D, E, F, H"])
+# Ließt Idenitifier und Namen der Landkreise ein; ACHTUNG: resultierender Datatype String!
+##lk_all = pd.read_excel("AuszugGV2QAktuell.xlsx", sheet_name=1, header=[0, 1, 2, 3, 4, 5], na_values=['NA'],
+                      #usecols=["C, D, E, F, H"], skiprows=[0, 1, 2, 4])
+lk_all = pd.read_excel("AuszugGV2QAktuell.xlsx", sheet_name=1, header=6, usecols='C:F, H',
+                      na_values=['NA'], dtype=str)
 
-# kopiert alle Landkreise (d. h. alle Einträge mit NaN in VB) in neue Datei
-#lk_big = lk_all[lk_all['VB'].null()]
-lk_big = lk_all.drop([nonull:=True], implace=False)
+#lk_all.to_csv("liste_LK.csv")
 
-# löscht alle Zeilen, in denen die Spalte VB ausgefüllt ist
-lk_small = lk_big.loc(lk_big["VB"])
+#lk_all = lk_all.drop(index=[0], columns=[0])
+#print(lk_all)
 
-# Zellen C, D, E zu einer Nummer verbinden
+## kopiert alle Landkreise (d. h. alle Einträge mit NaN in VB) in neue Datei
 
-lk_fin = lk_small
+lk_small = lk_all[lk_all['Unnamed: 5'].isna()]
+
+# Alle Regionen (d.h. kombinierte Landkreise) entfernen
+## haben nur eine einstellige Zahl in Spalte D
+
+## Länge von Spalte D messen und in neue Spalte "length" anfügen
+lk_small['length'] = lk_small["Unnamed: 4"].str.len()
+
+# Alle Zeilen mit length = 1 löschen
+
+lk_small = lk_small[lk_small.length != 1]
+
+# Spalte length löschen
+
+lk_small = lk_small.drop(columns=lk_small.columns[5])
+
+## Zellen C, D, E zu einer Nummer verbinden
+
+zweiter_wert = lk_small["Unnamed: 3"]
+dritter_wert = lk_small["Unnamed: 4"]
+
+lk_small["01"] = lk_small["01"].str.cat(zweiter_wert)
+lk_small["01"] = lk_small["01"].str.cat(dritter_wert)
+
+# löschen der Zeilen D und E sowie VB
+
+lk_small = lk_small.drop(columns=lk_small.columns[3])
+lk_small = lk_small.drop(columns=lk_small.columns[2])
+lk_fin = lk_small.drop(columns=lk_small.columns[1])
+
+## Identifier in String umwandeln
+#lk_fin[0] = lk_fin[0].astype("string")
+#print(lk_fin[0].apply(type))
 
 # csv ausgeben
-lk_fin.to_csv("lk_fin.csv")
 
-# Hinzufügen von RKI spezifischen Landkreisen
-## 11001 Berlin Mitte
-## 11002 Berlin Friedrichshain-Kreuzberg
-## 11003 Berlin Pankow
-## 11004 Berlin Charlottenburg-Wilmersdorf
-## 11005 Berlin Spandau
-## 11006 Berlin Steglitz-Zehlendorf
-## 11007 Berlin Tempelhof-Schöneberg
-## 11008 Berlin Neukölln
-## 11009 Berlin Treptow-Köpenick
-## 11010 Berlin Marzahn-Hellersdorf
-## 11011 Berlin Lichtenberg
-## 11012 Berlin Reinickendorf
-
-df_RKI = data.frame[(11001, 11002, 11003, 11004, 11005, 11006, 11007, 11008, 11009, 11010, 11011, 11012,),
-        ("Berlin Mitte", "Berlin Friedrichshain-Kreuzberg", "Berlin Pankow", "Berlin Charlottenburg-Wilmersdorf",
-         "Berlin Spandau", "Berlin Steglitz-Zehlendorf", "Berlin Tempelhof-Schöneberg", "Berlin Neukölln",
-         "Berlin Treptow-Köpenick", "Berlin Marzahn-Hellersdorf", "Berlin Lichtenberg", "Berlin Reinickendorf")]
-
-df_RKI.to_csv("lk_fin.csv", mode='a')
-
-# als csv Datei ausgeben
-lk_fin.to_csv("landkreise.csv")
-
-## Delete rows where case numbers are zero
-## This deletion is completed by "selecting" rows where case numbers are non zero
-# data = data.loc[data["cases"] != 0]
-# data.shape
-
-# lk_small = lk_big.loc(lk_big["VB"] != "NaN")
+lk_fin.to_csv("liste_landkreise_org.csv", index=False)

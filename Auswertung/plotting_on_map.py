@@ -1,0 +1,2 @@
+# https://www.bkg.bund.de/DE/Produkte-und-Services/Shop-und-Downloads/Digitale-Geodaten/Verwaltungsgebiete-Verwaltungsgrenzen/verwaltungsgebiete_cont.html
+# https://www.arcgis.com/home/item.html?id=ae25571c60d94ce5b7fcbf74e27c00e0

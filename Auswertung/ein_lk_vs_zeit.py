@@ -7,15 +7,17 @@ lk_gesamt = pd.read_csv(r'C:\Users\Kai\Desktop\Projekt_Datascience\Liste_der_Lan
 # fragt den gesuchten Landkreis ab.
 lk_gesucht = input("Bitte den Namen des gewünschten Landkreises eingeben")
 
-# Geünschten Landkreis laden, mglw. neue Eingabe einfordern
-while
+# Gewünschten Landkreis laden, mglw. neue Eingabe einfordern
+while True == True:
     try:
         dataset = pd.read_csv(f"{lk_gesucht}.csv")
         continue
     except pd.errors.EmptyDataError:
         print("Der Datensatz für den Landkreis ist nicht vorhanden. Meinten Sie möglicherweise folgenden Landkreis?")
         namen_lk = lk_gesamt["1"]
-        print(f"Meinten Sie vielleicht {k for k in lk_gesamt if f'{lk_gesucht}' in k}?")
+        #alt_lk = k for k in lk_gesamt if f'{lk_gesucht}' in k
+        alt_lk = {k for k in namen_lk if f'{lk_gesucht}' in k}
+        print(f"Meinten Sie vielleicht {alt_lk}?")
         weiter = input("Was möchten Sie tun? Drücken Sie bitte 1 oder 2:"
                        "1. erneute Eingabe eines Landkreises"
                        "2. Programm beenden")
@@ -28,13 +30,9 @@ while
 # >>> [k for k in lst if 'ab' in k]
 # ['ab', 'abc']
 
-# Abfrage ob Datensatz aktuell
-if lastdate == yesterday and lastaktfaelle != NaN:
-    continue
-else:
-    # Daten aktualisieren und schleife neu durchlaufen
+# Aktualitaet.py aufrufen und Aktualität der .csv Datei prüfen
 
-data_sort = dataset.sort_values("Meldedatum", ascending=False) # alternativ: [3]
+# data_sort = dataset.sort_values("Meldedatum", ascending=False) # alternativ: [3]
 
 datestart = input("Bitte das Startdatum im Format YYYY-MM-DD eingeben")
 

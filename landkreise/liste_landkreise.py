@@ -3,8 +3,8 @@ import pandas as pd
 # Ließt Idenitifier und Namen der Landkreise ein; ACHTUNG: resultierender Datatype String!
 ##lk_all = pd.read_excel("AuszugGV2QAktuell.xlsx", sheet_name=1, header=[0, 1, 2, 3, 4, 5], na_values=['NA'],
                       #usecols=["C, D, E, F, H"], skiprows=[0, 1, 2, 4])
-lk_all = pd.read_excel("AuszugGV2QAktuell.xlsx", sheet_name="LandkreisName", header=6, usecols='C:F, H',
-                      na_values=['NA'], dtype=str, delimiter=';')
+lk_all = pd.read_excel("AuszugGV2QAktuell.xlsx", sheet_name=1, header=6, usecols='C:F, H',
+                      na_values=['NA'], dtype=str)
 
 #lk_all.to_csv("liste_LK.csv")
 

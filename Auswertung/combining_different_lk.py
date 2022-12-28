@@ -1,5 +1,6 @@
 # import os.path
 from os import path
+import pandas as pd
 import os
 from datetime import datetime, timedelta, date
 today = date.today()
@@ -11,7 +12,7 @@ datetime.strftime(yesterday, '%Y-%m-%d')
 
 
 
-directory = os.fsencode(directory_in_str)
+directory = os.fsencode("C:\Users\Kai\Desktop\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number")
 
 # Abfrage nach gewünschtem Datum
 gewdatum = input("Bitte das gewünschte Datum im Format YYYY-MM-DD eingeben.")
@@ -39,7 +40,7 @@ for file in os.listdir(directory):
         else:
             for date in
                 # füge zeilen bis zu heute hinzu
-
+        filename = filename.sort_values(by=[3]) # sortiert nach Meldedatum
         # füge die Werte des gewünschten Tages zur gesamten Tabelle hinzu
         corval = file["Datum" == gewdatum]
         ## A series object with same index as dataframe

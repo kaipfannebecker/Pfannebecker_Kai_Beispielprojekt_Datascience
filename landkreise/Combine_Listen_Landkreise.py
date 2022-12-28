@@ -33,7 +33,7 @@ lk_fin = pd.concat(listen)
 # Berlin_gesamt_löschen
 berlin = lk_fin[0].str.contains('11000')
 
-# Berlin_gesamt entfernen
+# Ladkreis Berlin_gesamt entfernen
 ## trennt Daten des RKI in verschiedene Unterbezirke auf
 
 ## Nach Code 11000 suchen und spalte mit True oder False hinzufügen
@@ -47,6 +47,8 @@ lk_fin = lk_fin[lk_fin.berlin != True]
 
 lk_fin = lk_fin.drop(columns=lk_fin.columns[2])
 
+# Spalten umbenennen
+lk_fin.rename(columns={"0": "LandkreisIdentifier", "1": "LandkreisName"})
 
 # sortieren nach Identifiern
 
@@ -56,9 +58,14 @@ lk_fin = lk_fin.sort_values([0])
 
 lk_fin[0] = pd.to_numeric(lk_fin[0])
 
+# Anführungszeichen in Namen der Landkreise entfernen
+lk_fin[1] = lk_fin[1].replace(",",";")
+
+
+
 # Als .csv Datei ausgeben
 
 lk_fin.to_csv("Liste_der_Landkreise_fuer_Projekt.csv", index=False)
 
 # File in den Hauptordner kopieren
-shutil.copy('Liste_der_Landkreise_fuer_Projekt.csv' , r'C:\Users\Kai\Desktop\Projekt_Datascience')  # dst can be a folder; use shutil.copy2() to preserve timestamp
+shutil.copy('Liste_der_Landkreise_fuer_Projekt.csv' , r'C:\Users\Kai\Desktop\Projekt_Datascience')

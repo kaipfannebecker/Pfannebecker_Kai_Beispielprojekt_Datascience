@@ -18,7 +18,7 @@ gewdatum = input("Bitte das gewünschte Datum im Format YYYY-MM-DD eingeben.")
 
 # Erstelle die kombinierte Tabelle, falls diese nicht existiert
 combined_exists = path.exists(f"combined_lk_table_{gewdatum}.csv")
-if combined_exists == True:
+if combined_exists:
     continue
 else:
     combined_lk_table = []

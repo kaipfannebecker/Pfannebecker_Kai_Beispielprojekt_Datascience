@@ -20,7 +20,7 @@ gewdatum = input("Bitte das gewünschte Datum im Format YYYY-MM-DD eingeben.")
 # Erstelle die kombinierte Tabelle, falls diese nicht existiert
 combined_exists = path.exists(f"combined_lk_table_{gewdatum}.csv")
 if combined_exists:
-    continue
+    break
 else:
     combined_lk_table = []
 
@@ -36,7 +36,7 @@ for file in os.listdir(directory):
         lknr = tempTuple[0]
         # Prüfe wie aktuell Daten sind und aktualisiere gegebenenfalls auf heute
         if date is today:
-            continue
+            break
         else:
             for date in
                 # füge zeilen bis zu heute hinzu
@@ -50,9 +50,9 @@ for file in os.listdir(directory):
         # mod_df = dfObj.append(series_obj,
         #                      ignore_index=True)
         combined_lk_table = combined_lk_table.append(corval, ignore_index=True)
-        continue
+        break
     else:
-        continue
+        break
 
 combined_lk_table.to_csv(f"combined_lk_table_{gewdatum}.csv", mode ="a")
 

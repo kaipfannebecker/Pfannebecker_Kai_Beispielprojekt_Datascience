@@ -21,7 +21,7 @@ for k in zu_akt:
     # prüfe Datum der letzten Zeile in Meldedatum
     last_row = df.iloc[-1]
     if last_row[3] == today:
-        continue
+        break
     else:
         runpy.run_module(mod_name="filterung_datensaetze")
 akt = 1

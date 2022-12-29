@@ -15,7 +15,7 @@ lk_gesucht = input("Bitte den Namen des gewünschten Landkreises eingeben")
 while True == True:
     try:
         dataset = pd.read_csv(f"{lk_gesucht}.csv")
-        continue
+        break
     except pd.errors.EmptyDataError:
         print("Der Datensatz für den Landkreis ist nicht vorhanden. Meinten Sie möglicherweise folgenden Landkreis?")
         namen_lk = lk_gesamt["1"]
@@ -45,17 +45,16 @@ for sort < 1:
 datestart = input("Bitte das Startdatum im Format YYYY-MM-DD eingeben")
 
 # überprüfen, ob Daten im ausgewählten Datensatz vorhanden sind.
-
-for True == True:
+while True == True:
     if datestart in lk_gesucht[3] == True:
-        continue
+        break
     else:
         datestart = input("Das gewünschte Startdatum ist nicht im Datensatz vorhanden. Bitte ein neues Startdatum eingeben.")
 
 # dataframe auf Startdatum kürzen
 
 if dateend == today:
-    continue
+    break
 else:
     lk_gesucht[startdatum] = lk_gesucht.sort["Meldedatum"] <= datestart
     lk_gesucht_short = lk_gesucht.startdatum
@@ -73,7 +72,7 @@ for True == True:
 # Datensatz auf Enddatum kürzen
 
 if dateend == today:
-    continue
+    break
 else:
     lk_gesucht_short[enddatum] = lk_gesucht_short.sort["Meldedatum"] >= dateend
     lk_gesucht_final = lk_gesucht_short.enddatum

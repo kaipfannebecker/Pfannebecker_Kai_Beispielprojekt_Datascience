@@ -10,7 +10,7 @@ directory = os.fsencode("C:\Users\Kai\Desktop\Projekt_Datascience\Auswertung")
 
 # Datei "vollstaendigkeitspruefung.py" aufrufen
 
-# Datei "Sortierung_Meldedatum.py" aufrufen
+# Datei "sort_meld.py" aufrufen
 
 
 #

@@ -28,8 +28,6 @@ lk_rki[0] = lk_rki[0].apply(str)
 listen = [lk_org, lk_rki]
 lk_fin = pd.concat(listen)
 
-
-
 # Berlin_gesamt_löschen
 berlin = lk_fin[0].str.contains('11000')
 

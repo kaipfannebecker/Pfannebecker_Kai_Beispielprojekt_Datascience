@@ -4,8 +4,8 @@ import runpy
 
 from datetime import datetime # notwendig für Kalender
 
-akt = 0
-sort = 0
+
+
 
 # ließt alle vorhandenen Landkreise ein
 lk_gesamt = pd.read_csv(r'C:\Users\Kai\Desktop\Projekt_Datascience\Liste_der_Landkreise_fuer_Projekt.csv')
@@ -32,14 +32,17 @@ while True == True:
         else:
             lk_gesucht = input("Bitte den Namen des gewünschten Landkreises eingeben")
 
-
+## zu Testzwecken:
+akt = 1
+sort = 1
 # aktualitaet.py aufrufen und Aktualität der .csv Datei prüfen
-
+# akt = 0
 for akt < 1:
     zu_akt = lk_gesucht
     runpy.run_module(mod_name="aktualitat", mod_name=f"{zu_akt}")
 
 # sort_meld.py aufrufen und Daten nach Meldedatum sortieren
+# sort = 0
 for sort < 1:
     zu_sort = lk_gesucht
     runpy.run_module(mod_name="sort_meld", mod_name=f"{zu_sort}")
@@ -74,6 +77,7 @@ for True == True:
 # Datensatz auf Enddatum kürzen
 
 if dateend == today:
+    dataset_final = dataset_short
     break
 else:
     dataset_short[enddatum] = dataset_short.sort["Meldedatum"] >= dateend
@@ -85,25 +89,33 @@ else:
 lk_vs_t = ["Datum", "Gesamtzahl neue Infektionen"]
 
 ## iterieren über die einzelnen Daten von startdatum bis enddatum
+
+for meld_dat, dataset_final in dataset_final.groupby('Meldedatum'):
+    data_neu = dataset_final.loc[[6] == 1]
+    data_neu.sum([6])
+    fall_t = {f"{d}",data_d_neu.sum([9])}
+    lk_vs_t = lk_vs_t.append(fall_t, ignore_index=True)
+
 # use datetime.weekday()
-delta = timedelta(days=1)
-d = datestart
-diff = 0
-weekend = set([5, 6])
-df = dataset_final
-while d <= dateend:
-    if d.weekday() not in weekend:
-        # in eigene Dataframes zwischenspeichern
-        data_d = df.loc[df[3] == d]
-        # neue Infektionen (d. h. alle Fälle mit ([6] == 1) zählen
-        # subset mit allen neuen Fällen erstellen
-        data_d_neu = data_d.loc[[6] == 1]
-        fall_t = {f"{d}",data_d_neu.sum([9])}
-        lk_vs_t = lk_vs_t.append(fall_t, ignore_index=True)
+#delta = timedelta(days=1)
+#d = datestart
+#diff = 0
+#weekend = set([5, 6])
+#df = dataset_final
+#while d <= dateend:
+#    if d.weekday() not in weekend:
+#        # in eigene Dataframes zwischenspeichern
+#        data_d = df.loc[df[3] == d]
+#        # neue Infektionen (d. h. alle Fälle mit ([6] == 1) zählen
+#        # subset mit allen neuen Fällen erstellen
+#        data_d_neu = data_d.loc[[6] == 1]
+#        fall_t = {f"{d}",data_d_neu.sum([9])}
+#        lk_vs_t = lk_vs_t.append(fall_t, ignore_index=True)
 
 
-        diff += 1
-    d += delta
+#        diff += 1
+#    d += delta
+
 
 # df.loc[df['column_name'] == some_value]
 
@@ -117,6 +129,19 @@ faelle = lk_vs_t[1]
 
 fig, ax = plt.subplots()  # Create a figure containing a single axes.
 ax.plot([date], [faelle]);  # Plot some data on the axes.
+
+## Alternative:
+#for Id_lk, dataset_rki in dataset_rki.groupby('IdLandkreis'):
+#    row_lk = tab_lk.loc[tab_lk["0"] == Id_lk]
+#    number_lk = row_lk['0'].values[0]
+#    # name_lk = row_lk['1'].values[0]
+#    ## save the dataframe for each group to a csv; seperated for each Landkreis
+#    # dataset_rki.to_csv(f'.\\Datensatz_vereinzelt\\by_name\\{name_lk}.csv', index=False, mode='a')
+#    dataset_rki.to_csv(f'.\\Datensatz_vereinzelt\\by_number\\{number_lk}.csv', index=False, mode='a')
+
+
+
+
 
 
 

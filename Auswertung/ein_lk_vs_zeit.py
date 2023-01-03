@@ -13,10 +13,17 @@ lk_gesamt = pd.read_csv(r'C:\Users\Kai\Desktop\Projekt_Datascience\Liste_der_Lan
 # fragt den gesuchten Landkreis ab.
 lk_gesucht = input("Bitte den Namen des gewünschten Landkreises eingeben")
 
-# Gewünschten Landkreis laden, mglw. neue Eingabe einfordern
+# Falls der Name des Landkreises eingegeben wird, diesen zur zugehörigen Nummer zurordnen
+if lk_gesucht.isalpha():
+    ges_reih = lk_gesamt.loc[lk_gesamt['column_name'] == "lk_gesucht"]
+    lk_gesucht = ges_reih[0]
+elif lk_gesucht.isdigit():
+   break
+
+# Gewünschten Landkreis laden, falls nicht möglich neue Eingabe einfordern
 while True == True:
     try:
-        dataset = pd.read_csv(f"{lk_gesucht}.csv")
+        dataset = pd.read_csv(f"..\rki_daten\Datensatz_vereinzelt\by_number\{lk_gesucht}.csv")
         break
     except pd.errors.EmptyDataError:
         print("Der Datensatz für den Landkreis ist nicht vorhanden. Meinten Sie möglicherweise folgenden Landkreis?")
@@ -31,6 +38,11 @@ while True == True:
             quit()
         else:
             lk_gesucht = input("Bitte den Namen des gewünschten Landkreises eingeben")
+            if lk_gesucht.isalpha():
+                ges_reih = lk_gesamt.loc[lk_gesamt['column_name'] == "lk_gesucht"]
+                lk_gesucht = ges_reih[0]
+            elif lk_gesucht.isdigit():
+                break
 
 ## zu Testzwecken:
 akt = 1
@@ -54,7 +66,7 @@ while True == True:
     if datestart in dataset[3] == True:
         break
     else:
-        datestart = input("Das gewünschte Startdatum ist nicht im Datensatz vorhanden. Bitte ein neues Startdatum eingeben.")
+        datestart = input("Das gewünschte Startdatum ist nicht im Datensatz vorhanden. Bitte ein neues Startdatum im Format YYYY-MM-DD eingeben.")
 
 # dataframe auf Startdatum kürzen
 

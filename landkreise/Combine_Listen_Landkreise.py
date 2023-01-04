@@ -58,11 +58,14 @@ lk_fin[0] = pd.to_numeric(lk_fin[0])
 
 # Anführungszeichen in Namen der Landkreise entfernen
 lk_fin[1] = lk_fin[1].replace(",",";")
-
-
+print(lk_fin)
+print(type(lk_fin))
+# Die Spalten in Id_Landkreis sowie Name_Landkreis umbenennen
+# lk_fin = lk_fin.rename({"0": "Id_Landkreis", "1": "Name_Landkreis"}, axis=1) #, inplace=True
+lk_fin.rename(columns={"Id_Landkreis", "Name_Landkreis"}, inplace=True)
+print(lk_fin)
 
 # Als .csv Datei ausgeben
-
 lk_fin.to_csv("Liste_der_Landkreise_fuer_Projekt.csv", index=False)
 
 # File in den Hauptordner kopieren

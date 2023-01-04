@@ -1,6 +1,30 @@
 import runpy
 import pandas as pd
 from datetime import datetime, timedelta, date
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# Aufgabe des Moduls:
+## Ruft "anz_lk" Landkreise ab, prüft diese über das Submodul aktualitaet.py auf Aktualität
+## und gibt die Liste der Landkreise "liste_lk" zurück
+
+# Benötigt:
+## Übergabe von String mit den gewünschten Datensätzen als "zu_akt"
+## in der ersten Spalte nach dem Index als dataframe zu_akt
+
+# Gibt zurück:
+## akt = 1 als Nachweis, das Modul durchgelaufen ist
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+## zu Testzwecken:
+# akt = 1
+# sort = 1
+# anz_lk=2
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+
 today = date.today()
 yesterday = datetime.now() - timedelta(1)
 datetime.strftime(yesterday, '%Y-%m-%d')

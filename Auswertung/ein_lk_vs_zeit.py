@@ -4,60 +4,13 @@ import runpy
 
 from datetime import datetime # notwendig für Kalender
 
+anz_lk = 1
+
+# Gesuchten Landkreis abfragen
+runpy.run_module(mod_name="aufruf_lk"; mod_name=anz_lk) # , mod_name=f"{zu_akt}"
 
 
 
-# ließt alle vorhandenen Landkreise ein
-lk_gesamt = pd.read_csv(r'C:\Users\Kai\Desktop\Projekt_Datascience\Liste_der_Landkreise_fuer_Projekt.csv')
-
-# fragt den gesuchten Landkreis ab.
-lk_gesucht = input("Bitte den Namen des gewünschten Landkreises eingeben")
-
-# Falls der Name des Landkreises eingegeben wird, diesen zur zugehörigen Nummer zurordnen
-if lk_gesucht.isalpha():
-    ges_reih = lk_gesamt.loc[lk_gesamt['column_name'] == "lk_gesucht"]
-    lk_gesucht = ges_reih[0]
-elif lk_gesucht.isdigit():
-   break
-
-# Gewünschten Landkreis laden, falls nicht möglich neue Eingabe einfordern
-while True == True:
-    try:
-        dataset = pd.read_csv(f"..\rki_daten\Datensatz_vereinzelt\by_number\{lk_gesucht}.csv")
-        break
-    except pd.errors.EmptyDataError:
-        print("Der Datensatz für den Landkreis ist nicht vorhanden. Meinten Sie möglicherweise folgenden Landkreis?")
-        namen_lk = lk_gesamt["1"]
-        #alt_lk = k for k in lk_gesamt if f'{lk_gesucht}' in k
-        alt_lk = {k for k in namen_lk if f'{lk_gesucht}' in k}
-        print(f"Meinten Sie vielleicht {alt_lk}?")
-        weiter = input("Was möchten Sie tun? Drücken Sie bitte 1 oder 2:"
-                       "1. erneute Eingabe eines Landkreises"
-                       "2. Programm beenden")
-        if weiter == 2:
-            quit()
-        else:
-            lk_gesucht = input("Bitte den Namen des gewünschten Landkreises eingeben")
-            if lk_gesucht.isalpha():
-                ges_reih = lk_gesamt.loc[lk_gesamt['column_name'] == "lk_gesucht"]
-                lk_gesucht = ges_reih[0]
-            elif lk_gesucht.isdigit():
-                break
-
-## zu Testzwecken:
-akt = 1
-sort = 1
-# aktualitaet.py aufrufen und Aktualität der .csv Datei prüfen
-# akt = 0
-for akt < 1:
-    zu_akt = lk_gesucht
-    runpy.run_module(mod_name="aktualitat", mod_name=f"{zu_akt}")
-
-# sort_meld.py aufrufen und Daten nach Meldedatum sortieren
-# sort = 0
-for sort < 1:
-    zu_sort = lk_gesucht
-    runpy.run_module(mod_name="sort_meld", mod_name=f"{zu_sort}")
 
 datestart = input("Bitte das Startdatum im Format YYYY-MM-DD eingeben")
 

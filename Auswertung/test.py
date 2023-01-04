@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy
 
+
 # erstellt den ursprünglichen Datensatz
 # lk_vs_t = ["Datum", "Gesamtzahl neue Infektionen"]
 

@@ -2,6 +2,26 @@ import pandas as pd
 import numpy as np
 import shutil
 
+# ----------------------------------------------------------------------------------------------------------------------
+
+# Aufgabe des Moduls:
+## Ruft "liste_landkreise_org.csv" auf, kombiniert diese mit der in "liste_rki.csv" gespeicherten Aufteilung für Berlin,
+## löscht den kombinierten Landkreis Berlin und gibt dann die resultierende Liste als "Liste_der_Landkreise_fuer_Projekt.csv" aus.
+
+# Benötigt:
+## liste_landkreise_org.csv
+## liste_rki.csv
+
+# Gibt zurück:
+## Liste_der_Landkreise_fuer_Projekt.csv
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+## zu Testzwecken:
+
+
+# ----------------------------------------------------------------------------------------------------------------------
+
 # Importieren der Listen Landkreise_org
 
 lk_org = pd.read_csv("liste_landkreise_org.csv", dtype=str, skiprows=[0], header=None)
@@ -58,14 +78,9 @@ lk_fin[0] = pd.to_numeric(lk_fin[0])
 
 # Anführungszeichen in Namen der Landkreise entfernen
 lk_fin[1] = lk_fin[1].replace(",",";")
-print(lk_fin)
-print(type(lk_fin))
-# Die Spalten in Id_Landkreis sowie Name_Landkreis umbenennen
-# lk_fin = lk_fin.rename({"0": "Id_Landkreis", "1": "Name_Landkreis"}, axis=1) #, inplace=True
-lk_fin.rename(columns={"Id_Landkreis", "Name_Landkreis"}, inplace=True)
-print(lk_fin)
 
-#lk_fin.rename(columns={"Id_Landkreis":"x", "Name_Landkreis":"y"}, inplace=True)
+# Die Spalten in Id_Landkreis sowie Name_Landkreis umbenennen
+lk_fin.rename(columns={0:"Id_Landkreis", 1:"Name_Landkreis"}, inplace=True)
 
 # Als .csv Datei ausgeben
 lk_fin.to_csv("Liste_der_Landkreise_fuer_Projekt.csv", index=False)

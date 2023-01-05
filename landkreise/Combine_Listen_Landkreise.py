@@ -65,6 +65,8 @@ print(type(lk_fin))
 lk_fin.rename(columns={"Id_Landkreis", "Name_Landkreis"}, inplace=True)
 print(lk_fin)
 
+#lk_fin.rename(columns={"Id_Landkreis":"x", "Name_Landkreis":"y"}, inplace=True)
+
 # Als .csv Datei ausgeben
 lk_fin.to_csv("Liste_der_Landkreise_fuer_Projekt.csv", index=False)
 

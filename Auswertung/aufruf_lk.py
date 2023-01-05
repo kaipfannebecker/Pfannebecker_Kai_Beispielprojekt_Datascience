@@ -55,6 +55,13 @@ while i < anz_lk:
             print(lk_gesamt["0"])
             #alt_lk = k for k in lk_gesamt if f'{lk_gesucht}' in k
             alt_lk = namen_lk.loc[namen_lk['1'] == reihe_ges['1']]
+
+            #df.loc[lambda df: df['shield'] == 8]
+            #df.y.str.contains('D')
+            #df = df.loc[df['y'] == D]
+                #contains('D', case=True))
+            #print(df[df.y.str.contains('D')])
+
             #alt_lk = namen_lk.loc[namen_lk[1].isin(f'{lk_gesucht}')]
             #alt_lk = {k for k in namen_lk if f'{lk_gesucht}' in k}
             print(alt_lk)

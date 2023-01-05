@@ -32,11 +32,14 @@ while i < anz_lk:
     print(anz_lk)
     # fragt den gesuchten Landkreis ab.
     lk_gesucht = input("Bitte den Namen des gewünschten Landkreises eingeben ")
+    print(type(lk_gesucht))
+
+#    https: // pynative.com / python - check - user - input - is -number - or -string /
 
     # Falls der Name des Landkreises eingegeben wird, diesen zur zugehörigen Nummer zurordnen
-    if lk_gesucht.isalpha():
-        reihe_ges = lk_gesamt.loc[lk_gesamt['1'] == "lk_gesucht"]
-        lk_gesucht = reihe_ges['0']
+    if lk_gesucht.strip().isalpha():
+        reihe_ges = lk_gesamt.loc[lk_gesamt['Name_Landkreis'] == "lk_gesucht"]
+        lk_gesucht = reihe_ges['Id_Landkreis']
         print(lk_gesucht)
     #elif lk_gesucht.isdigit():
       #  break

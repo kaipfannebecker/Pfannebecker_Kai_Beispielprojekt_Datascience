@@ -21,26 +21,41 @@ akt = 1
 anz_lk=3
 
 # ----------------------------------------------------------------------------------------------------------------------
+def check_user_input(input):
+    try:
+        # Convert it into integer
+        lk_gesucht = int(input)
+        #print("Input is an integer number. Number = ", val)
+    except ValueError:
+        reihe_ges = lk_gesamt.loc[lk_gesamt['Name_Landkreis'] == "lk_gesucht"]
+        print(reihe_ges)
+        lk_gesucht = reihe_ges['Id_Landkreis']
 
+# ----------------------------------------------------------------------------------------------------------------------
 # ließt alle vorhandenen Landkreise ein
 lk_gesamt = pd.read_csv(r'../Liste_der_Landkreise_fuer_Projekt.csv') #C:/Users/Kai/Desktop/Projekt_Datascience
 
 i = 0
+lk_gesucht=[]
 
 while i < anz_lk:
     print(i)
     print(anz_lk)
     # fragt den gesuchten Landkreis ab.
     lk_gesucht = input("Bitte den Namen des gewünschten Landkreises eingeben ")
+    print(lk_gesucht)
     print(type(lk_gesucht))
 
 #    https: // pynative.com / python - check - user - input - is -number - or -string /
 
     # Falls der Name des Landkreises eingegeben wird, diesen zur zugehörigen Nummer zurordnen
-    if lk_gesucht.strip().isalpha():
-        reihe_ges = lk_gesamt.loc[lk_gesamt['Name_Landkreis'] == "lk_gesucht"]
-        lk_gesucht = reihe_ges['Id_Landkreis']
-        print(lk_gesucht)
+    check_user_input(lk_gesucht)
+    print(lk_gesucht)
+    print(type(lk_gesucht))
+    #if lk_gesucht.strip().isalpha():
+    #    reihe_ges = lk_gesamt.loc[lk_gesamt['Name_Landkreis'] == "lk_gesucht"]
+    #    lk_gesucht = reihe_ges['Id_Landkreis']
+    #    print(lk_gesucht)
     #elif lk_gesucht.isdigit():
       #  break
 
@@ -50,7 +65,7 @@ while i < anz_lk:
             path_dir = str(f"..\\rki_daten\\Datensatz_vereinzelt\\by_number\\{lk_gesucht}.csv")
             dataset = pd.read_csv(path_dir)
             break
-        except FileNotFoundError: #pd.errors.EmptyDataError:
+        except FileNotFoundError:  # pd.errors.EmptyDataError:
             print("Der Datensatz für den Landkreis ist nicht vorhanden.")
             namen_lk = lk_gesamt['1']
             print(namen_lk)
@@ -90,17 +105,4 @@ print(i)
 print(anz_lk)
 
 
-# aktualitaet.py aufrufen und Aktualität der .csv Datei prüfen
-# akt = 0
-#if akt <= 1:
- #   zu_akt = lk_gesucht
-  #  runpy.run_module(mod_name="aktualitaet", mod_name=f"{zu_akt}")
-#else:
- #   break
-## sort_meld.py aufrufen und Daten nach Meldedatum sortieren
-## sort = 0
-#if sort < 1:
-#    zu_sort = lk_gesucht
-#    runpy.run_module(mod_name="sort_meld", mod_name=f"{zu_sort}")
-#else:
-    #break
+

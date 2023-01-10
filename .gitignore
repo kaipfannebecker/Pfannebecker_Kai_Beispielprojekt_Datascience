@@ -2,3 +2,5 @@
 rki_daten/Datensatz_gesamt/full/Aktuell_Deutschland_SarsCov2_Infektionen.csv
 *.csv
 *.ndjson
+rki_daten/date
+rki_daten/date.xz

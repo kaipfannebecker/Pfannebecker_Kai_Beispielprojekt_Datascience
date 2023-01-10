@@ -1,4 +1,5 @@
 import requests
+import gc
 from bs4 import BeautifulSoup
 import lzma
 import urllib.request
@@ -21,26 +22,29 @@ for link in soup.find_all('a'):
     urllib.request.urlretrieve(spe_url, "date.xz")
     with lzma.open("date.xz", mode='rt') as fin:
         file_content = fin.read().split('\n')
+        # Problem: Letzte Zeile ist leer. Diese muss gelöscht werden, damit json.loads keinen Fehler erzeugt.
+        file_content = file_content[:-1]
     for line in file_content:
         data.append(json.loads(line))
         df = pd.DataFrame(data)
-        break
+#        print("hallowelt")
         # Die ersten 4 Tage hatten eine andere Notation; deshalb müssen hierfür extra Spalten angelegt werden.
     if 'NeuerFall' not in df:
         df['NeuerFall']= 1
     if "RefdatumISO" not in df:
-        df["RefdatumISO"]= 1
+       df["RefdatumISO"]= 1
     if "Refdatum" not in df:
-        df["Refdatum"] = 1
+       df["Refdatum"] = 1
         #
     df = df.drop(columns=["RefdatumISO", "Refdatum", "Datenstand", "ObjectId", "Meldedatum"]) #"DatenstandISO",
     nur_neu = df.loc[df["NeuerFall"] == 1]
     nur_corr = df.loc[df["NeuerFall"] == -1]
     neue_daten = [data_neuinf_ges, nur_neu, nur_corr]
     data_neuinf_ges = pd.concat(neue_daten)
-    data_neuinf_ges.to_csv(f"Datensatz_Neuinfektionen_gesamt.csv")
-    #data_neuinf_ges_2.to_csv("Datensatz_Neuinfektionen_gesamt.csv")
-    print(f"{fin}_fertig")
+    data_neuinf_ges.to_csv("Datensatz_Neuinfektionen_gesamt.csv")
+    #df.to_csv("Datensatz_Neuinfektionen_gesamt.csv")
+    gc.collect()
+    print(f"{spe_url}_fertig")
     continue
 
 # df = pd.DataFrame(data)

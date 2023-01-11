@@ -7,7 +7,6 @@ import pandas as pd
 import json
 from datetime import datetime
 
-# nötig: log generieren und in abschnitten einlesen
 
 url = 'https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/index.html'
 reqs = requests.get(url)
@@ -30,32 +29,8 @@ for link in soup.find_all('a'):
         # Problem: Letzte Zeile ist leer. Diese muss gelöscht werden, damit json.loads keinen Fehler erzeugt.
         file_content = file_content[:-1]
         #print(datetime.now().strftime("%H:%M:%S.%f"))
-    if j<5:
-        for line in file_content:
-            # data.append(json.loads(line))
-            inline = json.loads(line)
-            data.append(inline)
-        df = pd.DataFrame(data)
-        # Die ersten 4 Tage hatten eine andere Notation; deshalb müssen hierfür extra Spalten angelegt werden.
-        if 'NeuerFall' not in df:
-            df['NeuerFall'] = 1
-        if "RefdatumISO" not in df:
-            df["RefdatumISO"] = 1
-        if "Refdatum" not in df:
-            df["Refdatum"] = 1
-        #
-        df = df.drop(columns=["RefdatumISO", "Refdatum", "Datenstand", "ObjectId", "Meldedatum"])  # "DatenstandISO",
-        # nur_neu = df.loc[df["NeuerFall"] == 1]
-        # nur_corr = df.loc[df["NeuerFall"] == -1]
-        # neue_daten = [data_neuinf_ges, nur_neu, nur_corr]
-        # data_neuinf_ges = pd.concat(neue_daten)
-        # data_neuinf_ges.to_csv("Datensatz_Neuinfektionen_gesamt.csv")
-        df.to_csv("Datensatz_Neuinfektionen_gesamt.csv")
-        del df
-        gc.collect()
-        print(f"{spe_url}_fertig")
+    if j<300:
         j = j+1
-        print(j)
         continue
     else:
         for line in file_content:

@@ -13818,3 +13818,1428 @@ IdLandkreis,Altersgruppe,Geschlecht,Meldedatum,Refdatum,IstErkrankungsbeginn,Neu
 1051,A60-A79,W,2022-12-27,2022-12-27,0,1,-9,-9,14,0,0
 1051,A15-A34,W,2022-12-27,2022-12-27,0,1,-9,-9,11,0,0
 1051,A80+,W,2022-12-27,2022-12-27,0,1,-9,-9,12,0,0
+Unnamed: 0,IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,IdLandkreis,MeldedatumISO,DatenstandISO,NeuerFall,NeuerTodesfall,NeuGenesen,AnzahlGenesen,IstErkrankungsbeginn,Altersgruppe2
+1290,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1291,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-21,,,,,,
+1292,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1293,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-21,,,,,,
+1294,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1295,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1296,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1297,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-21,,,,,,
+1298,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1299,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1300,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-21,,,,,,
+8297,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8298,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-22,,,,,,
+8299,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8300,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-22,,,,,,
+8301,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8302,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8303,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8304,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-22,,,,,,
+8305,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8306,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8307,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-22,,,,,,
+19571,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19572,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-23,,,,,,
+19573,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19574,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-23,,,,,,
+19575,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19576,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19577,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19578,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-23,,,,,,
+19579,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19580,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19581,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-23,,,,,,
+27590,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27591,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-24,0.0,0.0,,,,
+27592,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27593,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27594,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27595,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-20,2020-03-24,1.0,0.0,,,,
+27596,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27597,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27598,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-24,0.0,0.0,,,,
+27599,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-20,2020-03-24,1.0,0.0,,,,
+27600,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27601,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27602,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-24,0.0,0.0,,,,
+27603,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-03-23,2020-03-24,1.0,0.0,,,,
+41865,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-24,2020-03-25,1.0,0.0,,,,
+42620,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-24,2020-03-26,1.0,0.0,,,,
+44887,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-25,2020-03-27,1.0,-9.0,,,,
+44888,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-03-26,2020-03-27,1.0,-9.0,,,,
+47288,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-27,2020-03-28,1.0,-9.0,,,,
+47289,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-03-27,2020-03-28,1.0,-9.0,,,,
+54041,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54042,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-30,2020-03-31,1.0,-9.0,,,,
+56356,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-03-31,2020-04-01,1.0,-9.0,,,,
+59591,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,1,1051,2020-04-01,2020-04-02,1.0,1.0,,,,
+59592,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-04-01,2020-04-02,1.0,-9.0,,,,
+62036,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62037,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-02,2020-04-03,1.0,-9.0,,,,
+66940,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66943,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66944,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66945,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-02,2020-04-04,1.0,-9.0,,,,
+66946,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66947,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-02,2020-04-04,1.0,-9.0,,,,
+70170,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-04,2020-04-06,1.0,-9.0,,,,
+70171,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-04-05,2020-04-06,1.0,-9.0,,,,
+70172,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-04,2020-04-06,1.0,-9.0,,,,
+74226,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-07,2020-04-08,1.0,-9.0,-9.0,0.0,,
+74227,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-07,2020-04-08,1.0,-9.0,-9.0,0.0,,
+78008,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78009,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78010,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,1.0,1.0,,
+78011,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78012,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78013,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+81008,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-09,2020-04-10,1.0,-9.0,1.0,1.0,,
+81009,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-04-10,1.0,-9.0,1.0,1.0,,
+81010,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+87271,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-11,2020-04-12,1.0,-9.0,-9.0,0.0,,
+89360,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-04-12,2020-04-13,1.0,-9.0,-9.0,0.0,,
+92637,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-14,2020-04-15,1.0,-9.0,-9.0,0.0,,
+123029,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-05-04,2020-05-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123748,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123749,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+123750,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142421,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-08-15,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142422,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,2,0,1051,2020-08-15,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142423,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-14,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+143877,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-08-15,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+143878,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-08-18,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149996,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-12,2020-08-25,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+149997,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-23,2020-08-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+150964,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-08-25,2020-08-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+150965,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-23,2020-08-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+152117,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-26,2020-08-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+156669,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-30,2020-09-01,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+159675,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+159676,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+159677,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163170,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+163171,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165210,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165211,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165212,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165213,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165214,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165215,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165216,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178206,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178207,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178208,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-12,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178209,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178210,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178211,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-17,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178212,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178213,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-17,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178214,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183222,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183223,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183224,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183225,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183226,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,2,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183227,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183228,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183229,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183230,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183231,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183232,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183233,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183234,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-23,2020-09-25,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+183235,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183236,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183237,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183238,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183239,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183240,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184828,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184829,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-24,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184830,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184831,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-21,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184832,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+186603,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+186604,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+187450,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-27,2020-09-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+188350,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-25,2020-09-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+188351,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-27,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+188352,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-25,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+189782,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-29,2020-09-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197932,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-30,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197933,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-01,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197934,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197935,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197936,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-30,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197937,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197938,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197939,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197940,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200705,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200706,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200707,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200708,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200709,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200710,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+202589,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-10-06,2020-10-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+202590,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-06,2020-10-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205135,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205136,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205137,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-10-06,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205138,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-06,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205139,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205140,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205141,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205142,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205143,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205144,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207899,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207900,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212666,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-10,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212667,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212668,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+214131,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-12,2020-10-13,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216735,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+216736,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234599,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234600,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234601,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234602,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234603,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234604,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234605,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234606,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234607,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234608,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,3,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234609,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234610,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234611,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234612,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234613,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234614,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234615,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234616,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234617,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234618,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236984,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236985,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236986,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236987,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236988,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236989,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236990,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236991,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236992,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240777,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240778,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240779,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240780,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240781,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240782,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240783,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240784,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240785,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240786,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240787,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,5,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240788,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240789,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244725,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244726,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244727,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244728,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244729,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244730,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+244731,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250001,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250002,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250003,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+250004,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250005,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250006,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250007,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250008,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250009,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250010,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250011,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250012,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255342,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255343,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255344,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,3,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255345,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255346,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255347,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255348,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255349,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,3,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261583,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261584,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261585,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261586,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266164,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,-1,0,1051,2020-10-22,2020-10-26,-1.0,-9.0,-1.0,-1.0,1.0,Nicht übermittelt
+266165,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266166,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+266167,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270137,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270138,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275151,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275152,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275153,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,6,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275154,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275155,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275156,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275157,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275158,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275159,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281822,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281823,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288689,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-28,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288690,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288691,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,4,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288692,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288693,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288694,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,3,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288695,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288696,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288697,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+Unnamed: 0,IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,IdLandkreis,MeldedatumISO,DatenstandISO,NeuerFall,NeuerTodesfall,NeuGenesen,AnzahlGenesen,IstErkrankungsbeginn,Altersgruppe2
+1290,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1291,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-21,,,,,,
+1292,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1293,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-21,,,,,,
+1294,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1295,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1296,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1297,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-21,,,,,,
+1298,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1299,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1300,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-21,,,,,,
+8297,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8298,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-22,,,,,,
+8299,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8300,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-22,,,,,,
+8301,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8302,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8303,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8304,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-22,,,,,,
+8305,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8306,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8307,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-22,,,,,,
+19571,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19572,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-23,,,,,,
+19573,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19574,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-23,,,,,,
+19575,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19576,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19577,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19578,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-23,,,,,,
+19579,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19580,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19581,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-23,,,,,,
+27590,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27591,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-24,0.0,0.0,,,,
+27592,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27593,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27594,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27595,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-20,2020-03-24,1.0,0.0,,,,
+27596,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27597,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27598,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-24,0.0,0.0,,,,
+27599,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-20,2020-03-24,1.0,0.0,,,,
+27600,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27601,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27602,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-24,0.0,0.0,,,,
+27603,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-03-23,2020-03-24,1.0,0.0,,,,
+41865,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-24,2020-03-25,1.0,0.0,,,,
+42620,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-24,2020-03-26,1.0,0.0,,,,
+44887,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-25,2020-03-27,1.0,-9.0,,,,
+44888,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-03-26,2020-03-27,1.0,-9.0,,,,
+47288,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-27,2020-03-28,1.0,-9.0,,,,
+47289,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-03-27,2020-03-28,1.0,-9.0,,,,
+54041,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54042,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-30,2020-03-31,1.0,-9.0,,,,
+56356,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-03-31,2020-04-01,1.0,-9.0,,,,
+59591,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,1,1051,2020-04-01,2020-04-02,1.0,1.0,,,,
+59592,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-04-01,2020-04-02,1.0,-9.0,,,,
+62036,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62037,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-02,2020-04-03,1.0,-9.0,,,,
+66940,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66943,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66944,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66945,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-02,2020-04-04,1.0,-9.0,,,,
+66946,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66947,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-02,2020-04-04,1.0,-9.0,,,,
+70170,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-04,2020-04-06,1.0,-9.0,,,,
+70171,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-04-05,2020-04-06,1.0,-9.0,,,,
+70172,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-04,2020-04-06,1.0,-9.0,,,,
+74226,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-07,2020-04-08,1.0,-9.0,-9.0,0.0,,
+74227,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-07,2020-04-08,1.0,-9.0,-9.0,0.0,,
+78008,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78009,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78010,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,1.0,1.0,,
+78011,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78012,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78013,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+81008,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-09,2020-04-10,1.0,-9.0,1.0,1.0,,
+81009,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-04-10,1.0,-9.0,1.0,1.0,,
+81010,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+87271,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-11,2020-04-12,1.0,-9.0,-9.0,0.0,,
+89360,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-04-12,2020-04-13,1.0,-9.0,-9.0,0.0,,
+92637,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-14,2020-04-15,1.0,-9.0,-9.0,0.0,,
+123029,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-05-04,2020-05-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123748,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123749,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+123750,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142421,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-08-15,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142422,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,2,0,1051,2020-08-15,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142423,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-14,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+143877,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-08-15,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+143878,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-08-18,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149996,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-12,2020-08-25,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+149997,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-23,2020-08-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+150964,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-08-25,2020-08-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+150965,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-23,2020-08-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+152117,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-26,2020-08-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+156669,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-30,2020-09-01,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+159675,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+159676,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+159677,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163170,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+163171,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165210,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165211,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165212,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165213,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165214,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165215,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165216,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178206,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178207,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178208,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-12,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178209,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178210,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178211,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-17,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178212,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178213,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-17,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178214,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183222,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183223,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183224,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183225,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183226,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,2,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183227,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183228,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183229,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183230,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183231,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183232,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183233,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183234,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-23,2020-09-25,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+183235,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183236,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183237,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183238,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183239,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183240,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184828,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184829,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-24,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184830,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184831,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-21,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184832,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+186603,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+186604,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+187450,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-27,2020-09-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+188350,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-25,2020-09-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+188351,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-27,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+188352,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-25,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+189782,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-29,2020-09-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197932,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-30,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197933,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-01,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197934,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197935,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197936,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-30,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197937,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197938,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197939,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197940,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200705,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200706,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200707,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200708,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200709,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200710,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+202589,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-10-06,2020-10-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+202590,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-06,2020-10-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205135,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205136,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205137,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-10-06,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205138,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-06,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205139,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205140,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205141,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205142,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205143,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205144,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207899,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207900,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212666,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-10,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212667,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212668,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+214131,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-12,2020-10-13,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216735,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+216736,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234599,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234600,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234601,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234602,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234603,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234604,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234605,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234606,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234607,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234608,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,3,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234609,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234610,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234611,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234612,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234613,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234614,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234615,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234616,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234617,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234618,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236984,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236985,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236986,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236987,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236988,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236989,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236990,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236991,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236992,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240777,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240778,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240779,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240780,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240781,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240782,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240783,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240784,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240785,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240786,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240787,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,5,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240788,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240789,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244725,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244726,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244727,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244728,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244729,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244730,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+244731,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250001,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250002,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250003,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+250004,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250005,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250006,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250007,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250008,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250009,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250010,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250011,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250012,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255342,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255343,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255344,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,3,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255345,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255346,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255347,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255348,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255349,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,3,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261583,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261584,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261585,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261586,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266164,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,-1,0,1051,2020-10-22,2020-10-26,-1.0,-9.0,-1.0,-1.0,1.0,Nicht übermittelt
+266165,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266166,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+266167,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270137,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270138,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275151,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275152,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275153,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,6,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275154,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275155,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275156,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275157,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275158,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275159,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281822,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281823,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288689,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-28,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288690,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288691,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,4,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288692,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288693,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288694,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,3,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288695,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288696,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288697,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+Unnamed: 0,IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,IdLandkreis,MeldedatumISO,DatenstandISO,NeuerFall,NeuerTodesfall,NeuGenesen,AnzahlGenesen,IstErkrankungsbeginn,Altersgruppe2
+1290,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1291,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-21,,,,,,
+1292,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1293,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-21,,,,,,
+1294,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1295,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1296,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1297,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-21,,,,,,
+1298,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1299,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1300,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-21,,,,,,
+8297,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8298,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-22,,,,,,
+8299,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8300,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-22,,,,,,
+8301,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8302,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8303,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8304,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-22,,,,,,
+8305,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8306,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8307,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-22,,,,,,
+19571,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19572,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-23,,,,,,
+19573,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19574,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-23,,,,,,
+19575,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19576,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19577,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19578,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-23,,,,,,
+19579,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19580,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19581,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-23,,,,,,
+27590,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27591,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-24,0.0,0.0,,,,
+27592,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27593,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27594,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27595,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-20,2020-03-24,1.0,0.0,,,,
+27596,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27597,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27598,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-24,0.0,0.0,,,,
+27599,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-20,2020-03-24,1.0,0.0,,,,
+27600,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27601,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27602,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-24,0.0,0.0,,,,
+27603,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-03-23,2020-03-24,1.0,0.0,,,,
+41865,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-24,2020-03-25,1.0,0.0,,,,
+42620,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-24,2020-03-26,1.0,0.0,,,,
+44887,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-25,2020-03-27,1.0,-9.0,,,,
+44888,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-03-26,2020-03-27,1.0,-9.0,,,,
+47288,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-27,2020-03-28,1.0,-9.0,,,,
+47289,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-03-27,2020-03-28,1.0,-9.0,,,,
+54041,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54042,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-30,2020-03-31,1.0,-9.0,,,,
+56356,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-03-31,2020-04-01,1.0,-9.0,,,,
+59591,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,1,1051,2020-04-01,2020-04-02,1.0,1.0,,,,
+59592,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-04-01,2020-04-02,1.0,-9.0,,,,
+62036,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62037,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-02,2020-04-03,1.0,-9.0,,,,
+66940,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66943,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66944,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66945,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-02,2020-04-04,1.0,-9.0,,,,
+66946,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66947,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-02,2020-04-04,1.0,-9.0,,,,
+70170,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-04,2020-04-06,1.0,-9.0,,,,
+70171,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-04-05,2020-04-06,1.0,-9.0,,,,
+70172,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-04,2020-04-06,1.0,-9.0,,,,
+74226,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-07,2020-04-08,1.0,-9.0,-9.0,0.0,,
+74227,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-07,2020-04-08,1.0,-9.0,-9.0,0.0,,
+78008,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78009,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78010,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,1.0,1.0,,
+78011,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78012,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78013,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+81008,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-09,2020-04-10,1.0,-9.0,1.0,1.0,,
+81009,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-04-10,1.0,-9.0,1.0,1.0,,
+81010,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+87271,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-11,2020-04-12,1.0,-9.0,-9.0,0.0,,
+89360,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-04-12,2020-04-13,1.0,-9.0,-9.0,0.0,,
+92637,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-14,2020-04-15,1.0,-9.0,-9.0,0.0,,
+123029,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-05-04,2020-05-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123748,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123749,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+123750,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142421,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-08-15,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142422,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,2,0,1051,2020-08-15,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142423,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-14,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+143877,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-08-15,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+143878,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-08-18,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149996,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-12,2020-08-25,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+149997,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-23,2020-08-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+150964,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-08-25,2020-08-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+150965,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-23,2020-08-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+152117,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-26,2020-08-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+156669,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-30,2020-09-01,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+159675,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+159676,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+159677,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163170,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+163171,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165210,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165211,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165212,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165213,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165214,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165215,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165216,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178206,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178207,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178208,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-12,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178209,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178210,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178211,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-17,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178212,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178213,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-17,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178214,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183222,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183223,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183224,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183225,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183226,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,2,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183227,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183228,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183229,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183230,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183231,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183232,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183233,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183234,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-23,2020-09-25,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+183235,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183236,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183237,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183238,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183239,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183240,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184828,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184829,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-24,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184830,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184831,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-21,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184832,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+186603,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+186604,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+187450,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-27,2020-09-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+188350,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-25,2020-09-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+188351,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-27,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+188352,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-25,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+189782,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-29,2020-09-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197932,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-30,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197933,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-01,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197934,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197935,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197936,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-30,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197937,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197938,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197939,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197940,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200705,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200706,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200707,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200708,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200709,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200710,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+202589,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-10-06,2020-10-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+202590,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-06,2020-10-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205135,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205136,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205137,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-10-06,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205138,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-06,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205139,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205140,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205141,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205142,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205143,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205144,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207899,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207900,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212666,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-10,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212667,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212668,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+214131,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-12,2020-10-13,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216735,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+216736,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234599,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234600,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234601,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234602,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234603,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234604,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234605,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234606,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234607,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234608,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,3,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234609,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234610,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234611,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234612,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234613,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234614,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234615,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234616,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234617,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234618,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236984,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236985,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236986,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236987,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236988,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236989,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236990,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236991,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236992,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240777,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240778,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240779,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240780,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240781,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240782,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240783,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240784,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240785,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240786,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240787,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,5,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240788,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240789,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244725,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244726,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244727,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244728,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244729,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244730,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+244731,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250001,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250002,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250003,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+250004,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250005,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250006,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250007,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250008,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250009,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250010,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250011,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250012,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255342,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255343,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255344,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,3,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255345,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255346,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255347,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255348,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255349,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,3,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261583,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261584,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261585,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261586,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266164,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,-1,0,1051,2020-10-22,2020-10-26,-1.0,-9.0,-1.0,-1.0,1.0,Nicht übermittelt
+266165,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266166,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+266167,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270137,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270138,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275151,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275152,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275153,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,6,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275154,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275155,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275156,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275157,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275158,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275159,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281822,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281823,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288689,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-28,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288690,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288691,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,4,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288692,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288693,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288694,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,3,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288695,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288696,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288697,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+Unnamed: 0,IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,IdLandkreis,MeldedatumISO,DatenstandISO,NeuerFall,NeuerTodesfall,NeuGenesen,AnzahlGenesen,IstErkrankungsbeginn,Altersgruppe2
+1290,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1291,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-21,,,,,,
+1292,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1293,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-21,,,,,,
+1294,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1295,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1296,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1297,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-21,,,,,,
+1298,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1299,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1300,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-21,,,,,,
+8297,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8298,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-22,,,,,,
+8299,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8300,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-22,,,,,,
+8301,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8302,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8303,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8304,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-22,,,,,,
+8305,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8306,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8307,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-22,,,,,,
+19571,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19572,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-23,,,,,,
+19573,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19574,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-23,,,,,,
+19575,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19576,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19577,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19578,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-23,,,,,,
+19579,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19580,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19581,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-23,,,,,,
+27590,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27591,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-24,0.0,0.0,,,,
+27592,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27593,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27594,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27595,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-20,2020-03-24,1.0,0.0,,,,
+27596,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27597,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27598,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-24,0.0,0.0,,,,
+27599,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-20,2020-03-24,1.0,0.0,,,,
+27600,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27601,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27602,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-24,0.0,0.0,,,,
+27603,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-03-23,2020-03-24,1.0,0.0,,,,
+41865,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-24,2020-03-25,1.0,0.0,,,,
+42620,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-24,2020-03-26,1.0,0.0,,,,
+44887,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-25,2020-03-27,1.0,-9.0,,,,
+44888,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-03-26,2020-03-27,1.0,-9.0,,,,
+47288,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-27,2020-03-28,1.0,-9.0,,,,
+47289,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-03-27,2020-03-28,1.0,-9.0,,,,
+54041,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54042,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-30,2020-03-31,1.0,-9.0,,,,
+56356,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-03-31,2020-04-01,1.0,-9.0,,,,
+59591,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,1,1051,2020-04-01,2020-04-02,1.0,1.0,,,,
+59592,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-04-01,2020-04-02,1.0,-9.0,,,,
+62036,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62037,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-02,2020-04-03,1.0,-9.0,,,,
+66940,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66943,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66944,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66945,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-02,2020-04-04,1.0,-9.0,,,,
+66946,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66947,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-02,2020-04-04,1.0,-9.0,,,,
+70170,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-04,2020-04-06,1.0,-9.0,,,,
+70171,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-04-05,2020-04-06,1.0,-9.0,,,,
+70172,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-04,2020-04-06,1.0,-9.0,,,,
+74226,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-07,2020-04-08,1.0,-9.0,-9.0,0.0,,
+74227,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-07,2020-04-08,1.0,-9.0,-9.0,0.0,,
+78008,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78009,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78010,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,1.0,1.0,,
+78011,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78012,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78013,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+81008,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-09,2020-04-10,1.0,-9.0,1.0,1.0,,
+81009,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-04-10,1.0,-9.0,1.0,1.0,,
+81010,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+87271,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-11,2020-04-12,1.0,-9.0,-9.0,0.0,,
+89360,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-04-12,2020-04-13,1.0,-9.0,-9.0,0.0,,
+92637,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-14,2020-04-15,1.0,-9.0,-9.0,0.0,,
+123029,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-05-04,2020-05-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123748,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123749,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+123750,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142421,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-08-15,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142422,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,2,0,1051,2020-08-15,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142423,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-14,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+143877,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-08-15,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+143878,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-08-18,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149996,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-12,2020-08-25,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+149997,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-23,2020-08-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+150964,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-08-25,2020-08-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+150965,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-23,2020-08-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+152117,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-26,2020-08-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+156669,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-30,2020-09-01,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+159675,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+159676,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+159677,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163170,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+163171,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165210,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165211,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165212,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165213,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165214,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165215,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165216,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178206,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178207,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178208,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-12,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178209,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178210,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178211,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-17,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178212,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178213,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-17,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178214,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183222,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183223,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183224,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183225,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183226,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,2,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183227,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183228,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183229,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183230,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183231,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183232,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183233,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183234,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-23,2020-09-25,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+183235,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183236,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183237,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183238,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183239,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183240,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184828,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184829,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-24,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184830,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184831,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-21,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184832,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+186603,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+186604,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+187450,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-27,2020-09-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+188350,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-25,2020-09-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+188351,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-27,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+188352,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-25,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+189782,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-29,2020-09-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197932,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-30,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197933,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-01,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197934,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197935,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197936,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-30,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197937,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197938,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197939,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197940,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200705,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200706,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200707,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200708,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200709,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200710,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+202589,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-10-06,2020-10-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+202590,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-06,2020-10-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205135,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205136,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205137,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-10-06,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205138,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-06,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205139,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205140,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205141,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205142,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205143,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205144,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207899,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207900,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212666,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-10,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212667,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212668,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+214131,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-12,2020-10-13,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216735,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+216736,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234599,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234600,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234601,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234602,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234603,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234604,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234605,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234606,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234607,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234608,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,3,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234609,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234610,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234611,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234612,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234613,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234614,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234615,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234616,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234617,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234618,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236984,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236985,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236986,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236987,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236988,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236989,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236990,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236991,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236992,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240777,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240778,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240779,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240780,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240781,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240782,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240783,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240784,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240785,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240786,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240787,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,5,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240788,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240789,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244725,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244726,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244727,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244728,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244729,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244730,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+244731,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250001,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250002,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250003,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+250004,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250005,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250006,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250007,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250008,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250009,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250010,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250011,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250012,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255342,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255343,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255344,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,3,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255345,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255346,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255347,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255348,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255349,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,3,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261583,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261584,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261585,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261586,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266164,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,-1,0,1051,2020-10-22,2020-10-26,-1.0,-9.0,-1.0,-1.0,1.0,Nicht übermittelt
+266165,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266166,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+266167,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270137,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270138,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275151,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275152,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275153,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,6,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275154,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275155,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275156,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275157,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275158,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275159,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281822,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281823,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288689,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-28,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288690,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288691,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,4,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288692,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288693,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288694,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,3,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288695,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288696,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288697,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+Unnamed: 0,IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,IdLandkreis,MeldedatumISO,DatenstandISO,NeuerFall,NeuerTodesfall,NeuGenesen,AnzahlGenesen,IstErkrankungsbeginn,Altersgruppe2
+1290,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1291,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-21,,,,,,
+1292,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1293,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-21,,,,,,
+1294,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1295,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1296,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1297,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-21,,,,,,
+1298,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-21,,,,,,
+1299,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-21,,,,,,
+1300,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-21,,,,,,
+8297,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8298,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-22,,,,,,
+8299,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8300,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-22,,,,,,
+8301,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8302,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8303,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8304,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-22,,,,,,
+8305,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-22,,,,,,
+8306,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-22,,,,,,
+8307,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-22,,,,,,
+19571,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19572,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-23,,,,,,
+19573,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19574,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-23,,,,,,
+19575,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19576,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19577,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19578,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-23,,,,,,
+19579,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-23,,,,,,
+19580,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-23,,,,,,
+19581,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-23,,,,,,
+27590,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27591,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-03-05,2020-03-24,0.0,0.0,,,,
+27592,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27593,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27594,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27595,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-03-20,2020-03-24,1.0,0.0,,,,
+27596,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27597,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27598,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-19,2020-03-24,0.0,0.0,,,,
+27599,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-20,2020-03-24,1.0,0.0,,,,
+27600,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-15,2020-03-24,0.0,0.0,,,,
+27601,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-18,2020-03-24,0.0,0.0,,,,
+27602,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-03-20,2020-03-24,0.0,0.0,,,,
+27603,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-03-23,2020-03-24,1.0,0.0,,,,
+41865,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-24,2020-03-25,1.0,0.0,,,,
+42620,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-24,2020-03-26,1.0,0.0,,,,
+44887,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-25,2020-03-27,1.0,-9.0,,,,
+44888,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-03-26,2020-03-27,1.0,-9.0,,,,
+47288,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-03-27,2020-03-28,1.0,-9.0,,,,
+47289,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-03-27,2020-03-28,1.0,-9.0,,,,
+54041,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54042,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-03-30,2020-03-31,1.0,-9.0,,,,
+56356,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-03-31,2020-04-01,1.0,-9.0,,,,
+59591,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,1,1051,2020-04-01,2020-04-02,1.0,1.0,,,,
+59592,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-04-01,2020-04-02,1.0,-9.0,,,,
+62036,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62037,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-02,2020-04-03,1.0,-9.0,,,,
+66940,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66943,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66944,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66945,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-02,2020-04-04,1.0,-9.0,,,,
+66946,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-03,2020-04-04,1.0,-9.0,,,,
+66947,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-02,2020-04-04,1.0,-9.0,,,,
+70170,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-04,2020-04-06,1.0,-9.0,,,,
+70171,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-04-05,2020-04-06,1.0,-9.0,,,,
+70172,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-04-04,2020-04-06,1.0,-9.0,,,,
+74226,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-07,2020-04-08,1.0,-9.0,-9.0,0.0,,
+74227,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-07,2020-04-08,1.0,-9.0,-9.0,0.0,,
+78008,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78009,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78010,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,1.0,1.0,,
+78011,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78012,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+78013,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-04-08,2020-04-09,1.0,-9.0,-9.0,0.0,,
+81008,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-09,2020-04-10,1.0,-9.0,1.0,1.0,,
+81009,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-03-18,2020-04-10,1.0,-9.0,1.0,1.0,,
+81010,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+87271,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-04-11,2020-04-12,1.0,-9.0,-9.0,0.0,,
+89360,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-04-12,2020-04-13,1.0,-9.0,-9.0,0.0,,
+92637,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-04-14,2020-04-15,1.0,-9.0,-9.0,0.0,,
+123029,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-05-04,2020-05-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123748,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,2,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123749,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+123750,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142421,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-08-15,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142422,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,2,0,1051,2020-08-15,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+142423,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-14,2020-08-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+143877,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-08-15,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+143878,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-08-18,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149996,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-12,2020-08-25,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+149997,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-23,2020-08-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+150964,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-08-25,2020-08-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+150965,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-23,2020-08-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+152117,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-26,2020-08-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+156669,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-08-30,2020-09-01,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+159675,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+159676,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+159677,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-03,2020-09-04,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163170,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+163171,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165210,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165211,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165212,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165213,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165214,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165215,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165216,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178206,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178207,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178208,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-12,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178209,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178210,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178211,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-17,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178212,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-15,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178213,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-17,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178214,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183222,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183223,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183224,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183225,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183226,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,2,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183227,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183228,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183229,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183230,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183231,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183232,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183233,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183234,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-23,2020-09-25,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+183235,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183236,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183237,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183238,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-09-23,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183239,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183240,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-09-20,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184828,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184829,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-24,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184830,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-24,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184831,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-21,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+184832,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+186603,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+186604,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+187450,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-27,2020-09-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+188350,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-09-25,2020-09-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+188351,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-27,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+188352,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-25,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+189782,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-09-29,2020-09-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197932,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-09-30,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197933,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-01,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197934,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197935,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197936,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-09-30,2020-10-05,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+197937,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197938,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197939,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+197940,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-04,2020-10-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200705,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200706,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200707,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200708,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200709,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200710,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+202589,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-10-06,2020-10-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+202590,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-06,2020-10-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205135,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205136,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205137,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,1,0,1051,2020-10-06,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205138,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-06,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205139,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205140,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205141,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205142,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,2,0,1051,2020-10-07,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205143,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+205144,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207899,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207900,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212666,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-10,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212667,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212668,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+214131,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-12,2020-10-13,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216735,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+216736,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234599,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234600,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234601,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234602,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234603,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234604,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234605,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234606,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234607,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234608,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,3,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234609,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-14,2020-10-19,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+234610,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234611,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234612,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-10-14,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234613,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234614,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234615,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234616,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234617,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-15,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234618,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-16,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236984,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,2,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236985,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236986,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236987,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236988,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236989,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236990,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+236991,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+236992,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-19,2020-10-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240777,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240778,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240779,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240780,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240781,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240782,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240783,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240784,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240785,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240786,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240787,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,5,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240788,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240789,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-19,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244725,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244726,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244727,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244728,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244729,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244730,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+244731,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250001,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250002,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250003,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+250004,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250005,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250006,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250007,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250008,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250009,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250010,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250011,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+250012,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255342,1,Schleswig-Holstein,LK Dithmarschen,A00-A04,W,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255343,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255344,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,3,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255345,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255346,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-22,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255347,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255348,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,1,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+255349,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,3,0,1051,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261583,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,4,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261584,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261585,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261586,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266164,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,-1,0,1051,2020-10-22,2020-10-26,-1.0,-9.0,-1.0,-1.0,1.0,Nicht übermittelt
+266165,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266166,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+266167,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270137,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,1,0,1051,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270138,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275151,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275152,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275153,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,6,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275154,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275155,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275156,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275157,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275158,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275159,1,Schleswig-Holstein,LK Dithmarschen,A80+,W,1,0,1051,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281822,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,1,0,1051,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281823,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288689,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,M,1,0,1051,2020-10-28,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288690,1,Schleswig-Holstein,LK Dithmarschen,A05-A14,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288691,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,M,4,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288692,1,Schleswig-Holstein,LK Dithmarschen,A15-A34,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288693,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,M,1,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288694,1,Schleswig-Holstein,LK Dithmarschen,A35-A59,W,3,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288695,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,M,3,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288696,1,Schleswig-Holstein,LK Dithmarschen,A60-A79,W,2,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288697,1,Schleswig-Holstein,LK Dithmarschen,A80+,M,1,0,1051,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt

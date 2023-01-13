@@ -16094,3 +16094,1183 @@ IdLandkreis,Altersgruppe,Geschlecht,Meldedatum,Refdatum,IstErkrankungsbeginn,Neu
 1004,A80+,W,2022-12-27,2022-12-27,0,1,-9,-9,4,0,0
 1004,A60-A79,W,2022-12-27,2022-12-27,0,1,-9,-9,7,0,0
 1004,A15-A34,W,2022-12-27,2022-12-27,0,1,-9,-9,9,0,0
+Unnamed: 0,IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,IdLandkreis,MeldedatumISO,DatenstandISO,NeuerFall,NeuerTodesfall,NeuGenesen,AnzahlGenesen,IstErkrankungsbeginn,Altersgruppe2
+1289,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-21,,,,,,
+8291,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-22,,,,,,
+8292,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-22,,,,,,
+8293,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-22,,,,,,
+8294,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-22,,,,,,
+8295,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-22,,,,,,
+8296,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-22,,,,,,
+19565,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-23,,,,,,
+19566,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-23,,,,,,
+19567,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-23,,,,,,
+19568,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-23,,,,,,
+19569,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-23,,,,,,
+19570,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-23,,,,,,
+27581,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27582,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+27583,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-24,0.0,0.0,,,,
+27584,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27585,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-24,0.0,0.0,,,,
+27586,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27587,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+27588,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-24,0.0,0.0,,,,
+27589,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+41863,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-24,2020-03-25,1.0,0.0,,,,
+41864,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-24,2020-03-25,1.0,0.0,,,,
+42618,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-24,2020-03-26,1.0,0.0,,,,
+42619,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-24,2020-03-26,1.0,0.0,,,,
+47286,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-27,2020-03-28,1.0,-9.0,,,,
+47287,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-27,2020-03-28,1.0,-9.0,,,,
+54037,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54038,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54039,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54040,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+56351,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56352,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-30,2020-04-01,1.0,-9.0,,,,
+56353,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56354,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,2,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56355,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+62032,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62033,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62034,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62035,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+66942,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-03,2020-04-04,1.0,-9.0,,,,
+70168,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-05,2020-04-06,1.0,-9.0,,,,
+70169,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-05,2020-04-06,1.0,-9.0,,,,
+72030,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-06,2020-04-07,1.0,-9.0,,,,
+72031,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-04-06,2020-04-07,1.0,-9.0,,,,
+81001,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81002,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81003,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81004,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81005,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-08,2020-04-10,1.0,-9.0,1.0,1.0,,
+81006,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-08,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81007,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+84521,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-10,2020-04-11,1.0,-9.0,-9.0,0.0,,
+96882,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96883,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96884,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96885,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-04-15,2020-04-17,1.0,-9.0,-9.0,0.0,,
+99518,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,-9.0,0.0,,
+99519,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,1.0,1.0,,
+99520,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,-9.0,0.0,,
+102273,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-18,2020-04-19,1.0,-9.0,-9.0,0.0,,
+107340,1,Schleswig-Holstein,SK Neumünster,A00-A04,unbekannt,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107341,1,Schleswig-Holstein,SK Neumünster,A05-A14,unbekannt,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107342,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107343,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107344,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107345,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,4,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107346,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+111206,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-23,2020-04-24,1.0,-9.0,-9.0,0.0,,
+111207,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-23,2020-04-24,1.0,-9.0,-9.0,0.0,,
+115685,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-27,2020-04-28,1.0,-9.0,-9.0,0.0,1.0,A25-A29
+116774,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-28,2020-04-29,1.0,-9.0,-9.0,0.0,0.0,A25-A29
+116775,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-28,2020-04-29,1.0,-9.0,-9.0,0.0,1.0,A35-A39
+118055,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-29,2020-04-30,1.0,-9.0,-9.0,0.0,1.0,nicht übermittelt
+121798,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-05-02,2020-05-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123027,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,-1,0,1004,2020-04-28,2020-05-05,-1.0,-9.0,-1.0,-1.0,1.0,Nicht übermittelt
+123028,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-04,2020-05-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123746,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+123747,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+127126,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-07,2020-05-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+127127,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-07,2020-05-09,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+127128,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+127129,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+127130,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+128754,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-09,2020-05-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+131107,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-10,2020-05-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+131108,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-05-10,2020-05-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+131109,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-12,2020-05-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+132918,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-15,2020-05-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+143876,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-18,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+148870,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-22,2020-08-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149994,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-08-23,2020-08-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149995,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-08-24,2020-08-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+152116,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-08-26,2020-08-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+154441,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-28,2020-08-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+156231,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-08-30,2020-08-31,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+157635,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-01,2020-09-02,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+157636,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-01,2020-09-02,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158665,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,3,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158666,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158667,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+162609,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-06,2020-09-07,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+162610,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-03,2020-09-07,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+162611,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-04,2020-09-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+162612,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-06,2020-09-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163166,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163167,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163168,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163169,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+164297,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-08,2020-09-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165207,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165208,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165209,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+166561,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-10,2020-09-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+167668,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-11,2020-09-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+169571,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-09-13,2020-09-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+169572,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-13,2020-09-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170229,1,Schleswig-Holstein,SK Neumünster,A00-A04,M,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+170230,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170231,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170232,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+170233,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+171348,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-15,2020-09-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+171349,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-15,2020-09-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172760,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172761,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-16,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172762,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-16,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172763,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+172764,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172765,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+174260,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+174261,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+174262,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+175698,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-18,2020-09-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+175699,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-18,2020-09-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+177303,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+177304,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+177305,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178204,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178205,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180237,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180238,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180239,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180240,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+181602,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+181603,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+181604,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+181605,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183220,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183221,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+184827,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+186602,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+188349,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-28,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+189781,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-29,2020-09-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+194665,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-02,2020-10-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+198865,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-05,2020-10-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200704,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205134,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+207896,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+207897,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207898,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+210720,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-10,2020-10-11,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+210721,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-10,2020-10-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212659,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212660,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,2,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212661,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212662,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212663,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212664,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212665,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+214130,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-12,2020-10-13,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216728,1,Schleswig-Holstein,SK Neumünster,A00-A04,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216729,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+216730,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216731,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216732,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+216733,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216734,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+219826,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+219827,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+219828,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223508,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+223509,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223510,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+223511,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223512,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+227340,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-16,2020-10-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+227341,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-16,2020-10-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+231553,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+231554,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+231555,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234595,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234596,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234597,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,2,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234598,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240772,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240773,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240774,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240775,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240776,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244720,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,3,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244721,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,3,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244722,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+244723,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244724,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+249998,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+249999,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250000,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255341,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261578,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261579,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261580,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261581,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261582,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+266161,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266162,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266163,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+270135,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270136,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275147,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275148,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275149,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275150,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281817,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+281818,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281819,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+281820,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+281821,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,3,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288683,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288684,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288685,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+288686,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288687,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-27,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288688,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+Unnamed: 0,IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,IdLandkreis,MeldedatumISO,DatenstandISO,NeuerFall,NeuerTodesfall,NeuGenesen,AnzahlGenesen,IstErkrankungsbeginn,Altersgruppe2
+1289,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-21,,,,,,
+8291,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-22,,,,,,
+8292,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-22,,,,,,
+8293,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-22,,,,,,
+8294,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-22,,,,,,
+8295,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-22,,,,,,
+8296,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-22,,,,,,
+19565,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-23,,,,,,
+19566,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-23,,,,,,
+19567,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-23,,,,,,
+19568,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-23,,,,,,
+19569,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-23,,,,,,
+19570,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-23,,,,,,
+27581,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27582,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+27583,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-24,0.0,0.0,,,,
+27584,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27585,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-24,0.0,0.0,,,,
+27586,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27587,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+27588,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-24,0.0,0.0,,,,
+27589,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+41863,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-24,2020-03-25,1.0,0.0,,,,
+41864,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-24,2020-03-25,1.0,0.0,,,,
+42618,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-24,2020-03-26,1.0,0.0,,,,
+42619,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-24,2020-03-26,1.0,0.0,,,,
+47286,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-27,2020-03-28,1.0,-9.0,,,,
+47287,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-27,2020-03-28,1.0,-9.0,,,,
+54037,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54038,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54039,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54040,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+56351,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56352,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-30,2020-04-01,1.0,-9.0,,,,
+56353,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56354,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,2,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56355,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+62032,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62033,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62034,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62035,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+66942,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-03,2020-04-04,1.0,-9.0,,,,
+70168,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-05,2020-04-06,1.0,-9.0,,,,
+70169,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-05,2020-04-06,1.0,-9.0,,,,
+72030,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-06,2020-04-07,1.0,-9.0,,,,
+72031,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-04-06,2020-04-07,1.0,-9.0,,,,
+81001,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81002,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81003,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81004,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81005,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-08,2020-04-10,1.0,-9.0,1.0,1.0,,
+81006,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-08,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81007,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+84521,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-10,2020-04-11,1.0,-9.0,-9.0,0.0,,
+96882,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96883,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96884,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96885,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-04-15,2020-04-17,1.0,-9.0,-9.0,0.0,,
+99518,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,-9.0,0.0,,
+99519,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,1.0,1.0,,
+99520,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,-9.0,0.0,,
+102273,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-18,2020-04-19,1.0,-9.0,-9.0,0.0,,
+107340,1,Schleswig-Holstein,SK Neumünster,A00-A04,unbekannt,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107341,1,Schleswig-Holstein,SK Neumünster,A05-A14,unbekannt,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107342,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107343,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107344,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107345,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,4,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107346,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+111206,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-23,2020-04-24,1.0,-9.0,-9.0,0.0,,
+111207,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-23,2020-04-24,1.0,-9.0,-9.0,0.0,,
+115685,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-27,2020-04-28,1.0,-9.0,-9.0,0.0,1.0,A25-A29
+116774,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-28,2020-04-29,1.0,-9.0,-9.0,0.0,0.0,A25-A29
+116775,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-28,2020-04-29,1.0,-9.0,-9.0,0.0,1.0,A35-A39
+118055,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-29,2020-04-30,1.0,-9.0,-9.0,0.0,1.0,nicht übermittelt
+121798,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-05-02,2020-05-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123027,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,-1,0,1004,2020-04-28,2020-05-05,-1.0,-9.0,-1.0,-1.0,1.0,Nicht übermittelt
+123028,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-04,2020-05-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123746,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+123747,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+127126,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-07,2020-05-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+127127,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-07,2020-05-09,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+127128,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+127129,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+127130,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+128754,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-09,2020-05-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+131107,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-10,2020-05-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+131108,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-05-10,2020-05-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+131109,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-12,2020-05-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+132918,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-15,2020-05-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+143876,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-18,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+148870,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-22,2020-08-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149994,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-08-23,2020-08-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149995,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-08-24,2020-08-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+152116,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-08-26,2020-08-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+154441,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-28,2020-08-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+156231,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-08-30,2020-08-31,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+157635,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-01,2020-09-02,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+157636,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-01,2020-09-02,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158665,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,3,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158666,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158667,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+162609,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-06,2020-09-07,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+162610,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-03,2020-09-07,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+162611,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-04,2020-09-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+162612,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-06,2020-09-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163166,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163167,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163168,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163169,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+164297,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-08,2020-09-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165207,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165208,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165209,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+166561,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-10,2020-09-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+167668,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-11,2020-09-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+169571,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-09-13,2020-09-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+169572,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-13,2020-09-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170229,1,Schleswig-Holstein,SK Neumünster,A00-A04,M,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+170230,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170231,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170232,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+170233,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+171348,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-15,2020-09-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+171349,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-15,2020-09-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172760,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172761,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-16,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172762,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-16,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172763,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+172764,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172765,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+174260,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+174261,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+174262,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+175698,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-18,2020-09-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+175699,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-18,2020-09-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+177303,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+177304,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+177305,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178204,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178205,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180237,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180238,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180239,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180240,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+181602,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+181603,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+181604,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+181605,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183220,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183221,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+184827,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+186602,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+188349,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-28,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+189781,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-29,2020-09-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+194665,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-02,2020-10-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+198865,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-05,2020-10-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200704,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205134,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+207896,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+207897,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207898,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+210720,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-10,2020-10-11,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+210721,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-10,2020-10-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212659,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212660,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,2,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212661,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212662,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212663,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212664,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212665,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+214130,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-12,2020-10-13,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216728,1,Schleswig-Holstein,SK Neumünster,A00-A04,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216729,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+216730,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216731,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216732,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+216733,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216734,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+219826,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+219827,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+219828,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223508,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+223509,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223510,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+223511,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223512,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+227340,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-16,2020-10-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+227341,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-16,2020-10-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+231553,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+231554,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+231555,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234595,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234596,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234597,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,2,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234598,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240772,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240773,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240774,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240775,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240776,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244720,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,3,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244721,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,3,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244722,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+244723,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244724,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+249998,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+249999,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250000,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255341,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261578,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261579,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261580,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261581,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261582,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+266161,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266162,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266163,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+270135,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270136,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275147,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275148,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275149,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275150,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281817,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+281818,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281819,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+281820,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+281821,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,3,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288683,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288684,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288685,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+288686,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288687,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-27,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288688,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+Unnamed: 0,IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,IdLandkreis,MeldedatumISO,DatenstandISO,NeuerFall,NeuerTodesfall,NeuGenesen,AnzahlGenesen,IstErkrankungsbeginn,Altersgruppe2
+1289,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-21,,,,,,
+8291,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-22,,,,,,
+8292,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-22,,,,,,
+8293,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-22,,,,,,
+8294,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-22,,,,,,
+8295,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-22,,,,,,
+8296,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-22,,,,,,
+19565,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-23,,,,,,
+19566,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-23,,,,,,
+19567,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-23,,,,,,
+19568,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-23,,,,,,
+19569,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-23,,,,,,
+19570,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-23,,,,,,
+27581,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27582,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+27583,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-24,0.0,0.0,,,,
+27584,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27585,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-24,0.0,0.0,,,,
+27586,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27587,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+27588,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-24,0.0,0.0,,,,
+27589,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+41863,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-24,2020-03-25,1.0,0.0,,,,
+41864,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-24,2020-03-25,1.0,0.0,,,,
+42618,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-24,2020-03-26,1.0,0.0,,,,
+42619,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-24,2020-03-26,1.0,0.0,,,,
+47286,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-27,2020-03-28,1.0,-9.0,,,,
+47287,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-27,2020-03-28,1.0,-9.0,,,,
+54037,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54038,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54039,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54040,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+56351,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56352,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-30,2020-04-01,1.0,-9.0,,,,
+56353,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56354,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,2,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56355,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+62032,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62033,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62034,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62035,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+66942,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-03,2020-04-04,1.0,-9.0,,,,
+70168,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-05,2020-04-06,1.0,-9.0,,,,
+70169,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-05,2020-04-06,1.0,-9.0,,,,
+72030,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-06,2020-04-07,1.0,-9.0,,,,
+72031,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-04-06,2020-04-07,1.0,-9.0,,,,
+81001,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81002,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81003,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81004,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81005,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-08,2020-04-10,1.0,-9.0,1.0,1.0,,
+81006,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-08,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81007,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+84521,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-10,2020-04-11,1.0,-9.0,-9.0,0.0,,
+96882,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96883,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96884,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96885,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-04-15,2020-04-17,1.0,-9.0,-9.0,0.0,,
+99518,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,-9.0,0.0,,
+99519,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,1.0,1.0,,
+99520,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,-9.0,0.0,,
+102273,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-18,2020-04-19,1.0,-9.0,-9.0,0.0,,
+107340,1,Schleswig-Holstein,SK Neumünster,A00-A04,unbekannt,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107341,1,Schleswig-Holstein,SK Neumünster,A05-A14,unbekannt,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107342,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107343,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107344,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107345,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,4,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107346,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+111206,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-23,2020-04-24,1.0,-9.0,-9.0,0.0,,
+111207,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-23,2020-04-24,1.0,-9.0,-9.0,0.0,,
+115685,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-27,2020-04-28,1.0,-9.0,-9.0,0.0,1.0,A25-A29
+116774,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-28,2020-04-29,1.0,-9.0,-9.0,0.0,0.0,A25-A29
+116775,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-28,2020-04-29,1.0,-9.0,-9.0,0.0,1.0,A35-A39
+118055,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-29,2020-04-30,1.0,-9.0,-9.0,0.0,1.0,nicht übermittelt
+121798,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-05-02,2020-05-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123027,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,-1,0,1004,2020-04-28,2020-05-05,-1.0,-9.0,-1.0,-1.0,1.0,Nicht übermittelt
+123028,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-04,2020-05-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123746,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+123747,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+127126,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-07,2020-05-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+127127,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-07,2020-05-09,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+127128,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+127129,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+127130,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+128754,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-09,2020-05-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+131107,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-10,2020-05-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+131108,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-05-10,2020-05-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+131109,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-12,2020-05-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+132918,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-15,2020-05-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+143876,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-18,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+148870,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-22,2020-08-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149994,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-08-23,2020-08-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149995,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-08-24,2020-08-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+152116,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-08-26,2020-08-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+154441,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-28,2020-08-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+156231,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-08-30,2020-08-31,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+157635,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-01,2020-09-02,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+157636,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-01,2020-09-02,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158665,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,3,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158666,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158667,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+162609,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-06,2020-09-07,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+162610,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-03,2020-09-07,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+162611,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-04,2020-09-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+162612,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-06,2020-09-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163166,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163167,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163168,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163169,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+164297,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-08,2020-09-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165207,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165208,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165209,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+166561,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-10,2020-09-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+167668,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-11,2020-09-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+169571,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-09-13,2020-09-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+169572,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-13,2020-09-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170229,1,Schleswig-Holstein,SK Neumünster,A00-A04,M,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+170230,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170231,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170232,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+170233,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+171348,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-15,2020-09-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+171349,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-15,2020-09-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172760,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172761,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-16,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172762,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-16,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172763,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+172764,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172765,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+174260,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+174261,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+174262,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+175698,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-18,2020-09-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+175699,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-18,2020-09-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+177303,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+177304,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+177305,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178204,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178205,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180237,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180238,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180239,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180240,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+181602,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+181603,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+181604,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+181605,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183220,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183221,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+184827,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+186602,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+188349,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-28,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+189781,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-29,2020-09-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+194665,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-02,2020-10-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+198865,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-05,2020-10-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200704,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205134,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+207896,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+207897,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207898,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+210720,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-10,2020-10-11,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+210721,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-10,2020-10-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212659,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212660,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,2,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212661,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212662,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212663,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212664,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212665,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+214130,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-12,2020-10-13,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216728,1,Schleswig-Holstein,SK Neumünster,A00-A04,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216729,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+216730,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216731,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216732,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+216733,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216734,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+219826,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+219827,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+219828,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223508,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+223509,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223510,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+223511,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223512,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+227340,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-16,2020-10-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+227341,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-16,2020-10-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+231553,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+231554,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+231555,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234595,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234596,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234597,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,2,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234598,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240772,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240773,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240774,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240775,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240776,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244720,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,3,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244721,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,3,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244722,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+244723,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244724,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+249998,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+249999,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250000,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255341,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261578,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261579,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261580,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261581,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261582,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+266161,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266162,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266163,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+270135,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270136,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275147,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275148,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275149,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275150,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281817,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+281818,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281819,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+281820,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+281821,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,3,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288683,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288684,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288685,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+288686,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288687,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-27,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288688,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+Unnamed: 0,IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,IdLandkreis,MeldedatumISO,DatenstandISO,NeuerFall,NeuerTodesfall,NeuGenesen,AnzahlGenesen,IstErkrankungsbeginn,Altersgruppe2
+1289,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-21,,,,,,
+8291,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-22,,,,,,
+8292,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-22,,,,,,
+8293,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-22,,,,,,
+8294,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-22,,,,,,
+8295,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-22,,,,,,
+8296,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-22,,,,,,
+19565,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-23,,,,,,
+19566,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-23,,,,,,
+19567,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-23,,,,,,
+19568,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-23,,,,,,
+19569,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-23,,,,,,
+19570,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-23,,,,,,
+27581,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27582,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+27583,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-24,0.0,0.0,,,,
+27584,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27585,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-24,0.0,0.0,,,,
+27586,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27587,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+27588,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-24,0.0,0.0,,,,
+27589,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+41863,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-24,2020-03-25,1.0,0.0,,,,
+41864,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-24,2020-03-25,1.0,0.0,,,,
+42618,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-24,2020-03-26,1.0,0.0,,,,
+42619,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-24,2020-03-26,1.0,0.0,,,,
+47286,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-27,2020-03-28,1.0,-9.0,,,,
+47287,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-27,2020-03-28,1.0,-9.0,,,,
+54037,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54038,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54039,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54040,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+56351,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56352,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-30,2020-04-01,1.0,-9.0,,,,
+56353,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56354,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,2,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56355,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+62032,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62033,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62034,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62035,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+66942,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-03,2020-04-04,1.0,-9.0,,,,
+70168,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-05,2020-04-06,1.0,-9.0,,,,
+70169,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-05,2020-04-06,1.0,-9.0,,,,
+72030,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-06,2020-04-07,1.0,-9.0,,,,
+72031,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-04-06,2020-04-07,1.0,-9.0,,,,
+81001,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81002,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81003,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81004,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81005,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-08,2020-04-10,1.0,-9.0,1.0,1.0,,
+81006,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-08,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81007,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+84521,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-10,2020-04-11,1.0,-9.0,-9.0,0.0,,
+96882,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96883,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96884,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96885,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-04-15,2020-04-17,1.0,-9.0,-9.0,0.0,,
+99518,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,-9.0,0.0,,
+99519,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,1.0,1.0,,
+99520,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,-9.0,0.0,,
+102273,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-18,2020-04-19,1.0,-9.0,-9.0,0.0,,
+107340,1,Schleswig-Holstein,SK Neumünster,A00-A04,unbekannt,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107341,1,Schleswig-Holstein,SK Neumünster,A05-A14,unbekannt,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107342,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107343,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107344,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107345,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,4,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107346,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+111206,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-23,2020-04-24,1.0,-9.0,-9.0,0.0,,
+111207,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-23,2020-04-24,1.0,-9.0,-9.0,0.0,,
+115685,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-27,2020-04-28,1.0,-9.0,-9.0,0.0,1.0,A25-A29
+116774,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-28,2020-04-29,1.0,-9.0,-9.0,0.0,0.0,A25-A29
+116775,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-28,2020-04-29,1.0,-9.0,-9.0,0.0,1.0,A35-A39
+118055,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-29,2020-04-30,1.0,-9.0,-9.0,0.0,1.0,nicht übermittelt
+121798,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-05-02,2020-05-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123027,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,-1,0,1004,2020-04-28,2020-05-05,-1.0,-9.0,-1.0,-1.0,1.0,Nicht übermittelt
+123028,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-04,2020-05-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123746,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+123747,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+127126,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-07,2020-05-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+127127,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-07,2020-05-09,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+127128,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+127129,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+127130,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+128754,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-09,2020-05-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+131107,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-10,2020-05-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+131108,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-05-10,2020-05-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+131109,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-12,2020-05-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+132918,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-15,2020-05-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+143876,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-18,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+148870,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-22,2020-08-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149994,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-08-23,2020-08-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149995,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-08-24,2020-08-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+152116,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-08-26,2020-08-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+154441,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-28,2020-08-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+156231,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-08-30,2020-08-31,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+157635,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-01,2020-09-02,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+157636,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-01,2020-09-02,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158665,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,3,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158666,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158667,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+162609,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-06,2020-09-07,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+162610,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-03,2020-09-07,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+162611,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-04,2020-09-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+162612,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-06,2020-09-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163166,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163167,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163168,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163169,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+164297,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-08,2020-09-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165207,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165208,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165209,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+166561,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-10,2020-09-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+167668,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-11,2020-09-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+169571,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-09-13,2020-09-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+169572,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-13,2020-09-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170229,1,Schleswig-Holstein,SK Neumünster,A00-A04,M,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+170230,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170231,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170232,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+170233,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+171348,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-15,2020-09-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+171349,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-15,2020-09-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172760,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172761,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-16,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172762,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-16,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172763,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+172764,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172765,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+174260,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+174261,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+174262,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+175698,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-18,2020-09-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+175699,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-18,2020-09-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+177303,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+177304,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+177305,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178204,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178205,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180237,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180238,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180239,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180240,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+181602,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+181603,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+181604,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+181605,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183220,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183221,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+184827,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+186602,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+188349,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-28,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+189781,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-29,2020-09-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+194665,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-02,2020-10-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+198865,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-05,2020-10-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200704,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205134,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+207896,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+207897,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207898,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+210720,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-10,2020-10-11,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+210721,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-10,2020-10-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212659,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212660,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,2,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212661,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212662,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212663,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212664,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212665,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+214130,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-12,2020-10-13,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216728,1,Schleswig-Holstein,SK Neumünster,A00-A04,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216729,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+216730,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216731,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216732,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+216733,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216734,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+219826,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+219827,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+219828,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223508,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+223509,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223510,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+223511,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223512,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+227340,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-16,2020-10-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+227341,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-16,2020-10-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+231553,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+231554,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+231555,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234595,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234596,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234597,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,2,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234598,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240772,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240773,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240774,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240775,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240776,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244720,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,3,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244721,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,3,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244722,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+244723,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244724,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+249998,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+249999,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250000,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255341,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261578,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261579,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261580,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261581,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261582,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+266161,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266162,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266163,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+270135,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270136,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275147,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275148,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275149,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275150,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281817,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+281818,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281819,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+281820,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+281821,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,3,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288683,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288684,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288685,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+288686,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288687,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-27,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288688,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+Unnamed: 0,IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,IdLandkreis,MeldedatumISO,DatenstandISO,NeuerFall,NeuerTodesfall,NeuGenesen,AnzahlGenesen,IstErkrankungsbeginn,Altersgruppe2
+1289,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-21,,,,,,
+8291,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-22,,,,,,
+8292,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-22,,,,,,
+8293,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-22,,,,,,
+8294,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-22,,,,,,
+8295,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-22,,,,,,
+8296,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-22,,,,,,
+19565,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-23,,,,,,
+19566,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-23,,,,,,
+19567,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-23,,,,,,
+19568,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-23,,,,,,
+19569,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-23,,,,,,
+19570,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-23,,,,,,
+27581,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27582,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+27583,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-20,2020-03-24,0.0,0.0,,,,
+27584,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27585,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-16,2020-03-24,0.0,0.0,,,,
+27586,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-18,2020-03-24,0.0,0.0,,,,
+27587,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+27588,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-03-20,2020-03-24,0.0,0.0,,,,
+27589,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-03-23,2020-03-24,1.0,0.0,,,,
+41863,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-24,2020-03-25,1.0,0.0,,,,
+41864,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-24,2020-03-25,1.0,0.0,,,,
+42618,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-24,2020-03-26,1.0,0.0,,,,
+42619,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-24,2020-03-26,1.0,0.0,,,,
+47286,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-27,2020-03-28,1.0,-9.0,,,,
+47287,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-27,2020-03-28,1.0,-9.0,,,,
+54037,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54038,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54039,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+54040,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-30,2020-03-31,1.0,-9.0,,,,
+56351,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56352,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-03-30,2020-04-01,1.0,-9.0,,,,
+56353,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56354,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,2,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+56355,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-03-31,2020-04-01,1.0,-9.0,,,,
+62032,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62033,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62034,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+62035,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-02,2020-04-03,1.0,-9.0,,,,
+66942,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-03,2020-04-04,1.0,-9.0,,,,
+70168,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-05,2020-04-06,1.0,-9.0,,,,
+70169,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-05,2020-04-06,1.0,-9.0,,,,
+72030,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-06,2020-04-07,1.0,-9.0,,,,
+72031,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-04-06,2020-04-07,1.0,-9.0,,,,
+81001,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81002,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81003,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81004,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81005,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-08,2020-04-10,1.0,-9.0,1.0,1.0,,
+81006,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-08,2020-04-10,1.0,-9.0,-9.0,0.0,,
+81007,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-04-09,2020-04-10,1.0,-9.0,-9.0,0.0,,
+84521,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-10,2020-04-11,1.0,-9.0,-9.0,0.0,,
+96882,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96883,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96884,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-16,2020-04-17,1.0,-9.0,-9.0,0.0,,
+96885,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-04-15,2020-04-17,1.0,-9.0,-9.0,0.0,,
+99518,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,-9.0,0.0,,
+99519,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,1.0,1.0,,
+99520,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-17,2020-04-18,1.0,-9.0,-9.0,0.0,,
+102273,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-18,2020-04-19,1.0,-9.0,-9.0,0.0,,
+107340,1,Schleswig-Holstein,SK Neumünster,A00-A04,unbekannt,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107341,1,Schleswig-Holstein,SK Neumünster,A05-A14,unbekannt,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107342,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107343,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107344,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107345,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,4,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+107346,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-04-21,2020-04-22,1.0,-9.0,-9.0,0.0,,
+111206,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-23,2020-04-24,1.0,-9.0,-9.0,0.0,,
+111207,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-23,2020-04-24,1.0,-9.0,-9.0,0.0,,
+115685,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-04-27,2020-04-28,1.0,-9.0,-9.0,0.0,1.0,A25-A29
+116774,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-04-28,2020-04-29,1.0,-9.0,-9.0,0.0,0.0,A25-A29
+116775,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-28,2020-04-29,1.0,-9.0,-9.0,0.0,1.0,A35-A39
+118055,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-04-29,2020-04-30,1.0,-9.0,-9.0,0.0,1.0,nicht übermittelt
+121798,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-05-02,2020-05-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123027,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,-1,0,1004,2020-04-28,2020-05-05,-1.0,-9.0,-1.0,-1.0,1.0,Nicht übermittelt
+123028,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-04,2020-05-05,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+123746,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+123747,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-05,2020-05-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+127126,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-07,2020-05-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+127127,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-07,2020-05-09,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+127128,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+127129,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+127130,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-05-08,2020-05-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+128754,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-09,2020-05-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+131107,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-10,2020-05-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+131108,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-05-10,2020-05-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+131109,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-05-12,2020-05-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+132918,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-05-15,2020-05-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+143876,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-18,2020-08-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+148870,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-22,2020-08-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149994,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-08-23,2020-08-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+149995,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-08-24,2020-08-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+152116,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-08-26,2020-08-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+154441,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-08-28,2020-08-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+156231,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-08-30,2020-08-31,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+157635,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-01,2020-09-02,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+157636,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-01,2020-09-02,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158665,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,3,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158666,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+158667,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-02,2020-09-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+162609,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-06,2020-09-07,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+162610,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-03,2020-09-07,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+162611,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-04,2020-09-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+162612,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-06,2020-09-07,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163166,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163167,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163168,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+163169,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-07,2020-09-08,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+164297,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-08,2020-09-09,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165207,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+165208,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+165209,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-09,2020-09-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+166561,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-10,2020-09-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+167668,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-11,2020-09-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+169571,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-09-13,2020-09-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+169572,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-13,2020-09-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170229,1,Schleswig-Holstein,SK Neumünster,A00-A04,M,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+170230,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170231,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+170232,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+170233,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-14,2020-09-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+171348,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-15,2020-09-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+171349,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-15,2020-09-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172760,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172761,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-16,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172762,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-16,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172763,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+172764,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+172765,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-15,2020-09-17,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+174260,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,2,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+174261,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+174262,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-17,2020-09-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+175698,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-18,2020-09-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+175699,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-09-18,2020-09-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+177303,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+177304,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+177305,1,Schleswig-Holstein,SK Neumünster,A80+,M,1,0,1004,2020-09-19,2020-09-20,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+178204,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+178205,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-20,2020-09-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180237,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180238,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180239,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+180240,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-09-22,2020-09-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+181602,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+181603,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+181604,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+181605,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-09-23,2020-09-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+183220,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+183221,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,2,0,1004,2020-09-24,2020-09-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+184827,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-25,2020-09-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+186602,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-26,2020-09-27,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+188349,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-09-28,2020-09-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+189781,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-09-29,2020-09-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+194665,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-02,2020-10-03,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+198865,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-05,2020-10-06,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+200704,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-06,2020-10-07,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+205134,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-08,2020-10-09,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+207896,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+207897,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+207898,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-09,2020-10-10,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+210720,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-10,2020-10-11,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+210721,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-10,2020-10-11,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212659,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212660,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,2,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212661,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212662,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212663,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+212664,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+212665,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-11,2020-10-12,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+214130,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-12,2020-10-13,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216728,1,Schleswig-Holstein,SK Neumünster,A00-A04,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216729,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+216730,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216731,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216732,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+216733,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+216734,1,Schleswig-Holstein,SK Neumünster,A60-A79,M,1,0,1004,2020-10-13,2020-10-14,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+219826,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+219827,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+219828,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-14,2020-10-15,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223508,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+223509,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223510,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+223511,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+223512,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-15,2020-10-16,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+227340,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-16,2020-10-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+227341,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,2,0,1004,2020-10-16,2020-10-17,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+231553,1,Schleswig-Holstein,SK Neumünster,A00-A04,W,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+231554,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+231555,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-17,2020-10-18,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234595,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+234596,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234597,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,2,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+234598,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-18,2020-10-19,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240772,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240773,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240774,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+240775,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+240776,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-20,2020-10-21,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244720,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,3,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244721,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,3,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244722,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+244723,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+244724,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-21,2020-10-22,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+249998,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+249999,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+250000,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-22,2020-10-23,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+255341,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-23,2020-10-24,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261578,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261579,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261580,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+261581,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+261582,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-24,2020-10-25,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+266161,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266162,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+266163,1,Schleswig-Holstein,SK Neumünster,A35-A59,W,1,0,1004,2020-10-25,2020-10-26,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+270135,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+270136,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-26,2020-10-27,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275147,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275148,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+275149,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+275150,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-27,2020-10-28,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281817,1,Schleswig-Holstein,SK Neumünster,A05-A14,M,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,1.0,1.0,1.0,Nicht übermittelt
+281818,1,Schleswig-Holstein,SK Neumünster,A05-A14,W,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+281819,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+281820,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,1,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+281821,1,Schleswig-Holstein,SK Neumünster,A35-A59,M,3,0,1004,2020-10-28,2020-10-29,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288683,1,Schleswig-Holstein,SK Neumünster,A15-A34,M,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288684,1,Schleswig-Holstein,SK Neumünster,A15-A34,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288685,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,1.0,Nicht übermittelt
+288686,1,Schleswig-Holstein,SK Neumünster,A60-A79,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288687,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-27,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt
+288688,1,Schleswig-Holstein,SK Neumünster,A80+,W,1,0,1004,2020-10-29,2020-10-30,1.0,-9.0,-9.0,0.0,0.0,Nicht übermittelt

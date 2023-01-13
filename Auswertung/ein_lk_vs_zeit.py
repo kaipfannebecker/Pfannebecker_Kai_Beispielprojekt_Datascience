@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
+import subprocess
 import runpy
 from datetime import datetime, timedelta, date
 today = date.today()
@@ -25,26 +26,31 @@ datetime.strftime(yesterday, '%Y-%m-%d')
 ## zu Testzwecken:
 akt = 1
 sort = 1
-
+liste_lk = 1001
 
 # ----------------------------------------------------------------------------------------------------------------------
 
 # Variablen:
 anz_lk = 1
-#sort = 0
-#akt = 0
+# sort = 0
+# akt = 0
 # ----------------------------------------------------------------------------------------------------------------------
 
 # Gesuchten Landkreis abfragen
-runpy.run_module(mod_name="aufruf_lk", run_name= anz_lk) # , mod_name=f"{zu_akt}"
+# runpy.run_module(mod_name="aufruf_lk", run_name= anz_lk) # , mod_name=f"{zu_akt}"
+
+
 
 # aktualitaet.py aufrufen und Aktualität der .csv Datei prüfen
 
-if akt <= 1:
-   zu_akt = liste_lk
-   runpy.run_module(mod_name="aktualitaet", run_name=f"{zu_akt}")
-else:
-    break
+#if akt <= 1:
+#   zu_akt = liste_lk
+#   # runpy.run_module(mod_name="aktualitaet", run_name=f"{zu_akt}")
+#   subprocess.call(['./aktualitaet.py', zu_akt])
+#else:
+    #print("Keine Aktualisierung nötig")
+
+
 
 ## sort_meld.py aufrufen und Daten nach Meldedatum sortieren
 
@@ -54,93 +60,115 @@ else:
 #else:
     #break
 
+
+
 # Aktuellen und sortierten Datensatz des Landkreises einlesen
 
-dataset = pd.read_csv{f'{liste_lk}.csv'}
+dataset = pd.read_csv(f'C:\\Users\\Kai\\Documents\\GitHub\\Projekt_Datascience\\rki_daten\\Datensatz_vereinzelt\\by_number\\{liste_lk}.csv')
+
+
 
 # Das gewünschte Startdatum abfragen
 
-datestart = input("Bitte das Startdatum im Format YYYY-MM-DD eingeben")
+datestart = input("Bitte das Startdatum im Format YYYY-MM-DD eingeben ")
+datum = dataset["Meldedatum"].squeeze()
+
+
 
 # überprüfen, ob Daten im ausgewählten Datensatz vorhanden sind.
 while True:
-    if datestart in dataset[3] == True:
+    #if datestart in dataset["Meldedatum"] == True:
+    if datestart in datum.values:
+        print("Das gewünschte Startdatum ist im Datensatz vorhanden.")
         break
     else:
-        datestart = input("Das gewünschte Startdatum ist nicht im Datensatz vorhanden. Bitte ein neues Startdatum im Format YYYY-MM-DD eingeben.")
+        datestart = input("Das gewünschte Startdatum ist nicht im Datensatz vorhanden. Bitte ein neues Startdatum im Format YYYY-MM-DD eingeben. ")
+
+
 
 # dataframe auf Startdatum kürzen
 
 if datestart == today:
-    break
+    dataset = dataset.sort_values(by="Meldedatum")
+    dataset_short = dataset[dataset["Meldedatum"] >= datestart]
+
 else:
-    dataset.startdatum = dataset.sort["Meldedatum"] <= datestart
-    dataset_short = dataset.startdatum
+    dataset = dataset.sort_values(by="Meldedatum")
+    dataset_short = dataset[dataset["Meldedatum"] >= datestart]
+
+
 
 # Enddatum abfragen und überprüfen
 
-dateend = input("Bitte das Enddatum im Formaz YYYY-MM-DD eingeben")
+dateend = input("Bitte das Enddatum im Formaz YYYY-MM-DD eingeben ")
 
 while True:
     if dateend > datestart:
+        print("Das gewünschte Startdatum liegt vor dem Enddatum")
         break
     else:
-        dataend = input("Das gewünschte Enddatum liegt vor dem Startdatum. Bitte ein neues Enddatum eingeben.")
+        dataend = input("Das gewünschte Enddatum liegt vor dem Startdatum. Bitte ein neues Enddatum eingeben. ")
 
 # Datensatz auf Enddatum kürzen
 
 if dateend == today:
     dataset_final = dataset_short
-    break
 else:
-    dataset_short.enddatum = dataset_short.sort["Meldedatum"] >= dateend
-    dataset_final = dataset_short.enddatum
+    dataset_short = dataset_short.sort_values(by="Meldedatum")
+    dataset_final = dataset_short[dataset_short["Meldedatum"] <= dateend]
 
-# TESTEN, TESTEN, TESTEN!
+
+# bis hierhin funktioniert es!
 
 # erstellt den ursprünglichen Datensatz
-anzfae_lk_vs_t = ["Datum", "Gesamtzahl neue Infektionen"]
+empty_df = {"Gesamtzahl neue Infektionen": [0], "Datum": [0]}
+anzfae_lk_vs_t = pd.DataFrame(data=empty_df)
 
 ## iterieren über die einzelnen Daten von startdatum bis enddatum
 
 for meld_dat, dataset_final in dataset_final.groupby('Meldedatum'):
-    data_neu = dataset_final.loc[[6] == 1]
-    data_neu.sum([6])
-    fall_t = {f"{meld_dat}",data_neu.sum([9])}
-    anzfae_lk_vs_t = anzfae_lk_vs_t.append(fall_t, ignore_index=True)
+    data_neu_pos = dataset_final.loc[dataset_final["NeuerFall"] == "1"]
+    #data_neu_pos['AnzahlFall'] = data_neu_pos['AnzahlFall'].astype(int)
+    #data_neu_pos['AnzahlFall'] = data_neu_pos['AnzahlFall'].astype(float)
+    data_neu_pos.loc[data_neu_pos['AnzahlFall']].astype(float)
+    data_neu_pos = data_neu_pos.sum()
+    data_neu_pos_num = data_neu_pos["AnzahlFall"]
+    data_neu_neg = dataset_final.loc[dataset_final["NeuerFall"] == "-1"]
+    #data_neu_neg = data_neu_neg.drop(columns=["IdLandkreis", "AnzahlTodesfall", "AnzahlGenesen"])
+    if data_neu_neg.empty:
+        data_neu_neg_num = 0
+    else:
+        data_neu_neg['AnzahlFall'] = data_neu_neg['AnzahlFall'].astype(float)
+        data_neu_neg = data_neu_neg.sum()
+        data_neu_neg_num = data_neu_neg["AnzahlFall"]
+    data_neu_ges = data_neu_pos_num + data_neu_neg_num
+    print(data_neu_ges)
+    print(f"{meld_dat}")
+    fall_t = {f"{meld_dat}",data_neu_ges}
+    fall_t = list(fall_t)
+    print(fall_t)
+    anzfae_lk_vs_t.loc[len(anzfae_lk_vs_t)] = fall_t
 
-# use datetime.weekday()
-#delta = timedelta(days=1)
-#d = datestart
-#diff = 0
-#weekend = set([5, 6])
-#df = dataset_final
-#while d <= dateend:
-#    if d.weekday() not in weekend:
-#        # in eigene Dataframes zwischenspeichern
-#        data_d = df.loc[df[3] == d]
-#        # neue Infektionen (d. h. alle Fälle mit ([6] == 1) zählen
-#        # subset mit allen neuen Fällen erstellen
-#        data_d_neu = data_d.loc[[6] == 1]
-#        fall_t = {f"{d}",data_d_neu.sum([9])}
-#        lk_vs_t = lk_vs_t.append(fall_t, ignore_index=True)
+anzfae_lk_vs_t = anzfae_lk_vs_t.iloc[1:]
 
-
-#        diff += 1
-#    d += delta
-
+    #anzfae_lk_vs_t = anzfae_lk_vs_t.append(fall_t, ignore_index=True)
+#print(anzfae_lk_vs_t)
 
 # df.loc[df['column_name'] == some_value]
 
 # sortieren von lk_vs_t nach Datum
-lk_vs_t = lk_vs_t.sort("Datum")
+lk_vs_t = anzfae_lk_vs_t.values.tolist()
 
 # plot date vs. aktive fälle getestet und funktioniert
-## lk_vs_t = [["2022-12-03", "2022-12-04", "2022-12-05", "2022-12-06","2022-12-07"],[10, 12, 14, 11, 13]]
+#lk_vs_t = [["2022-12-03", "2022-12-04", "2022-12-05", "2022-12-06","2022-12-07"],[10, 12, 14, 11, 13]]
 ## wurde zum test verwendet
 
+print(lk_vs_t)
+print(type(lk_vs_t))
 fig, ax = plt.subplots(figsize=(10,10))  # Create a figure containing a single axes.
-ax.plot(anzfae_lk_vs_t[0], anzfae_lk_vs_t[1], color="black")# Plot some data on the axes.
+#ax.plot(anzfae_lk_vs_t[0], anzfae_lk_vs_t[1], color="black")# Plot some data on the axes.
+ax.plot(lk_vs_t[1], lk_vs_t[0], color="black")# Plot some data on the axes.
+#plt.xticks(lk_vs_t[1])
 ax.set_xlabel("Datum", fontsize=14)
 ax.set_ylabel("Anzahl neue Fälle", color="black", fontsize=14)
 plt.show()

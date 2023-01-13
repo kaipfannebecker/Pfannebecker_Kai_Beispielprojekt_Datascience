@@ -5,3 +5,5 @@ rki_daten/Datensatz_gesamt/full/Aktuell_Deutschland_SarsCov2_Infektionen.csv
 rki_daten/date
 rki_daten/date.xz
 rki_daten/date.xz
+*.csv
+*.png

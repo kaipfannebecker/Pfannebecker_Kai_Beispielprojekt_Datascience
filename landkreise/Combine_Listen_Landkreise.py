@@ -80,7 +80,7 @@ lk_fin[0] = pd.to_numeric(lk_fin[0])
 lk_fin[1] = lk_fin[1].replace(",",";")
 
 # Die Spalten in Id_Landkreis sowie Name_Landkreis umbenennen
-lk_fin.rename(columns={0:"Id_Landkreis", 1:"Name_Landkreis"}, inplace=True)
+lk_fin.rename(columns={0:"IdLandkreis", 1:"NameLandkreis"}, inplace=True)
 
 # Als .csv Datei ausgeben
 lk_fin.to_csv("Liste_der_Landkreise_fuer_Projekt.csv", index=False)

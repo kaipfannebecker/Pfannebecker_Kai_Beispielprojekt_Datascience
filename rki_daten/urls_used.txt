@@ -533,3 +533,11 @@ https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/dat
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-12-09-03-33.ndjson.xz
 
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-12-10-03-34.ndjson.xz
+
+https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-12-11-03-34.ndjson.xz
+
+https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-12-12-03-34.ndjson.xz
+
+https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-12-13-03-34.ndjson.xz
+
+https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-12-14-03-35.ndjson.xz

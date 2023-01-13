@@ -74,23 +74,18 @@ def first_five_files(arch_line,j):
 
 
 def all_other_files(arch_line):
+    # Ließ Datensatz ein und speichere relevante Zeilen in den Datenframe df
     urllib.request.urlretrieve(arch_line, "date.xz")
     with lzma.open("date.xz", mode='rt', encoding='utf-8') as fin:
         file_content = fin.read().split('\n')
         # Problem: Letzte Zeile ist leer. Diese muss gelöscht werden, damit json.loads keinen Fehler erzeugt.
         file_content = file_content[:-1]
-        #print(datetime.now().strftime("%H:%M:%S.%f"))
     for line in file_content:
-        # data.append(json.loads(line))
         inline = json.loads(line)
-        # print(inline)
-        # print(datetime.now().strftime("%H:%M:%S.%f"))
         if inline["NeuerFall"] == 1 or inline["NeuerFall"] == -1:
             data.append(inline)
-            # print(datetime.now().strftime("%H:%M:%S.%f"))
     df = pd.DataFrame(data)
-    # print(datetime.now().strftime("%H:%M:%S.%f"))
-    # print("hallowelt")
+
     # Die ersten 4 Tage hatten eine andere Notation; deshalb müssen hierfür extra Spalten angelegt werden.
     if 'NeuerFall' not in df:
         df['NeuerFall'] = 1
@@ -98,19 +93,17 @@ def all_other_files(arch_line):
         df["RefdatumISO"] = 1
     if "Refdatum" not in df:
         df["Refdatum"] = 1
-    #
+
+    # Lösche unbenutzte Spalten und speichere in den Datenframe:
     df = df.drop(columns=["RefdatumISO", "Refdatum", "Datenstand", "ObjectId", "Meldedatum"])  # "DatenstandISO",
-    # nur_neu = df.loc[df["NeuerFall"] == 1]
-    # nur_corr = df.loc[df["NeuerFall"] == -1]
-    # neue_daten = [data_neuinf_ges, nur_neu, nur_corr]
-    # data_neuinf_ges = pd.concat(neue_daten)
-    # data_neuinf_ges.to_csv("Datensatz_Neuinfektionen_gesamt.csv")
     df.to_csv("Datensatz_Neuinfektionen_gesamt.csv", mode='a', header=False)
-    # output_path = "Datensatz_Neuinfektionen_gesamt.csv"
-    # df.to_csv(output_path, mode='a', header=not os.path.exists(output_path))
+
+    # räume Zwischenspeicher auf und gib Statusmeldung aus:
     del df
     gc.collect()
     print(f"{arch_line}_fertig")
+
+    # Schreibe abgearbeitete Datei in urls_used.txt:
     with open("urls_used.txt", "a+") as file_object:
         # Move read cursor to the start of file.
         file_object.seek(0)
@@ -120,6 +113,8 @@ def all_other_files(arch_line):
             file_object.write("\n")
         # Append text at the end of file
         file_object.write(f"{arch_line}")
+
+    # Lösche abgearbeitete Datei aus arch_todo.txt:
     with open('arch_todo.txt', 'r') as fin:
         arch_new = fin.read().splitlines(True)
     with open('arch_todo.txt', 'w') as fout:
@@ -127,6 +122,21 @@ def all_other_files(arch_line):
 
 # ----------------------------------------------------------------------------------------------------------------------
 
+archives_needed = open("urls_needed.txt", "r")
+archives_done = open("urls_used.txt", "r")
+
+arch_todo = open("arch_todo.txt", "r")
+for arch_line in arch_todo:
+    if os.stat("urls_used.txt").st_size == 0:
+        if j<5:
+            first_five_files(arch_line,j)
+            j = j + 1
+        else:
+            all_other_files(arch_line)
+    else:
+        all_other_files(arch_line)
+
+# ----------------------------------------------------------------------------------------------------------------------
 
 #archives = open("urls_used.txt", "r")
 # print(archives)

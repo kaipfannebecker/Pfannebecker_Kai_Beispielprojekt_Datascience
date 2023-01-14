@@ -71,7 +71,7 @@ dataset = pd.read_csv(f'C:\\Users\\Kai\\Documents\\GitHub\\Projekt_Datascience\\
 # Das gewünschte Startdatum abfragen
 
 datestart = input("Bitte das Startdatum im Format YYYY-MM-DD eingeben ")
-datum = dataset["Meldedatum"].squeeze()
+datum = dataset["MeldedatumISO"].squeeze()
 
 
 
@@ -89,18 +89,18 @@ while True:
 # dataframe auf Startdatum kürzen
 
 if datestart == today:
-    dataset = dataset.sort_values(by="Meldedatum")
-    dataset_short = dataset[dataset["Meldedatum"] >= datestart]
+    dataset = dataset.sort_values(by="MeldedatumISO")
+    dataset_short = dataset[dataset["MeldedatumISO"] >= datestart]
 
 else:
-    dataset = dataset.sort_values(by="Meldedatum")
-    dataset_short = dataset[dataset["Meldedatum"] >= datestart]
+    dataset = dataset.sort_values(by="MeldedatumISO")
+    dataset_short = dataset[dataset["MeldedatumISO"] >= datestart]
 
 
 
 # Enddatum abfragen und überprüfen
 
-dateend = input("Bitte das Enddatum im Formaz YYYY-MM-DD eingeben ")
+dateend = input("Bitte das Enddatum im Format YYYY-MM-DD eingeben ")
 
 while True:
     if dateend > datestart:
@@ -114,8 +114,8 @@ while True:
 if dateend == today:
     dataset_final = dataset_short
 else:
-    dataset_short = dataset_short.sort_values(by="Meldedatum")
-    dataset_final = dataset_short[dataset_short["Meldedatum"] <= dateend]
+    dataset_short = dataset_short.sort_values(by="MeldedatumISO")
+    dataset_final = dataset_short[dataset_short["MeldedatumISO"] <= dateend]
 
 
 # bis hierhin funktioniert es!
@@ -126,7 +126,7 @@ anzfae_lk_vs_t = pd.DataFrame(data=empty_df)
 
 ## iterieren über die einzelnen Daten von startdatum bis enddatum
 
-for meld_dat, dataset_final in dataset_final.groupby('Meldedatum'):
+for meld_dat, dataset_final in dataset_final.groupby('MeldedatumISO'):
     data_neu_pos = dataset_final.loc[dataset_final["NeuerFall"] == "1"]
     #data_neu_pos['AnzahlFall'] = data_neu_pos['AnzahlFall'].astype(int)
     #data_neu_pos['AnzahlFall'] = data_neu_pos['AnzahlFall'].astype(float)
@@ -142,11 +142,11 @@ for meld_dat, dataset_final in dataset_final.groupby('Meldedatum'):
         data_neu_neg = data_neu_neg.sum()
         data_neu_neg_num = data_neu_neg["AnzahlFall"]
     data_neu_ges = data_neu_pos_num + data_neu_neg_num
-    print(data_neu_ges)
-    print(f"{meld_dat}")
+    #print(data_neu_ges)
+    #print(f"{meld_dat}")
     fall_t = {f"{meld_dat}",data_neu_ges}
     fall_t = list(fall_t)
-    print(fall_t)
+    #print(fall_t)
     anzfae_lk_vs_t.loc[len(anzfae_lk_vs_t)] = fall_t
 
 anzfae_lk_vs_t = anzfae_lk_vs_t.iloc[1:]
@@ -163,8 +163,8 @@ lk_vs_t = anzfae_lk_vs_t.values.tolist()
 #lk_vs_t = [["2022-12-03", "2022-12-04", "2022-12-05", "2022-12-06","2022-12-07"],[10, 12, 14, 11, 13]]
 ## wurde zum test verwendet
 
-print(lk_vs_t)
-print(type(lk_vs_t))
+#print(lk_vs_t)
+#print(type(lk_vs_t))
 fig, ax = plt.subplots(figsize=(10,10))  # Create a figure containing a single axes.
 #ax.plot(anzfae_lk_vs_t[0], anzfae_lk_vs_t[1], color="black")# Plot some data on the axes.
 ax.plot(lk_vs_t[1], lk_vs_t[0], color="black")# Plot some data on the axes.

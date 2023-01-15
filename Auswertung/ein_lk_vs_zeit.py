@@ -118,8 +118,6 @@ else:
     dataset_final = dataset_short[dataset_short["MeldedatumISO"] <= dateend]
 
 
-# bis hierhin funktioniert es!
-
 # erstellt den ursprünglichen Datensatz
 empty_df = {"Gesamtzahl neue Infektionen": [0], "Datum": [0]}
 anzfae_lk_vs_t = pd.DataFrame(data=empty_df)
@@ -127,30 +125,31 @@ anzfae_lk_vs_t = pd.DataFrame(data=empty_df)
 ## iterieren über die einzelnen Daten von startdatum bis enddatum
 
 for meld_dat, dataset_final in dataset_final.groupby('MeldedatumISO'):
-    data_neu_pos = dataset_final.loc[dataset_final["NeuerFall"] == "1"]
-    #data_neu_pos['AnzahlFall'] = data_neu_pos['AnzahlFall'].astype(int)
-    #data_neu_pos['AnzahlFall'] = data_neu_pos['AnzahlFall'].astype(float)
-    data_neu_pos.loc[data_neu_pos['AnzahlFall']].astype(float)
+    dataset_final = dataset_final.drop(columns=["0", "Landkreis", "NeuerTodesfall", "NeuGenesen", "Bundesland", "Altersgruppe2",  "Altersgruppe", "IdLandkreis", "IdBundesland", "IstErkrankungsbeginn", "AnzahlTodesfall", "AnzahlGenesen"])
+    data_neu_pos = dataset_final.loc[dataset_final['NeuerFall'] == 1.0]
     data_neu_pos = data_neu_pos.sum()
     data_neu_pos_num = data_neu_pos["AnzahlFall"]
-    data_neu_neg = dataset_final.loc[dataset_final["NeuerFall"] == "-1"]
-    #data_neu_neg = data_neu_neg.drop(columns=["IdLandkreis", "AnzahlTodesfall", "AnzahlGenesen"])
+    data_neu_neg = dataset_final.loc[dataset_final["NeuerFall"] == -1.0]
     if data_neu_neg.empty:
         data_neu_neg_num = 0
     else:
-        data_neu_neg['AnzahlFall'] = data_neu_neg['AnzahlFall'].astype(float)
         data_neu_neg = data_neu_neg.sum()
         data_neu_neg_num = data_neu_neg["AnzahlFall"]
     data_neu_ges = data_neu_pos_num + data_neu_neg_num
-    #print(data_neu_ges)
-    #print(f"{meld_dat}")
+    print(data_neu_ges)
+    print(type(data_neu_ges))
+    print(f"{meld_dat}")
+    print(type(f"{meld_dat}"))
+#    fall_t = {f"{meld_dat}",data_neu_pos}
     fall_t = {f"{meld_dat}",data_neu_ges}
     fall_t = list(fall_t)
-    #print(fall_t)
+    print(fall_t)
+    #print(type(fall_t))
     anzfae_lk_vs_t.loc[len(anzfae_lk_vs_t)] = fall_t
 
 anzfae_lk_vs_t = anzfae_lk_vs_t.iloc[1:]
-
+print(anzfae_lk_vs_t)
+print(type(anzfae_lk_vs_t))
     #anzfae_lk_vs_t = anzfae_lk_vs_t.append(fall_t, ignore_index=True)
 #print(anzfae_lk_vs_t)
 

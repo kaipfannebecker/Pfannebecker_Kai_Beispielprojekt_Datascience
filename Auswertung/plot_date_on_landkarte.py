@@ -75,17 +75,12 @@ for file in os.listdir(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_d
 # letzte Zeile löschen, funktioniert noch nicht
 
 anzfae_all_lk = anzfae_all_lk_1.iloc[1:]
+anzfae_all_lk['IdLandkreis'] = anzfae_all_lk['IdLandkreis'].astype(str)
+for index in anzfae_all_lk:
+    anzfae_all_lk['IdLandkreis'] = anzfae_all_lk['IdLandkreis'].str.zfill(5)
 print(anzfae_all_lk)
 print(type(anzfae_all_lk))
 anzfae_all_lk.to_csv("hallowelt.csv")
-# ----------------------------------------------------------------------------------------------------------------------
-
-name_lk = pd.read_csv(fr"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\Liste_der_Landkreise_fuer_Projekt.csv")
-anzfae_all_lk_mer = anzfae_all_lk.set_index('IdLandkreis').join(name_lk.set_index('IdLandkreis'))
-print(anzfae_all_lk_mer)
-anzfae_all_lk_mer.to_csv("hallowelt1.csv")
-
-
 # ----------------------------------------------------------------------------------------------------------------------
 
 # Zu testzwecken:
@@ -100,22 +95,26 @@ anzfae_all_lk_mer.to_csv("hallowelt1.csv")
 # ----------------------------------------------------------------------------------------------------------------------
 # Generating Map:
 
-
 # import shapefile:
 map_lk = gpd.read_file(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\Geoshape_Deutschland_vg2500_12-31.utm32s.shape\vg2500\VG2500_KRS.shp")
-map_lk.to_csv("Shapefile_Kreise.csv", encoding="utf-8")
-map_lk_eind = map_lk.loc[map_lk['GF'] == 9]
-data = pd.DataFrame(map_lk)
 
+map_lk_eind = map_lk.loc[map_lk['GF'] == 9]
+#data = pd.DataFrame(map_lk)
+
+
+#import1 = map_lk_eind["AGS"]
+#print(import1)
+#import2 = anzfae_all_lk['IdLandkreis']
+#print(import2)
 # ----------------------------------------------------------------------------------------------------------------------
 # Daten von Map und Datensatz kombinieren:
-merged = map_lk_eind.set_index('GEN').join(anzfae_all_lk.set_index('Bundesland'))
+merged = map_lk_eind.set_index('AGS').join(anzfae_all_lk.set_index('IdLandkreis'))
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Generating plot:
 
 # 1) Auswahl der Spalte mit den relevanten Daten:
-column = merged['anz_erk']
+column = merged['Gesamtzahl neue Infektionen']
 
 # 2) Auswahl des Maximums sowie Übertragen auf Legende rechts:
 max_Infizierte = column.max()
@@ -130,18 +129,18 @@ merged['coords'] = [coords[0] for coords in merged['coords']]
 fig, ax = plt.subplots(1, figsize=(10, 6))
 
 # Hiermit werden NAN Werte auch angezeigt:
-merged.plot(column='anz_erk', cmap='YlOrRd', linewidth=0.8, ax=ax, edgecolor='0.8', missing_kwds={"color": "darkgrey",
+merged.plot(column='Gesamtzahl neue Infektionen', cmap='YlOrRd', linewidth=0.8, ax=ax, edgecolor='0.8', missing_kwds={"color": "darkgrey",
                                                                                                  "edgecolor": "k", "label": "Missing values"})
 # Die eigentliche Figure bauen:
 for idx, row in merged.iterrows():
-    if idx =='Berlin':
-        plt.annotate(text=row['anz_erk'], xy=row['coords'],horizontalalignment='left',fontsize=8)
-        continue
-    plt.annotate(text=row['anz_erk'], xy=row['coords'],horizontalalignment='center',fontsize=8)
+#    if idx =='Berlin':
+#        plt.annotate(text=row['anz_erk'], xy=row['coords'],horizontalalignment='left',fontsize=8)
+#        continue
+    plt.annotate(text=row['Gesamtzahl neue Infektionen'], xy=row['coords'],horizontalalignment='center',fontsize=8)
 # remove the axis
 ax.axis('off')
 # add a title
-ax.set_title('Coronavirus infected in Germany (18.09.2020)', fontdict={'fontsize': '18','fontweight' : '3'})
+ax.set_title(f'Coronavirus infected in Germany ({date})', fontdict={'fontsize': '18','fontweight' : '3'})
 ax.annotate('Source: https://www.coronavirus.jetzt/karten/deutschland/',xy=(0.2, .06), xycoords='figure fraction'
             ,horizontalalignment='left', verticalalignment='top',fontsize=10, color='#555555')
 sm = plt.cm.ScalarMappable(cmap='YlOrRd', norm=plt.Normalize(vmin=vmin, vmax=vmax))

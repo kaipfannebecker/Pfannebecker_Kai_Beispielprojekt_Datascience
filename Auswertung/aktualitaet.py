@@ -34,24 +34,24 @@ sort = 0
 # in der ersten Spalte nach dem Index als dataframe zu_akt
 
 # sort_meld.py aufrufen und Daten nach Meldedatum sortieren
-for sort < 1:
-    zu_sort = zu_akt
-    runpy.run_module(mod_name="sort_meld", mod_name=f"{zu_sort}")
+#if sort <= 1:
+    #zu_sort = zu_akt
+    #runpy.run_module(mod_name="sort_meld", mod_name=f"{zu_sort}")
 
 # Abfrage ob Datensatz aktuell, falls nicht filterung_datensaetze.py aufrufen
 
-for k in zu_akt:
-    df = pd.read_csv(rf'C:\Users\Kai\Desktop\Projekt_Datascience\rki_daten\{zu_sort}.csv')
-    # prüfe Datum der letzten Zeile in Meldedatum
-    last_row = df.iloc[-1]
-    if last_row[3] == today:
-        break
-    else:
-        runpy.run_module(mod_name="filterung_datensaetze")
-akt = 1
-return akt
+#for k in zu_akt:
+#    df = pd.read_csv(rf'C:\Users\Kai\Desktop\Projekt_Datascience\rki_daten\{zu_sort}.csv')
+ #   # prüfe Datum der letzten Zeile in Meldedatum
+ #   last_row = df.iloc[-1]
+  #  if last_row[3] == today:
+  #      break
+  #  else:
+   #     runpy.run_module(mod_name="filterung_datensaetze")
+#akt = 1
+#return akt
 
-quit()
+#quit()
 
 
 ## a.py

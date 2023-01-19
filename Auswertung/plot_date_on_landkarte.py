@@ -35,15 +35,56 @@ date = "2020-03-19"
 # anz_lk = 1
 # sort = 0
 # akt = 0
-# ----------------------------------------------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------------------------------------------
+# Abfraghe Ebene:
+ebene = eval(input("Auf welcher Ebene möchten Sie die Daten betrachten:"
+                   "1: Landkreise" 
+                   "2: Bundesländer"
+                   "3: Bundesgebiet"
+                   "4: Abbruch"
+                   ""))
+
+if ebene == 4:
+    quit
+
+# ----------------------------------------------------------------------------------------------------------------------
+# Abgefragter Datensatz:
+datensatz = eval(input("Welche Daten möchten Sie angezeigt haben:"
+                       "1) Neue Fälle"
+                       "2) Neue Genesene"
+                       "3) Neue Todesfälle"
+                       "4) Abbruch"
+                       ""))
+if ebene == 4:
+    quit
+
+# ----------------------------------------------------------------------------------------------------------------------
 # Gesuchtes Datuma abfragen
 # runpy.run_module(mod_name="datum", run_name= anz_lk) # , mod_name=f"{zu_akt}"
 # return: date == YYYY-MM-DD
 
-empty_df = {"Gesamtzahl neue Infektionen": [0], "IdLandkreis": [0]}
+# ----------------------------------------------------------------------------------------------------------------------
+# Generieren des leeren Dataframes passend zur Eingabe:
+if ebene == 1:
+    var_eb = "IdLandkreis"
+if ebene == 2:
+    var_eb = "IdBundesländer"
+if ebene == 3:
+    var_eb = "IdBund"
+
+if datensatz == 1:
+    var_da = "Gesamtzahl neue Infektionen"
+if datensatz == 2:
+    var_da = "Gesamtzahl neue Genesene"
+if datensatz == 3:
+    var_da = "Gesamtzahl neue Todesfälle"
+
+empty_df = {var_da: [0], var_eb: [0]}
+# Beispiel: Alle todesfälle auf Landkreisebene: {"Gesamtzahl neue Todesfälle": [0], IdLandkreis: [0]}
 anzfae_all_lk_1 = pd.DataFrame(data=empty_df)
 
+# ----------------------------------------------------------------------------------------------------------------------
 # Daten vom gewünschten Tag aus allen Landkreisen abfragen:
 for file in os.listdir(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number"):
     if file.endswith(".csv"):
@@ -72,7 +113,7 @@ for file in os.listdir(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_d
 # Einlesen von Daten funktioniert
 
 # ----------------------------------------------------------------------------------------------------------------------
-# letzte Zeile löschen, funktioniert noch nicht
+# letzte Zeile löschen
 
 anzfae_all_lk = anzfae_all_lk_1.iloc[1:]
 anzfae_all_lk['IdLandkreis'] = anzfae_all_lk['IdLandkreis'].astype(str)
@@ -96,16 +137,15 @@ anzfae_all_lk.to_csv("hallowelt.csv")
 # Generating Map:
 
 # import shapefile:
-map_lk = gpd.read_file(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\Geoshape_Deutschland_vg2500_12-31.utm32s.shape\vg2500\VG2500_KRS.shp")
+if ebene == 1:
+    map_lk = gpd.read_file(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\Geoshape_Deutschland_vg2500_12-31.utm32s.shape\vg2500\VG2500_KRS.shp")
+if ebene == 2:
+    map_lk = gpd.read_file(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\Geoshape_Deutschland_vg2500_12-31.utm32s.shape\vg2500\VG2500_LAN.shp")
+if ebene == 3:
+    map_lk = gpd.read_file(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\Geoshape_Deutschland_vg2500_12-31.utm32s.shape\vg2500\VG2500_KRS.shp")
 
 map_lk_eind = map_lk.loc[map_lk['GF'] == 9]
-#data = pd.DataFrame(map_lk)
 
-
-#import1 = map_lk_eind["AGS"]
-#print(import1)
-#import2 = anzfae_all_lk['IdLandkreis']
-#print(import2)
 # ----------------------------------------------------------------------------------------------------------------------
 # Daten von Map und Datensatz kombinieren:
 merged = map_lk_eind.set_index('AGS').join(anzfae_all_lk.set_index('IdLandkreis'))

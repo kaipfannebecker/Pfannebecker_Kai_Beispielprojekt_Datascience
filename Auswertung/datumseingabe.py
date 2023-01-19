@@ -21,12 +21,13 @@
 #anz_date = 1
 
 # ----------------------------------------------------------------------------------------------------------------------
+# Ein Datum benötigt:
 def eindatum():
     global datum
     datum = input("Bitte das gewünschte Datum im Format YYYY-MM-DD eingeben ")
     print(datum)
 
-
+# Zwei Daten benötigt:
 def zweidaten():
     global datestart
     global dateend

@@ -122,73 +122,25 @@ def all_other_files(arch_line):
 
 # ----------------------------------------------------------------------------------------------------------------------
 
-archives_needed = open("urls_needed.txt", "r")
-archives_done = open("urls_used.txt", "r")
+def main():
+    archives_needed = open("urls_needed.txt", "r")
+    archives_done = open("urls_used.txt", "r")
 
-arch_todo = open("arch_todo.txt", "r")
-for arch_line in arch_todo:
-    if os.stat("urls_used.txt").st_size == 0:
-        if j<5:
-            first_five_files(arch_line,j)
-            j = j + 1
+    arch_todo = open("arch_todo.txt", "r")
+    for arch_line in arch_todo:
+        if os.stat("urls_used.txt").st_size == 0:
+            if j<5:
+                first_five_files(arch_line,j)
+                j = j + 1
+            else:
+                all_other_files(arch_line)
         else:
             all_other_files(arch_line)
-    else:
-        all_other_files(arch_line)
 
 # ----------------------------------------------------------------------------------------------------------------------
 
-#archives = open("urls_used.txt", "r")
-# print(archives)
-#arch_files = archives.readlines()
-#print(arch_files)
-#print(type(arch_files))
-
-archives_needed = open("urls_needed.txt", "r")
-archives_done = open("urls_used.txt", "r")
-
-#needed_data = archives_needed.readlines()
-#done_data = archives_done.readlines()
-#print(type(needed_data))
-
-#for line1 in needed_data:
- #   i += 1
-  #  print("1")
-#
- #   for line2 in done_data:
-  #      print("2")
-   #     # matching line1 from both files
-    #    if line1 == line2:
-     #       print("right")
-      #      input("3")
-       # else:
-        #    print("wrong")
-         #   input("4")
-          #  with open("arch_todo.txt", "a+") as urls_todo:
-          #       urls_todo.write(f"\n {line1}")
-        #break
-
-#for i in range(len(needed_data)):
- #   if needed_data[i] != done_data[i]:
-  #      to_write = needed_data[i]
-   #     with open("arch_todo.txt", "a+") as urls_todo:
-    #        urls_todo.write(f"\n {to_write}")
-
-
+##maybe to do?
 # closing files
 #archives_needed.close()
 #archives_done.close()
 #urls_todo.close
-
-
-arch_todo = open("arch_todo.txt", "r")
-for arch_line in arch_todo:
-    if os.stat("urls_used.txt").st_size == 0:
-        if j<5:
-            first_five_files(arch_line,j)
-            j = j + 1
-        else:
-            all_other_files(arch_line)
-    else:
-        all_other_files(arch_line)
-

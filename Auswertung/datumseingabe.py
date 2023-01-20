@@ -23,9 +23,10 @@
 # ----------------------------------------------------------------------------------------------------------------------
 # Ein Datum benötigt:
 def eindatum():
-    global datum
+    #global datum
     datum = input("Bitte das gewünschte Datum im Format YYYY-MM-DD eingeben ")
     print(datum)
+    return datum
 
 # Zwei Daten benötigt:
 def zweidaten():

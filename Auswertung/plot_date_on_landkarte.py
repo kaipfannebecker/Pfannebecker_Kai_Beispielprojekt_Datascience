@@ -5,6 +5,7 @@ import sys
 import os
 import logging
 import datumseingabe
+import pprint
 import aktualitaet
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -33,10 +34,10 @@ import aktualitaet
 # anz_lk = 1
 # sort = 0
 # akt = 0
-data_neu_ges = 0
-global anz_date
-anz_date = 1
-laufvar_laender = 1
+#data_neu_ges = 0
+#global anz_date
+#anz_date = 1
+
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Logging:
@@ -54,24 +55,64 @@ logging.basicConfig(
 
 # Main function:
 def main(ebene, datensatz):
-    datumsabfrage()
-    datumspruefung()
-    variablengeneration(ebene, datensatz)
-    datacollection()
-    datashortage()
-    mapgeneration()
-    createfigure()
+    #aufruf_lk()
+    #date = ["2019-05-05"]
+    date = datumsabfrage()
+    print("Die Datumsabfrage ist abgelaufen")
+    print("----------------------------")
+    #print(vars())
+    #print("----------------------------")
+    datumspruefung(date)
+    print("Die Datumsprüfung ist abgelaufen")
+    print("----------------------------")
+    #print(vars())
+    #print("----------------------------")
+    variablen = variablengeneration(ebene, datensatz)
+    var_eb = variablen[0]
+    var_da = variablen[1]
+    var_da_anz = variablen[2]
+    var_da_sort = variablen[3]
+    var_da_verb = variablen[4]
+    print("Die Variablengeneration ist abgelaufen")
+    print("----------------------------")
+    #print(vars())
+    #print("----------------------------")
+    datacolvar = datacollection(date, var_da, var_da_sort, var_da_anz)
+    anzfae_all_lk_1 = datacolvar[0]
+    IdBundesland = datacolvar[1]
+    number_lk = datacolvar[2]
+    print("Die Datacollection ist abgelaufen")
+    print("----------------------------")
+    #print(vars())
+    #print("----------------------------")
+    anzfae_all_lk = datashortage(ebene, anzfae_all_lk_1, var_da, var_da_anz, number_lk, IdBundesland)
+    print("Die Datashortage ist abgelaufen")
+    print("----------------------------")
+    #print(vars())
+    #print("----------------------------")
+    mapgen = mapgeneration(ebene, anzfae_all_lk, var_da)
+    merged = mapgen[0]
+    vmin = mapgen[1]
+    vmax = mapgen[2]
+    print("Die Mapgenerierung ist abgelaufen")
+    print("----------------------------")
+    #print(vars())
+    #print("----------------------------")
+    createfigure(merged, var_da, ebene, var_da_verb, date, vmin, vmax)
 
 # ----------------------------------------------------------------------------------------------------------------------
-# Definierte Funktionen:
-def data_test(): # muss noch getestet werden
+################################################# Definierte Funktionen ################################################
+# ----------------------------------------------------------------------------------------------------------------------
+def data_test():
     with open(r'C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\urls_used.txt', 'r') as f:
         lines = f.read().splitlines()
         last_line = lines[-1]
         global date_dataset
         date_dataset = last_line[82:92]
+# gibt das DAtum der zuletzt eingelesenen Quelldatei mit Coronarohdaten aus.
 
-def data_recovery(var_da_sort, var_da_anz):
+# ----------------------------------------------------------------------------------------------------------------------
+def data_recovery(var_da_sort, var_da_anz, data_single_lk_neu):
     data_neu_pos_1 = data_single_lk_neu.loc[data_single_lk_neu[f'{var_da_sort}'] == 1.0]
     data_neu_pos = data_neu_pos_1.sum()
     data_neu_pos_num = data_neu_pos[f"{var_da_anz}"]
@@ -81,15 +122,21 @@ def data_recovery(var_da_sort, var_da_anz):
     else:
         data_neu_neg = data_neu_neg_1.sum()
         data_neu_neg_num = data_neu_neg[f"{var_da_anz}"]
-    global data_neu_ges
+    #global data_neu_ges
     data_neu_ges = data_neu_pos_num + data_neu_neg_num
+    return data_neu_ges
+# Sammelt die relevanten Anzahlen der Daten je nach gewünschter Ebene und Datensatz
 
+# ----------------------------------------------------------------------------------------------------------------------
 def data_lk(anzfae_all_lk_1):
     anzfae_all_lk_1['IdLandkreis'] = anzfae_all_lk_1['IdLandkreis'].astype(str)
     for index in anzfae_all_lk_1:
         anzfae_all_lk_1['IdLandkreis'] = anzfae_all_lk_1['IdLandkreis'].str.zfill(5)
+    return anzfae_all_lk_1
 
-def data_laender(var_da, anzfae_all_lk_1, laufvar_laender):
+# ----------------------------------------------------------------------------------------------------------------------
+def data_laender(var_da, anzfae_all_lk_1, number_lk, IdBundesland):
+    laufvar_laender = 1
     dataset_empt = {var_da: [0], "IdBundesland": [0]}
     # Beispiel: Alle todesfälle auf Landkreisebene: {"Gesamtzahl neue Todesfälle": [0], IdLandkreis: [0]}
     dataset = pd.DataFrame(data=dataset_empt)
@@ -106,8 +153,10 @@ def data_laender(var_da, anzfae_all_lk_1, laufvar_laender):
         dataset = list(dataset)
         anzfae_all_lk_1.loc[len(anzfae_all_lk_1)] = dataset
         laufvar_laender = laufvar_laender + 1
+    return anzfae_all_lk_1
 
-def data_bund(var_da, anzfae_all_lk_1):
+# ----------------------------------------------------------------------------------------------------------------------
+def data_bund(var_da, anzfae_all_lk_1,var_da_anz):
     dataset_empt = {var_da: [0], "Bundesgebiet": "Bundesgebiet"}
     # Beispiel: Alle todesfälle auf Landkreisebene: {"Gesamtzahl neue Todesfälle": [0], IdLandkreis: [0]}
     dataset = pd.DataFrame(data=dataset_empt)
@@ -116,22 +165,23 @@ def data_bund(var_da, anzfae_all_lk_1):
     dataset = {anzfae_all_lk_neu_ges, "Bundesgebiet"}
     dataset = list(dataset)
     anzfae_all_lk_1.loc[len(anzfae_all_lk_1)] = dataset
+    return anzfae_all_lk_1
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Gesuchtes Datum abfragen
 def datumsabfrage():
-    global date
+    #global date
     datumseingabe.eindatum()
     date = datumseingabe.datum
-    print("---------------------------------------------------------")
-    print(date)
-    print("---------------------------------------------------------")
+    #print("---------------------------------------------------------")
+    print(f"Das gewünschte Datum ist {date}")
+    #print("---------------------------------------------------------")
+    return date
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Prüfen ob gewünschtes Datum im Datensatz vorhanden ist:
-def datumspruefung():
+def datumspruefung(date):
     data_test()
-    global date
     if date_dataset > date or date_dataset == date:
         print("Das gewünschte Datum ist im Datensatz vorhanden.")
     if date_dataset < date:
@@ -152,10 +202,6 @@ def datumspruefung():
 # ----------------------------------------------------------------------------------------------------------------------
 # Generieren des leeren Dataframes sowie der Parameter passend zur Eingabe:
 def variablengeneration(ebene, datensatz):
-    global var_eb
-    global var_da_sort
-    global var_da_anz
-    global var_da_verb
 
     if ebene == 1:
         var_eb = "IdLandkreis"
@@ -180,58 +226,46 @@ def variablengeneration(ebene, datensatz):
         var_da_anz = "AnzahlTodesfall"
         var_da_verb = "killed"
 
-    empty_df = {var_da: [0], "IdLandkreis": [0], "IdBundesland": [0]}
-    # Beispiel: Alle todesfälle auf Landkreisebene: {"Gesamtzahl neue Todesfälle": [0], IdLandkreis: [0]}
-    global anzfae_all_lk_1
-    anzfae_all_lk_1 = pd.DataFrame(data=empty_df)
-    #print(anzfae_all_lk_1)
-    #print(type(anzfae_all_lk_1))
+    return var_eb,var_da,var_da_anz, var_da_sort, var_da_verb
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Daten vom gewünschten Tag aus allen Landkreisen abfragen:
-def datacollection():
+def datacollection(date, var_da, var_da_sort, var_da_anz):
+    empty_df = {var_da: [0], "IdLandkreis": [0], "IdBundesland": [0]}
+    # Beispiel: Alle todesfälle auf Landkreisebene: {"Gesamtzahl neue Todesfälle": [0], IdLandkreis: [0]}
+    anzfae_all_lk_1 = pd.DataFrame(data=empty_df)
     for file in os.listdir(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number"):
         if file.endswith(".csv"):
             data_single_lk = pd.read_csv(fr"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number\{file}")
             IdBundesland = data_single_lk.iloc[0]['IdBundesland']
-            #print(IdBundesland)
             data_single_lk_neu = data_single_lk.loc[data_single_lk['MeldedatumISO'] == date]
             if data_single_lk_neu.empty:
                 data_neu_ges = 0
             else:
-                data_recovery(var_da_sort, var_da_anz)
+                data_neu_ges = data_recovery(var_da_sort, var_da_anz, data_single_lk_neu)
             number_lk = file.removesuffix('.csv')
-            print(f"{number_lk}")
-            print(type(f"{number_lk}"))
-            print(data_neu_ges)
-            print(type(data_neu_ges))
-            print(IdBundesland)
-            print(type(IdBundesland))
             IdBundesland = int(IdBundesland)
             data_neu_ges = int(data_neu_ges)
-            #fall_t = {f"{number_lk}", data_neu_ges, IdBundesland}
             fall_t = {f"{number_lk}", data_neu_ges, IdBundesland}
-            print(fall_t)
             fall_t = list(fall_t)
-            print(fall_t)
-            print(type(fall_t))
             anzfae_all_lk_1.loc[len(anzfae_all_lk_1)] = fall_t
+    return anzfae_all_lk_1, IdBundesland, number_lk
 
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Daten auf relevante Ebene kürzen und bearbeiten:
-def datashortage():
+def datashortage(ebene, anzfae_all_lk_1, var_da, var_da_anz, number_lk, IdBundesland):
     if ebene == 1:
-        data_lk(anzfae_all_lk_1)
+        anzfae_all_lk_1 = data_lk(anzfae_all_lk_1)
 
     if ebene == 2:
-        data_laender(var_da, anzfae_all_lk_1, laufvar_laender)
+        anzfae_all_lk_1 = data_laender(var_da, anzfae_all_lk_1, number_lk, IdBundesland)
 
     if ebene == 3:
-        data_bund(var_da, anzfae_all_lk_1, date)
+        anzfae_all_lk_1 = data_bund(var_da, anzfae_all_lk_1, var_da_anz) #, date
 
-    print(anzfae_all_lk)
-    print(type(anzfae_all_lk))
+    #print(anzfae_all_lk)
+    #print(type(anzfae_all_lk))
 # anzfae_all_lk_1.to_csv("hallowelt.csv")
     # -------------------------------------------------------------------------------------------------------------------
     # erste Zeile mglw. löschen:
@@ -240,12 +274,10 @@ def datashortage():
         anzfae_all_lk = anzfae_all_lk_1.iloc[1:]
     else:
         anzfae_all_lk = anzfae_all_lk_1
-
-
-
+    return anzfae_all_lk
 # ----------------------------------------------------------------------------------------------------------------------
 # Map generieren und mit Daten kombinieren:
-def mapgeneration():
+def mapgeneration(ebene, anzfae_all_lk, var_da):
     # import shapefile:
     if ebene == 1:
         map_lk = gpd.read_file(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\Geoshape_Deutschland_vg2500_12-31.utm32s.shape\vg2500\VG2500_KRS.shp")
@@ -262,7 +294,6 @@ def mapgeneration():
         map_lk_eind = map_lk.loc[map_lk['GF'] == 9]
         merged = map_lk_eind.set_index('AGS').join(anzfae_all_lk.set_index("Bundesgebiet"))
 
-# ----------------------------------------------------------------------------------------------------------------------
     # 1) Auswahl der Spalte mit den relevanten Daten:
     column = merged[f'{var_da}']
 
@@ -273,9 +304,10 @@ def mapgeneration():
     # 3) Auswahl der Daten aus Geometry sowie Schreiben in einzelne Spalte:
     merged['coords'] = merged['geometry'].apply(lambda x: x.representative_point().coords[:])
     merged['coords'] = [coords[0] for coords in merged['coords']]
+    return merged, vmin, vmax
 
 # ----------------------------------------------------------------------------------------------------------------------
-def createfigure():
+def createfigure(merged, var_da, ebene, var_da_verb, date, vmin, vmax):
     # create figure and axes for Matplotlib
     fig, ax = plt.subplots(1, figsize=(10, 6))
 

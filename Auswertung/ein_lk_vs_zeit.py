@@ -25,13 +25,13 @@ datetime.strftime(yesterday, '%Y-%m-%d')
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Logging:
-logging.basicConfig(
-    level=logging.DEBUG,
-    format="{asctime} {levelname:<8} {message}",
-    style='{',
-    filename='%slog' % __file__[:-2],
-    filemode='a'
-)
+#logging.basicConfig(
+ #   level=logging.DEBUG,
+  #  format="{asctime} {levelname:<8} {message}",
+   # style='{',
+   # filename="ein_lk_vs_zeit.log",
+   # filemode='a'
+#)
 
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -52,38 +52,46 @@ akt = 1
 #################################################### Programmstart #####################################################
 # ----------------------------------------------------------------------------------------------------------------------
 def main(ebene, datensatz):
+
     logger = logging.getLogger(__name__)
+    handler = logging.FileHandler(f"{__name__}.log")
+    formatter = logging.Formatter('%(asctime)s,%(msecs)d %(levelname)-8s [%(pathname)s:%(lineno)d in ' \
+               'function %(funcName)s] %(message)s', datefmt='%Y-%m-%d:%H:%M:%S')
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+
     liste_lk = lk_best()
     print("-------------------------------------------")
     print("Der Landkreis wurde erfolgreich bestimmt.")
+    logger.info(f'Landkreis bestimmen erfolgreich ({liste_lk})')
     print("-------------------------------------------")
     sort = sortieren(liste_lk)
-    print("-------------------------------------------")
     print("Der ausgewählte Datensatz wurde sortiert.")
+    logger.info(f'Datensatz nach MeldedatumISO sortiert, returncode: sort = {sort}')
     print("-------------------------------------------")
     dataset = lk_einlesen(liste_lk)
-    print("-------------------------------------------")
     print("Der Landkreis wurde erfolgreich eingelesen.")
+    #logger.info(f'Datensatz nach MeldedatumISO sortiert, returncode: ({sort})')
     print("-------------------------------------------")
     datestart = startdatum(dataset)
-    print("-------------------------------------------")
     print("Das Startdatum wurde bestimmt.")
+    #logger.info(f'Datensatz nach MeldedatumISO sortiert, returncode: ({sort})')
     print("-------------------------------------------")
     dateend = enddatum(datestart)
-    print("-------------------------------------------")
     print("Das Enddatum wurde bestimmt.")
+    #logger.info(f'Datensatz nach MeldedatumISO sortiert, returncode: ({sort})')
     print("-------------------------------------------")
     dataset_final = datashortage(dataset, datestart, dateend)
-    print("-------------------------------------------")
     print("Der Datensatz wurde erfolgreich gekürzt.")
+    #logger.info(f'Datensatz nach MeldedatumISO sortiert, returncode: ({sort})')
     print("-------------------------------------------")
     anzfae_lk_vs_t = datacollection(dataset_final)
-    print("-------------------------------------------")
     print("Die Daten wurden gesammelt.")
+    logger.info(f'Datensatz nach MeldedatumISO sortiert, returncode: ({sort})')
     print("-------------------------------------------")
     lk_vs_t = sort_datum(anzfae_lk_vs_t)
-    print("-------------------------------------------")
     print("Der Datensatz wurde nach Datum sortiert.")
+    logger.info(f'Datensatz nach MeldedatumISO sortiert, returncode: ({sort})')
     print("-------------------------------------------")
     build_print_figure(lk_vs_t, liste_lk)
 
@@ -196,24 +204,16 @@ def datacollection(dataset_final):
             data_neu_neg = data_neu_neg.sum()
             data_neu_neg_num = data_neu_neg["AnzahlFall"]
         data_neu_ges = data_neu_pos_num + data_neu_neg_num
-        print(data_neu_ges)
-        print(type(data_neu_ges))
-        print(f"{meld_dat}")
-        print(type(f"{meld_dat}"))
         fall_t = {f"{meld_dat}",data_neu_ges}
         fall_t = list(fall_t)
-        print(fall_t)
         anzfae_lk_vs_t.loc[len(anzfae_lk_vs_t)] = fall_t
 
     anzfae_lk_vs_t = anzfae_lk_vs_t.iloc[1:]
-    print(anzfae_lk_vs_t)
-    print(type(anzfae_lk_vs_t))
     return anzfae_lk_vs_t
 
 def sort_datum(anzfae_lk_vs_t):
     # sortieren von lk_vs_t nach Datum
     lk_vs_t = anzfae_lk_vs_t.values.tolist()
-    print(lk_vs_t)
     return lk_vs_t
 def build_print_figure(lk_vs_t, liste_lk):
     fig, ax = plt.subplots(figsize=(10,10))  # Create a figure containing a single axes.

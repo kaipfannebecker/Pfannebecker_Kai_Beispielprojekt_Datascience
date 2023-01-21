@@ -40,23 +40,20 @@ import aktualitaet
 
 
 # ----------------------------------------------------------------------------------------------------------------------
-# Logging:
-logging.basicConfig(
-    level=logging.DEBUG,
-    format="{asctime} {levelname:<8} {message}",
-    style='{',
-    filename='%slog' % __file__[:-2],
-    filemode='a'
-)
 
-# ----------------------------------------------------------------------------------------------------------------------
 #################################################### Programmstart #####################################################
 # ----------------------------------------------------------------------------------------------------------------------
 
 # Main function:
 def main(ebene, datensatz):
-    #aufruf_lk()
-    #date = ["2019-05-05"]
+
+    logger = logging.getLogger(__name__)
+    handler = logging.FileHandler(f"{__name__}.log")
+    formatter = logging.Formatter('%(asctime)s,%(msecs)d %(levelname)-8s [%(pathname)s:%(lineno)d in ' \
+               'function %(funcName)s] %(message)s', datefmt='%Y-%m-%d:%H:%M:%S')
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+
     date = datumsabfrage()
     print("Die Datumsabfrage ist abgelaufen")
     print("----------------------------")

@@ -28,6 +28,14 @@ logging.basicConfig(
 # ----------------------------------------------------------------------------------------------------------------------
 
 def main(zu_sort, anz_sort):
+
+    logger = logging.getLogger(__name__)
+    handler = logging.FileHandler(f"{__name__}.log")
+    formatter = logging.Formatter('%(asctime)s,%(msecs)d %(levelname)-8s [%(pathname)s:%(lineno)d in ' \
+               'function %(funcName)s] %(message)s', datefmt='%Y-%m-%d:%H:%M:%S')
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+
     sort = sorting(zu_sort, anz_sort)
     return sort
 
@@ -38,9 +46,8 @@ def sorting(zu_sort, anz_sort):
     if anz_sort == 1:
         filename = f"{zu_sort}.csv"
         dataframe = pd.read_csv(fr"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number\{filename}")
-        print(dataframe)
         dataframe.sort_values(by=["MeldedatumISO"])
-        logging.info(f'Der Datensatz {zu_sort} wurde nach Meldedatum sortiert.')
+        logging.info(f'Der Datensatz {zu_sort} wurde nach MeldedatumISO sortiert.')
         dataframe.to_csv(fr"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number\{filename}.csv")
     else:
         for file in os.listdir(directory):

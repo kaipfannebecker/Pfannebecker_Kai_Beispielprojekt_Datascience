@@ -27,27 +27,28 @@ logging.basicConfig(
 #################################################### Programmstart #####################################################
 # ----------------------------------------------------------------------------------------------------------------------
 
-def main():
-    sort = sorting()
+def main(zu_sort, anz_sort):
+    sort = sorting(zu_sort, anz_sort)
     return sort
 
-def sorting():
-    directory = os.fsencode("C:\Users\Kai\Desktop\Projekt_Datascience\Auswertung")
+def sorting(zu_sort, anz_sort):
+    directory = os.fsencode(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number")
 
     # Iteriere über alle Files in einem Ordner
-    if zu_sort == True and len(zu_sort) == 1:
-        for file in os.listdir(directory):
-        filename = zu_sort.csv
-        dataframe = pd.read_csv(filename)
-        dataframe.sort_values(by=[3])
-        dataframe.to_csv(f"{filename}.csv")
+    if anz_sort == 1:
+        filename = f"{zu_sort}.csv"
+        dataframe = pd.read_csv(fr"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number\{filename}")
+        print(dataframe)
+        dataframe.sort_values(by=["MeldedatumISO"])
+        logging.info(f'Der Datensatz {zu_sort} wurde nach Meldedatum sortiert.')
+        dataframe.to_csv(fr"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number\{filename}.csv")
     else:
         for file in os.listdir(directory):
-        filename = os.fsdecode(file)
-        # suche nach .csv Dateien
+            filename = os.fsdecode(file)
+            # suche nach .csv Dateien
             if filename.endswith(".csv"):
                 dataframe = pd.read_csv(filename)
-                dataframe.sort_values(by=[3])
-                dataframe.to_csv(f"{filename}.csv")
+                dataframe.sort_values(by=["MeldedatumISO"])
+                dataframe.to_csv(fr"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number\{filename}.csv")
     sort = 1
     return sort

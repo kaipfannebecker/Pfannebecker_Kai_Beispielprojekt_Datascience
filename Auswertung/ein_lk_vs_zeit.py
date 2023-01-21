@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import logging
 import aufruf_lk
+import sort_meld
 import aktualitaet
 from datetime import datetime, timedelta, date
 today = date.today()
@@ -38,8 +39,8 @@ logging.basicConfig(
 
 ## zu Testzwecken:
 akt = 1
-sort = 1
-liste_lk = 1001
+#sort = 1
+#liste_lk = 1001
 
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -51,9 +52,14 @@ liste_lk = 1001
 #################################################### Programmstart #####################################################
 # ----------------------------------------------------------------------------------------------------------------------
 def main(ebene, datensatz):
+    logger = logging.getLogger(__name__)
     liste_lk = lk_best()
     print("-------------------------------------------")
     print("Der Landkreis wurde erfolgreich bestimmt.")
+    print("-------------------------------------------")
+    sort = sortieren(liste_lk)
+    print("-------------------------------------------")
+    print("Der ausgewählte Datensatz wurde sortiert.")
     print("-------------------------------------------")
     dataset = lk_einlesen(liste_lk)
     print("-------------------------------------------")
@@ -79,7 +85,7 @@ def main(ebene, datensatz):
     print("-------------------------------------------")
     print("Der Datensatz wurde nach Datum sortiert.")
     print("-------------------------------------------")
-    build_print_figure(lk_vs_t)
+    build_print_figure(lk_vs_t, liste_lk)
 
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -87,6 +93,11 @@ def lk_best():
     # Gesuchten Landkreis abfragen
     anz_lk = 1
     liste_lk = aufruf_lk.main(anz_lk)
+    print(liste_lk)
+    print(type(liste_lk))
+    liste_lk = str(liste_lk).replace('[', '').replace(']', '').replace("'", "")
+    # liste_lk = *output
+    print(liste_lk)
     return liste_lk
 
 
@@ -104,13 +115,13 @@ def lk_best():
 
 
 
-## sort_meld.py aufrufen und Daten nach Meldedatum sortieren
-
-#if sort < 1:
-#    zu_sort = liste_lk
-#    runpy.run_module(mod_name="sort_meld", mod_name=f"{zu_sort}")
-#else:
-    #break
+# sort_meld.py aufrufen und Daten nach Meldedatum sortieren
+def sortieren(liste_lk):
+    anz_sort = 1
+    sort = 0
+    zu_sort = liste_lk
+    sort = sort_meld.main(zu_sort, anz_sort)
+    return sort
 
 
 def lk_einlesen(liste_lk):
@@ -133,6 +144,18 @@ def startdatum(dataset):
             datestart = input("Das gewünschte Startdatum ist nicht im Datensatz vorhanden. Bitte ein neues Startdatum im Format YYYY-MM-DD eingeben. ")
     return datestart
 
+# Enddatum abfragen und überprüfen
+def enddatum(datestart):
+    dateend = input("Bitte das Enddatum im Format YYYY-MM-DD eingeben ")
+
+    while True:
+        if dateend > datestart:
+            print("Das gewünschte Startdatum liegt vor dem Enddatum")
+            break
+        else:
+            dataend = input("Das gewünschte Enddatum liegt vor dem Startdatum. Bitte ein neues Enddatum eingeben. ")
+    return dateend
+
 def datashortage(dataset, datestart, dateend):
 
     # dataframe auf Start- und Enddatum kürzen:
@@ -151,27 +174,6 @@ def datashortage(dataset, datestart, dateend):
         dataset_final = dataset_short[dataset_short["MeldedatumISO"] <= dateend]
 
     return dataset_final
-
-# Enddatum abfragen und überprüfen
-def enddatum(datestart):
-    dateend = input("Bitte das Enddatum im Format YYYY-MM-DD eingeben ")
-
-    while True:
-        if dateend > datestart:
-            print("Das gewünschte Startdatum liegt vor dem Enddatum")
-            break
-        else:
-            dataend = input("Das gewünschte Enddatum liegt vor dem Startdatum. Bitte ein neues Enddatum eingeben. ")
-    return dateend
-
-# Datensatz auf Enddatum kürzen
-
-#if dateend == today:
-#    dataset_final = dataset_short
-#else:
- #   dataset_short = dataset_short.sort_values(by="MeldedatumISO")
-  #  dataset_final = dataset_short[dataset_short["MeldedatumISO"] <= dateend]
-
 
 def datacollection(dataset_final):
     # erstellt den ursprünglichen Datensatz
@@ -198,18 +200,14 @@ def datacollection(dataset_final):
         print(type(data_neu_ges))
         print(f"{meld_dat}")
         print(type(f"{meld_dat}"))
-    #    fall_t = {f"{meld_dat}",data_neu_pos}
         fall_t = {f"{meld_dat}",data_neu_ges}
         fall_t = list(fall_t)
         print(fall_t)
-        #print(type(fall_t))
         anzfae_lk_vs_t.loc[len(anzfae_lk_vs_t)] = fall_t
 
     anzfae_lk_vs_t = anzfae_lk_vs_t.iloc[1:]
     print(anzfae_lk_vs_t)
     print(type(anzfae_lk_vs_t))
-        #anzfae_lk_vs_t = anzfae_lk_vs_t.append(fall_t, ignore_index=True)
-    #print(anzfae_lk_vs_t)
     return anzfae_lk_vs_t
 
 def sort_datum(anzfae_lk_vs_t):
@@ -217,7 +215,7 @@ def sort_datum(anzfae_lk_vs_t):
     lk_vs_t = anzfae_lk_vs_t.values.tolist()
     print(lk_vs_t)
     return lk_vs_t
-def build_print_figure(lk_vs_t):
+def build_print_figure(lk_vs_t, liste_lk):
     fig, ax = plt.subplots(figsize=(10,10))  # Create a figure containing a single axes.
     #ax.plot(anzfae_lk_vs_t[0], anzfae_lk_vs_t[1], color="black")# Plot some data on the axes.
     ax.plot(lk_vs_t[1], lk_vs_t[0], color="black")# Plot some data on the axes.

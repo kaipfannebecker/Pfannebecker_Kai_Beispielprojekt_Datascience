@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import sys
 import logging
 
@@ -12,6 +13,9 @@ import logging
 
 # Gibt zurück:
 ## liste_lk = Liste der Landkreise
+## Ausgabe in geschweiften Klammern; im aufrufenden Programm danach folgende Zeile nötig:
+### liste_lk = aufruf_lk.main(anz_lk)
+### liste_lk = str(liste_lk).replace('[', '').replace(']', '')
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Logging:
@@ -26,120 +30,111 @@ logging.basicConfig(
 # ----------------------------------------------------------------------------------------------------------------------
 #################################################### Programmstart #####################################################
 # ----------------------------------------------------------------------------------------------------------------------
+
+
 def main(anz_lk):
     lk_gesamt = einlesen_lk()
-    print(lk_gesamt)
     i = 0
-    liste_lk = list()
+    liste_lk = []
     while i < anz_lk:
         lk_gesucht = eingabe_lk()
-        print(lk_gesucht)
         # Falls der Name des Landkreises eingegeben wird, diesen zur zugehörigen Nummer zurordnen
-        test_var = check_user_input(lk_gesucht, lk_gesamt)
-        print(test_var)
-        lk_gesucht = test_var[0]
-        reihe_ges = test_var[1]
-        print(reihe_ges)
-        print(type(reihe_ges))
-        lk_laden(lk_gesamt, reihe_ges, lk_gesucht)
-        liste_lk = liste_lk.append(lk_gesucht)
+        lk_gesucht = check_user_input(lk_gesucht, lk_gesamt)
+        lk_gesucht = lk_laden(lk_gesamt, lk_gesucht)
+        liste_lk.append(lk_gesucht)
         i += 1
-    input("Enter")
-    print(liste_lk)
+        return liste_lk
+    print(f"Das Subprogramm aufruf_lk ist erfolgreich durchgelaufen und gibt {liste_lk} zurück.")
     return liste_lk
 
 # ----------------------------------------------------------------------------------------------------------------------
-def check_user_input(lk_gesucht, lk_gesamt): # funktioniert noch nicht
+
+
+def check_user_input(lk_gesucht, lk_gesamt):
+    print(lk_gesucht)
     try:
         # Convert it into integer
         lk_gesucht = int(lk_gesucht)
-        #reihe_ges = []
-        #print("Input is an integer number. Number = ", val)
     except ValueError:
-        print(lk_gesamt)
-        print(lk_gesucht)
-        reihe_ges = lk_gesamt.loc[lk_gesamt['NameLandkreis'] == "lk_gesucht"]
-        print(reihe_ges)
-        lk_gesucht = reihe_ges['IdLandkreis']
-        #return lk_gesucht, reihe_ges
-    return lk_gesucht, reihe_ges
-
-# ----------------------------------------------------------------------------------------------------------------------
-def einlesen_lk():
-    # ließt alle vorhandenen Landkreise ein
-    lk_gesamt = pd.read_csv(r'../Liste_der_Landkreise_fuer_Projekt.csv') #C:/Users/Kai/Desktop/Projekt_Datascience
-    return lk_gesamt
-# ----------------------------------------------------------------------------------------------------------------------
-#lk_gesucht=[]
-
-# ----------------------------------------------------------------------------------------------------------------------
-def eingabe_lk():
-    #lk_gesucht = []
-    lk_gesucht = input("Bitte den Namen des gewünschten Landkreises eingeben ")
-    #if lk_gesucht.strip().isalpha():
-     #   reihe_ges = lk_gesamt.loc[lk_gesamt['Name_Landkreis'] == "lk_gesucht"]
-      #  lk_gesucht = reihe_ges['Id_Landkreis']
-        #print(lk_gesucht)
-    #elif lk_gesucht.isdigit():
-     #   break
+        reihe_ges = lk_gesamt.loc[lk_gesamt['NameLandkreis'] == f"{lk_gesucht}"]
+        if reihe_ges.empty:  # testet ob reihe_ges leer ist. Falls nein, wird lk_gesucht ersetzt.
+            return lk_gesucht
+        else:
+            lk_gesucht = reihe_ges['IdLandkreis']
     return lk_gesucht
 
 # ----------------------------------------------------------------------------------------------------------------------
-# noch nötig?
-    #if lk_gesucht.strip().isalpha():
-     #   reihe_ges = lk_gesamt.loc[lk_gesamt['Name_Landkreis'] == "lk_gesucht"]
-      #  lk_gesucht = reihe_ges['Id_Landkreis']
-      #  print(lk_gesucht)
-    #elif lk_gesucht.isdigit():
-     #   break
 
-    #print(lk_gesucht)
-    #print(type(lk_gesucht))
+
+def einlesen_lk():
+    # liest alle vorhandenen Landkreise ein
+    lk_gesamt = pd.read_csv(r'../Liste_der_Landkreise_fuer_Projekt.csv')  # C:/Users/Kai/Desktop/Projekt_Datascience
+    return lk_gesamt
 
 # ----------------------------------------------------------------------------------------------------------------------
-def lk_laden(lk_gesamt, reihe_ges, lk_gesucht):
+
+
+def eingabe_lk():
+    lk_gesucht = input("Bitte den Namen des gewünschten Landkreises eingeben ")
+    return lk_gesucht
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+
+def lk_laden(lk_gesamt, lk_gesucht):
     # Gewünschten Landkreis laden, falls nicht möglich neue Eingabe einfordern
-    while True == True:
+    while True:
         try:
             print(lk_gesucht)
             print(type(lk_gesucht))
-            path_dir = str(fr"..\rki_daten\Datensatz_vereinzelt\by_number\{lk_gesucht[0]}.csv")
-            dataset = pd.read_csv(path_dir) # Zeile nötig?
+            if isinstance(lk_gesucht, int):
+                val_lk_ges = str(lk_gesucht).replace("'", "")
+            else:
+                val_lk_ges = lk_gesucht.iloc[0]
+            print(val_lk_ges)
+            print(type(val_lk_ges))
+            path_dir = str(fr"..\rki_daten\Datensatz_vereinzelt\by_number\{val_lk_ges}.csv")
+            print(path_dir)
+            open(path_dir)
+            print("Der Datensatz für den Landkreis ist vorhanden.")
             break
-        except FileNotFoundError or OSError:  # pd.errors.EmptyDataError:
+        except (FileNotFoundError, AttributeError):  # pd.errors.EmptyDataError: #OSError,
             print("Der Datensatz für den Landkreis ist nicht vorhanden.")
-            if len(reihe_ges):
-                namen_lk = lk_gesamt['1']
-            else:
-                namen_lk = "leer"
-            #alt_lk = k for k in lk_gesamt if f'{lk_gesucht}' in k
-            if len(reihe_ges):
-                alt_lk = namen_lk.loc[namen_lk['1'] == reihe_ges['1']]
-            else:
-                alt_lk = "leer"
-            print(f"Meinten Sie möglicherweise folgenden Landkreis: {alt_lk}?")
+            try:
+                # Convert it into integer
+                val_lk_ges = int(val_lk_ges)
+            except ValueError:
+                val_lk_ges = val_lk_ges
+            if isinstance(val_lk_ges, str):
+                namen_lk = lk_gesamt['NameLandkreis']
+                alt_lk = namen_lk[namen_lk.str.contains(f"{lk_gesucht}")]
+                print(f"Meinten Sie möglicherweise folgenden Landkreis: {alt_lk.iloc[0]}?")
+            if isinstance(val_lk_ges, int):
+                id_lk = lk_gesamt['IdLandkreis']
+                id_lk = id_lk.sort_values()
+                alt_lk_1 = id_lk.iloc[np.searchsorted(id_lk.values, [val_lk_ges])]
+                alt_lk_2 = id_lk.iloc[(np.searchsorted(id_lk.values, [val_lk_ges]) - 1)]
+                print(f"Meinten Sie möglicherweise folgenden Landkreis: {alt_lk_2.iloc[0]} oder {alt_lk_1.iloc[0]}?")
             weiter = input("Was möchten Sie tun? Drücken Sie bitte 1 oder 2:\n" 
                             "1. Erneute Eingabe eines Landkreises\n" 
-                            "2. Programm beenden\n"
+                            "2. Alle verfügbaren Landkreise anzeigen\n"
+                            "3. Programm beenden\n"
                            "" )
             if weiter == "2":
+                pd.set_option('display.max_rows', None)
+                print(lk_gesamt['NameLandkreis'])
+                weiter1 = input("Was möchten Sie tun? Drücken Sie bitte 1 oder 2:\n"
+                               "1. Erneute Eingabe eines Landkreises\n"
+                               "2. Programm beenden\n"
+                               "")
+                if weiter1 == "2":
+                    sys.exit()
+                if weiter1 == "1":
+                    lk_gesucht = eingabe_lk()
+                    lk_gesucht = check_user_input(lk_gesucht, lk_gesamt)
+            if weiter == "3":
                 sys.exit()
-            else:
+            if weiter == "1":
                 lk_gesucht = eingabe_lk()
-                test_var = check_user_input(lk_gesucht, lk_gesamt)
-                lk_gesucht = test_var[0]
-                reihe_ges = test_var[1]
-
-
-
-
-               # lk_gesucht = input("Bitte den Namen des gewünschten Landkreises eingeben ")
-               # if lk_gesucht.isalpha():
-                #    ges_reih = lk_gesamt.loc[lk_gesamt['1'] == "lk_gesucht"]
-                #    lk_gesucht = ges_reih[0]
-                # elif lk_gesucht.isdigit():
-                    # continue
-    #lk_gesucht.split()
-    #print(type(lk_gesucht))
-    #
-    #join(lk_gesucht)
+                lk_gesucht = check_user_input(lk_gesucht, lk_gesamt)
+    return val_lk_ges

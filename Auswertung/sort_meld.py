@@ -37,6 +37,7 @@ def main(zu_sort, anz_sort):
     logger.addHandler(handler)
 
     sort = sorting(zu_sort, anz_sort)
+    logger.info(f'Datensatz nach MeldedatumISO sortiert, returncode: sort = {sort}')
     return sort
 
 def sorting(zu_sort, anz_sort):

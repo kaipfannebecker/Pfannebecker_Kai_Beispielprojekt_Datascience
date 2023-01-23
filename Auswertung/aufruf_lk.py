@@ -22,7 +22,7 @@ import logging
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-def main(anz_lk):
+def main():
 
     logger = logging.getLogger(__name__)
     handler = logging.FileHandler(f"{__name__}.log")
@@ -31,19 +31,25 @@ def main(anz_lk):
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
+    print("----------------------------")
     lk_gesamt = einlesen_lk()
     logger.info(f'Tabelle mit allen Landkreisen erfolgreich eingelesen.')
-    i = 0
+    print("----------------------------")
+    #i = 0
     liste_lk = []
-    while i < anz_lk:
-        lk_gesucht = eingabe_lk()
-        # Falls der Name des Landkreises eingegeben wird, diesen zur zugehörigen Nummer zurordnen
-        lk_gesucht = check_user_input(lk_gesucht, lk_gesamt)
-        lk_gesucht = lk_laden(lk_gesamt, lk_gesucht)
-        liste_lk.append(lk_gesucht)
-        i += 1
-        return liste_lk
+    #while i < anz_lk:
+     #   lk_gesucht = eingabe_lk()
+      #  # Falls der Name des Landkreises eingegeben wird, diesen zur zugehörigen Nummer zurordnen
+      #  lk_gesucht = check_user_input(lk_gesucht, lk_gesamt)
+      #  lk_gesucht = lk_laden(lk_gesamt, lk_gesucht)
+      #  liste_lk.append(lk_gesucht)
+      #  i += 1
+      #  return liste_lk
     print(f"Das Subprogramm aufruf_lk ist erfolgreich durchgelaufen und gibt {liste_lk} zurück.")
+    lk_gesucht = eingabe_lk()
+    lk_gesucht = check_user_input(lk_gesucht, lk_gesamt)
+    liste_lk = lk_laden(lk_gesamt, lk_gesucht)
+    print(liste_lk)
     return liste_lk
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -84,16 +90,11 @@ def lk_laden(lk_gesamt, lk_gesucht):
     # Gewünschten Landkreis laden, falls nicht möglich neue Eingabe einfordern
     while True:
         try:
-            print(lk_gesucht)
-            print(type(lk_gesucht))
             if isinstance(lk_gesucht, int):
                 val_lk_ges = str(lk_gesucht).replace("'", "")
             else:
                 val_lk_ges = lk_gesucht.iloc[0]
-            print(val_lk_ges)
-            print(type(val_lk_ges))
             path_dir = str(fr"..\rki_daten\Datensatz_vereinzelt\by_number\{val_lk_ges}.csv")
-            print(path_dir)
             open(path_dir)
             print("Der Datensatz für den Landkreis ist vorhanden.")
             break
@@ -137,3 +138,5 @@ def lk_laden(lk_gesamt, lk_gesucht):
                 lk_gesucht = eingabe_lk()
                 lk_gesucht = check_user_input(lk_gesucht, lk_gesamt)
     return val_lk_ges
+
+#main()

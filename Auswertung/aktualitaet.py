@@ -73,3 +73,5 @@ sort = 0
 
 # import runpy
 # runpy.run_path(path_name='a.py', run_name="__main__")
+def main():
+    print("Aktualisierung muss noch implementiert werden")

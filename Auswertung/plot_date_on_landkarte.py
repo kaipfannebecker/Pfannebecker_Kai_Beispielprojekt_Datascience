@@ -92,13 +92,13 @@ def main(ebene, datensatz):
     vmin = mapgen[1]
     vmax = mapgen[2]
     merged_add = mapgen[3]
-    karte_berlin = mapgen[4]
+    merged_berlin = mapgen[4]
     print("Die Karte wurde erstellt.")
     logger.info("Die Karte wurde erstellt.")
     print("----------------------------")
     #print(vars())
     #print("----------------------------")
-    createfigure(merged, var_da, var_da_verb, date, vmin, vmax, merged_add, karte_berlin)
+    createfigure(merged, var_da, var_da_verb, date, vmin, vmax, merged_add, merged_berlin)
 
 # ----------------------------------------------------------------------------------------------------------------------
 ################################################# Definierte Funktionen ################################################
@@ -231,72 +231,84 @@ def datacollection(date, var_da, var_da_sort, var_da_anz):
             frames = [anzfae_all_lk_1, fall_t]
             anzfae_all_lk_1 = pd.concat(frames)
 
+
+
     # Die einzelnen Datenpunkte für Berlin bestimmen und zusammenrechnen:
     berlin_bez_empt = {"Gesamtzahl neue Infektionen": [0], "IdLandkreis": [0], "IdBundesland": [0]}
     berlin_bez = pd.DataFrame(data=berlin_bez_empt)
 
     berlin_mitt = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11001"]
     b_mit_val = berlin_mitt["Gesamtzahl neue Infektionen"].iloc[0]
+    berlin_mitt['IdLandkreis'] = berlin_mitt['IdLandkreis'].replace(["11001"], "1100001")
     frame_mitt = [berlin_bez, berlin_mitt]
     berlin_bez = pd.concat(frame_mitt)
 
     berlin_frdk = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11002"]
     b_frdk_val = berlin_frdk["Gesamtzahl neue Infektionen"].iloc[0]
+    berlin_frdk['IdLandkreis'] = berlin_frdk['IdLandkreis'].replace(["11002"], "1100002")
     frame_frdk = [berlin_bez, berlin_frdk]
     berlin_bez = pd.concat(frame_frdk)
 
     berlin_pank = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11003"]
     b_pank_val = berlin_pank["Gesamtzahl neue Infektionen"].iloc[0]
+    berlin_pank['IdLandkreis'] = berlin_pank['IdLandkreis'].replace(["11003"], "1100003")
     frame_pank = [berlin_bez, berlin_pank]
     berlin_bez = pd.concat(frame_pank)
 
     berlin_char = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11004"]
     b_char_val = berlin_char["Gesamtzahl neue Infektionen"].iloc[0]
+    berlin_char['IdLandkreis'] = berlin_char['IdLandkreis'].replace(["11004"], "1100004")
     frame_char = [berlin_bez, berlin_char]
     berlin_bez = pd.concat(frame_char)
 
     berlin_span = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11005"]
     b_span_val = berlin_span["Gesamtzahl neue Infektionen"].iloc[0]
+    berlin_span['IdLandkreis'] = berlin_span['IdLandkreis'].replace(["11005"], "1100005")
     frame_span = [berlin_bez, berlin_span]
     berlin_bez = pd.concat(frame_span)
 
     berlin_steg = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11006"]
     b_steg_val = berlin_steg["Gesamtzahl neue Infektionen"].iloc[0]
+    berlin_steg['IdLandkreis'] = berlin_steg['IdLandkreis'].replace(["11006"], "1100006")
     frame_steg = [berlin_bez, berlin_steg]
     berlin_bez = pd.concat(frame_steg)
 
     berlin_temp = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11007"]
     b_temp_val = berlin_temp["Gesamtzahl neue Infektionen"].iloc[0]
+    berlin_temp['IdLandkreis'] = berlin_temp['IdLandkreis'].replace(["11007"], "1100007")
     frame_steg = [berlin_bez, berlin_steg]
     berlin_bez = pd.concat(frame_steg)
 
     berlin_neuk = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11008"]
     b_neuk_val = berlin_neuk["Gesamtzahl neue Infektionen"].iloc[0]
+    berlin_neuk['IdLandkreis'] = berlin_neuk['IdLandkreis'].replace(["11008"], "1100008")
     frame_neuk = [berlin_bez, berlin_neuk]
     berlin_bez = pd.concat(frame_neuk)
 
     berlin_trep = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11009"]
     b_trep_val = berlin_trep["Gesamtzahl neue Infektionen"].iloc[0]
+    berlin_trep['IdLandkreis'] = berlin_trep['IdLandkreis'].replace(["11009"], "1100009")
     frame_trep = [berlin_bez, berlin_trep]
     berlin_bez = pd.concat(frame_trep)
 
     berlin_marz = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11010"]
     b_marz_val = berlin_marz["Gesamtzahl neue Infektionen"].iloc[0]
+    berlin_marz['IdLandkreis'] = berlin_marz['IdLandkreis'].replace(["11010"], "1100010")
     frame_marz = [berlin_bez, berlin_marz]
     berlin_bez = pd.concat(frame_marz)
 
     berlin_lich = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11011"]
     b_lich_val = berlin_lich["Gesamtzahl neue Infektionen"].iloc[0]
+    berlin_lich['IdLandkreis'] = berlin_lich['IdLandkreis'].replace(["11011"], "1100011")
     frame_lich = [berlin_bez, berlin_lich]
     berlin_bez = pd.concat(frame_lich)
 
     berlin_rein = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11012"]
     b_rein_val = berlin_rein["Gesamtzahl neue Infektionen"].iloc[0]
+    berlin_rein['IdLandkreis'] = berlin_rein['IdLandkreis'].replace(["11012"], "1100012")
     frame_rein = [berlin_bez, berlin_rein]
     berlin_bez = pd.concat(frame_rein)
 
-    print(berlin_rein)
-    print(type(berlin_bez))
 
     berlin_gesamt = (b_mit_val + b_frdk_val + b_pank_val + b_char_val + b_span_val + b_steg_val+ b_temp_val+ b_neuk_val
                      + b_trep_val + b_marz_val + b_lich_val + b_rein_val)
@@ -337,6 +349,7 @@ def datashortage(ebene, anzfae_all_lk_1, var_da, var_da_anz, number_lk, IdBundes
     if os.path.isfile(
             r'C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number\-1.csv"'):
         anzfae_all_lk = anzfae_all_lk_1.iloc[1:]
+        berlin_bez = berlin_bez.iloc[1:]
     else:
         anzfae_all_lk = anzfae_all_lk_1
     return anzfae_all_lk, berlin_bez
@@ -351,9 +364,12 @@ def mapgeneration(ebene, anzfae_all_lk, var_da, berlin_bez):
         # zusätzlich Grenzen Bundesländer verstärken:
         map_lk_add = gpd.read_file(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\Geoshape_Deutschland_vg2500_12-31.utm32s.shape\vg2500\VG2500_LAN.shp")
         map_lk_add_eind = map_lk_add.loc[map_lk['GF'] == 9]
-        merged_add = map_lk_add_eind.set_index('AGS').join(anzfae_all_lk.set_index("IdBundesland"))
-        karte_berlin = gpd.read_file("bezirksgrenzen.geojson")
-        merged_berlin = karte_berlin
+        merged_add = map_lk_add_eind.set_index('AGS').join(anzfae_all_lk.set_index("IdLandkreis"))
+        karte_berlin = gpd.read_file(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\Geoshape_Deutschland_vg2500_12-31.utm32s.shape\vg2500\bezirksgrenzen.geojson")
+        print(berlin_bez.head())
+
+        # hier liegt das Problem:
+        merged_berlin = karte_berlin.set_index('Schluessel_gesamt').join(berlin_bez.set_index("IdLandkreis"))
 
 
     if ebene == 2:
@@ -368,6 +384,7 @@ def mapgeneration(ebene, anzfae_all_lk, var_da, berlin_bez):
 
     # 1) Auswahl der Spalte mit den relevanten Daten:
     column = merged[f'{var_da}']
+    merged_berlin
 
     # 2) Auswahl des Maximums sowie Übertragen auf Legende rechts:
     max_betroffene = column.max()
@@ -376,13 +393,28 @@ def mapgeneration(ebene, anzfae_all_lk, var_da, berlin_bez):
     # 3) Auswahl der Daten aus Geometry sowie Schreiben in einzelne Spalte:
     merged['coords'] = merged['geometry'].apply(lambda x: x.representative_point().coords[:])
     merged['coords'] = [coords[0] for coords in merged['coords']]
-    return merged, vmin, vmax, merged_add, karte_berlin
+
+    merged_berlin['coords'] = merged_berlin['geometry'].apply(lambda x: x.representative_point().coords[:])
+    merged_berlin['coords'] = [coords[0] for coords in merged_berlin['coords']]
+
+    return merged, vmin, vmax, merged_add, merged_berlin
 
 # ----------------------------------------------------------------------------------------------------------------------
-def createfigure(merged, var_da, var_da_verb, date, vmin, vmax, merged_add, karte_berlin):
+def createfigure(merged, var_da, var_da_verb, date, vmin, vmax, merged_add, merged_berlin):
+
+# to do_build subplot with merged_berlin
 
     # create figure and axes for Matplotlib
-    fig, ax = plt.subplots(1, figsize=(10, 6))
+    # fig, ax = plt.subplots(1, figsize=(10, 6))
+
+    print(merged_berlin.head())
+    column_names = list(merged_berlin.columns.values)
+    print(column_names)
+    print(f'{var_da}')
+    print("------------------")
+    print(merged_berlin["Gesamtzahl neue Infektionen"])
+    print("------------------")
+    fig, [[ax1, ax2]] = plt.subplots(nrows=1, ncols=2, squeeze=False)  # figsize=(10, 6)
 
    # # Hiermit werden NAN Werte auch angezeigt:
    # merged.plot(column=f'{var_da}', cmap='YlOrRd', linewidth=0.8, ax=ax, edgecolor='0.8',
@@ -391,10 +423,22 @@ def createfigure(merged, var_da, var_da_verb, date, vmin, vmax, merged_add, kart
     # Hiermit werden NAN Werte auch angezeigt:
    # merged_add.plot(linewidth=0.8, ax=ax, edgecolor='0.8', missing_kwds={"edgecolor": "k"})  # column=f'{var_da}', cmap='YlOrRd', "color": "darkgrey",  , "label": "Missing values"
 
-    ax = merged_add.plot(facecolor="none", linewidth=0.8, ax=ax, edgecolor='k');   # , missing_kwds={"edgecolor": "k"}
 
-    merged.plot(ax=ax, column=f'{var_da}', cmap='YlOrRd', linewidth=0.8, edgecolor='0.8',
-                missing_kwds={"color": "darkgrey", "edgecolor": "k", "label": "Missing values"}, alpha=0.5);
+
+    #ax = merged_add.plot(facecolor="none", linewidth=0.8, ax=ax, edgecolor='k');   # , missing_kwds={"edgecolor": "k"}
+
+    #merged.plot(ax=ax, column=f'{var_da}', cmap='YlOrRd', linewidth=0.8, edgecolor='0.8',
+     #           missing_kwds={"color": "darkgrey", "edgecolor": "k", "label": "Missing values"}, alpha=0.5);
+
+
+    merged_add.plot(facecolor="none", linewidth=0.8, ax=ax1, edgecolor='k')    # , missing_kwds={"edgecolor": "k"}
+
+    merged.plot(ax=ax1, column=f'{var_da}', cmap='YlOrRd', linewidth=0.8, edgecolor='0.8',
+                missing_kwds={"color": "darkgrey", "edgecolor": "k", "label": "Missing values"}, alpha=0.5)
+
+
+    merged_berlin.plot(ax=ax2, column=f'{var_da}', cmap='YlOrRd', linewidth=0.8, edgecolor='0.8',
+                       missing_kwds={"color": "darkgrey", "edgecolor": "k", "label": "Missing values"})  # , alpha=0.5
 
     # Die eigentliche Figure bauen:
     #for idx, row in merged.iterrows():
@@ -404,15 +448,18 @@ def createfigure(merged, var_da, var_da_verb, date, vmin, vmax, merged_add, kart
         # Diese Reihe erzeugt die Nummern auf der Karte:
         #plt.annotate(text=row[f'{var_da}'], xy=row['coords'],horizontalalignment='center',fontsize=8)
     # remove the axis
-    ax.axis('off')
+    ax1.axis('off')
+    ax2.axis('off')
     # add a title
-    ax.set_title(f'Coronavirus {var_da_verb} in Germany ({date})', fontdict={'fontsize': '18','fontweight' : '3'})
+    ax1.set_title(f'Coronavirus {var_da_verb} in Germany ({date})', fontdict={'fontsize': '18','fontweight' : '3'})
+    ax2.set_title(f'Coronavirus {var_da_verb} in Berlin ({date})', fontdict={'fontsize': '18','fontweight' : '3'})
     #ax.annotate('Source: https://www.coronavirus.jetzt/karten/deutschland/',xy=(0.2, .06), xycoords='figure fraction'
                # ,horizontalalignment='left', verticalalignment='top',fontsize=10, color='#555555')
     sm = plt.cm.ScalarMappable(cmap='YlOrRd', norm=plt.Normalize(vmin=vmin, vmax=vmax))
     sm._A = []
     cbar = fig.colorbar(sm)
     fig.savefig('testmap_1.png', dpi=300)
+
 
     plt.show()
 

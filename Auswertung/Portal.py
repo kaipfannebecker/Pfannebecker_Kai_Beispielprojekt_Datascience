@@ -1,7 +1,9 @@
 import sys
 import logging
+
 import plot_date_on_landkarte
 import ein_lk_vs_zeit
+import aktualitaet
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
@@ -16,7 +18,7 @@ import ein_lk_vs_zeit
 ## "datumseingabe.py"
 
 # Gibt zurück:
-## 2d-Graph mit der x = Datum und Y = Anzahl Fälle
+## Weiteren Module zur Darstellung
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Logging:
@@ -29,50 +31,103 @@ logging.basicConfig(
 )
 
 # ----------------------------------------------------------------------------------------------------------------------
+
+
 def main():
+
+    # Zum debuggen auskommentieren:
+    # logger = logging.getLogger(__name__)
+    # handler = logging.FileHandler(f"{__name__}.log")
+    # formatter = logging.Formatter(
+    #    '%(asctime)s,%(msecs)d %(levelname)-8s [%(pathname)s:%(lineno)d in ''function %(funcName)s] %(message)s',
+    #    datefmt='%Y-%m-%d:%H:%M:%S'
+    # )
+    # handler.setFormatter(formatter)
+    # logger.addHandler(handler)
+
     begruessung()
-    abfrage_variablen()
-    abfrage_visualisierung()
+    # abfrage_vorgehen()
+    var = abfrage_variablen()
+    ebene = var[0]
+    datensatz = var[1]
+    abfrage_visualisierung(ebene, datensatz)
 # ----------------------------------------------------------------------------------------------------------------------
+
+
+# Begrüßung:
 def begruessung():
-    # Begrüßung:
     print("Herzlich Willkommen bei der Darstellung von Coronadaten in verschiedenen Visualisierungen.")
 
+
 # ----------------------------------------------------------------------------------------------------------------------
+
+
+# Abfrage Ebene:
+def abfrage_vorgehen():
+    vorgehen = eval(input(
+        "Möchten Sie die Daten zuerst aktualisieren oder die vorhandenen Daten direkt auswerten? \n"
+        "1) aktualisieren\n"
+        "2) auswerten\n"
+        "3) Abbruch\n"
+        " "
+    ))
+
+    if vorgehen == 1:
+        while True:
+            aktualitaet.main()
+            break
+
+    if vorgehen == 4:
+        sys.exit()
+
+    # return (vorgehen)
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+
+# Abfrage der Variablen:
 def abfrage_variablen():
     # Abfrage Ebene:
-    global ebene
-    ebene = eval(input("Auf welcher Ebene möchten Sie die Daten betrachten:\n"
-                        "1) Landkreise\n"
-                        "2) Bundesländer\n"
-                        "3) Bundesgebiet\n"
-                        "4) Abbruch\n"
-                        " "))
+    ebene = eval(input(
+        "Auf welcher Ebene möchten Sie die Daten betrachten:\n"
+        "1) Landkreise\n"
+        "2) Bundesländer\n"
+        "3) Bundesgebiet\n"
+        "4) Abbruch\n"
+        " "
+    ))
 
     if ebene == 4:
         sys.exit()
 
 # ----------------------------------------------------------------------------------------------------------------------
     # Abgefragter Datensatz:
-    global datensatz
-    datensatz = eval(input("Welche Daten möchten Sie angezeigt haben:\n"
-                            "1) Neue Fälle\n"
-                            "2) Neue Genesene\n"
-                            "3) Neue Todesfälle\n"
-                            "4) Abbruch\n"
-                            " "))
+    datensatz = eval(input(
+        "Welche Daten möchten Sie angezeigt haben:\n"
+        "1) Neue Fälle\n"
+        "2) Neue Genesene\n"
+        "3) Neue Todesfälle\n"
+        "4) Abbruch\n"
+        " "
+    ))
+
     if datensatz == 4:
         sys.exit()
 
+    return ebene, datensatz
+
 # ----------------------------------------------------------------------------------------------------------------------
-def abfrage_visualisierung():
-    # Abgefragter Datensatz:
-    global visualisierung
-    visualisierung = eval(input("Bitte wählen Sie die gewünschte Visualisierung:\n"
-                                "1) XY-Diagramm einer Ebene entlang der Zeitachse\n"
-                                "2) Heatmap Deutschland mit Auflösung der gewählten Ebene\n"
-                                "3) Abbruch\n"
-                                " "))
+
+
+# Abgefragte Visualisierung:
+def abfrage_visualisierung(ebene, datensatz):
+    visualisierung = eval(input(
+        "Bitte wählen Sie die gewünschte Visualisierung:\n"
+        "1) XY-Diagramm einer Ebene entlang der Zeitachse\n"
+        "2) Heatmap Deutschland mit Auflösung der gewählten Ebene\n"
+        "3) Abbruch\n"
+        " "
+    ))
 
     if visualisierung == 1:
         ein_lk_vs_zeit.main(ebene, datensatz)
@@ -84,5 +139,7 @@ def abfrage_visualisierung():
 # ----------------------------------------------------------------------------------------------------------------------
 #################################################### Programmstart #####################################################
 # ----------------------------------------------------------------------------------------------------------------------
+
+
 main()
 # ----------------------------------------------------------------------------------------------------------------------

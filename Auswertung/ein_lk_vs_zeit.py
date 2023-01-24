@@ -343,7 +343,7 @@ def add_dates_without_data(anzfae_lk_vs_t_1, datestart, dateend):
     # Fülle die Tage ein, bei denen keine neuen Werte gemeldet wurden:
     buis_dates = pd.bdate_range(start=datestart, end=dateend, inclusive="both")
     buis_dates_time = buis_dates.strftime('%Y-%m-%d') # , %r
-    buis_dates_ser = pd.Series()
+    buis_dates_ser = pd.Series(dtype='float64')
     dates_meld = anzfae_lk_vs_t_1["Datum"]
     for i in buis_dates_time:
         i_ser = pd.Series(i)

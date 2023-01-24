@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+
 import sys
 import logging
 
@@ -18,7 +19,7 @@ import logging
 ### liste_lk = str(liste_lk).replace('[', '').replace(']', '')
 
 # ----------------------------------------------------------------------------------------------------------------------
-#################################################### Programmstart #####################################################
+################################################ Definierte Funktionen #################################################
 # ----------------------------------------------------------------------------------------------------------------------
 
 
@@ -26,30 +27,20 @@ def main():
 
     logger = logging.getLogger(__name__)
     handler = logging.FileHandler(f"{__name__}.log")
-    formatter = logging.Formatter('%(asctime)s,%(msecs)d %(levelname)-8s [%(pathname)s:%(lineno)d in ' \
-               'function %(funcName)s] %(message)s', datefmt='%Y-%m-%d:%H:%M:%S')
+    formatter = logging.Formatter(
+        '%(asctime)s,%(msecs)d %(levelname)-8s [%(pathname)s:%(lineno)d in ''function %(funcName)s] %(message)s',
+        datefmt='%Y-%m-%d:%H:%M:%S'
+    )
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
-    print("----------------------------")
     lk_gesamt = einlesen_lk()
     logger.info(f'Tabelle mit allen Landkreisen erfolgreich eingelesen.')
-    print("----------------------------")
-    #i = 0
     liste_lk = []
-    #while i < anz_lk:
-     #   lk_gesucht = eingabe_lk()
-      #  # Falls der Name des Landkreises eingegeben wird, diesen zur zugehörigen Nummer zurordnen
-      #  lk_gesucht = check_user_input(lk_gesucht, lk_gesamt)
-      #  lk_gesucht = lk_laden(lk_gesamt, lk_gesucht)
-      #  liste_lk.append(lk_gesucht)
-      #  i += 1
-      #  return liste_lk
-    print(f"Das Subprogramm aufruf_lk ist erfolgreich durchgelaufen und gibt {liste_lk} zurück.")
     lk_gesucht = eingabe_lk()
     lk_gesucht = check_user_input(lk_gesucht, lk_gesamt)
     liste_lk = lk_laden(lk_gesamt, lk_gesucht)
-    print(liste_lk)
+    logger.info(f"Das Subprogramm aufruf_lk ist erfolgreich durchgelaufen und gibt {liste_lk} zurück.")
     return liste_lk
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -139,4 +130,8 @@ def lk_laden(lk_gesamt, lk_gesucht):
                 lk_gesucht = check_user_input(lk_gesucht, lk_gesamt)
     return val_lk_ges
 
-#main()
+# ----------------------------------------------------------------------------------------------------------------------
+#################################################### Programmstart #####################################################
+# ----------------------------------------------------------------------------------------------------------------------
+
+# main()

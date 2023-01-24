@@ -2,22 +2,22 @@ import logging
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-## Bestimmt über das Modul "aufruf_lk.py" genau einen Landkreis, prüft die Daten über das Module "aktualitaet.py" auf
-## Aktualität und sortiert über "sort_meld.py" nach Meldedatum. Danach wird das Startdatum sowie Enddatum bestimmt und
-## die Zahl der resultierenden Fälle pro Tag als Graph ausgegeben.
+##
 
 # Benötigt:
-## "aufruf_lk.py"
-## "aktualitaet.py"
-## "sort_meld.py"
-## "datumseingabe.py"
+##
 
 # Gibt zurück:
-## 2d-Graph mit der x = Datum und Y = Anzahl Fälle
+## Variablen:
+### var_eb:
+### var_da:
+### var_da_anz:
+### var_da_sort:
+### var_da_verb:
 
 
 # ----------------------------------------------------------------------------------------------------------------------
-#################################################### Programmstart #####################################################
+################################################ Definierte Funktionen #################################################
 # ----------------------------------------------------------------------------------------------------------------------
 
 
@@ -25,8 +25,10 @@ def main(ebene, datensatz):
 
     logger = logging.getLogger(__name__)
     handler = logging.FileHandler(f"{__name__}.log")
-    formatter = logging.Formatter('%(asctime)s,%(msecs)d %(levelname)-8s [%(pathname)s:%(lineno)d in '
-               'function %(funcName)s] %(message)s', datefmt='%Y-%m-%d:%H:%M:%S')
+    formatter = logging.Formatter(
+        '%(asctime)s,%(msecs)d %(levelname)-8s [%(pathname)s:%(lineno)d in ''function %(funcName)s] %(message)s',
+        datefmt='%Y-%m-%d:%H:%M:%S'
+    )
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
@@ -67,4 +69,12 @@ def variablengeneration(ebene, datensatz):
         var_da_anz = "AnzahlTodesfall"
         var_da_verb = "killed"
 
-    return var_eb,var_da,var_da_anz, var_da_sort, var_da_verb
+    return var_eb, var_da, var_da_anz, var_da_sort, var_da_verb
+
+# ----------------------------------------------------------------------------------------------------------------------
+#################################################### Programmstart #####################################################
+# ----------------------------------------------------------------------------------------------------------------------
+
+# ebene == 1
+# datensatz == 1
+# main(ebene, datensatz)

@@ -24,24 +24,31 @@ logging.basicConfig(
     filemode='a'
 )
 # ----------------------------------------------------------------------------------------------------------------------
-#################################################### Programmstart #####################################################
+################################################# Definierte Funktionen ################################################
 # ----------------------------------------------------------------------------------------------------------------------
+
 
 def main(zu_sort, anz_sort):
 
     logger = logging.getLogger(__name__)
     handler = logging.FileHandler(f"{__name__}.log")
-    formatter = logging.Formatter('%(asctime)s,%(msecs)d %(levelname)-8s [%(pathname)s:%(lineno)d in ' \
-               'function %(funcName)s] %(message)s', datefmt='%Y-%m-%d:%H:%M:%S')
+    formatter = logging.Formatter(
+        '%(asctime)s,%(msecs)d %(levelname)-8s [%(pathname)s:%(lineno)d in ''function %(funcName)s] %(message)s',
+        datefmt='%Y-%m-%d:%H:%M:%S'
+    )
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
     sort = sorting(zu_sort, anz_sort)
     logger.info(f'Datensatz nach MeldedatumISO sortiert, returncode: sort = {sort}')
+
     return sort
 
+
 def sorting(zu_sort, anz_sort):
-    directory = os.fsencode(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number")
+    directory = os.fsencode(
+        r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number"
+    )
 
     # Iteriere über alle Files in einem Ordner
     if anz_sort == 1:
@@ -60,3 +67,13 @@ def sorting(zu_sort, anz_sort):
                 dataframe.to_csv(fr"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number\{filename}.csv")
     sort = 1
     return sort
+
+
+# ----------------------------------------------------------------------------------------------------------------------
+#################################################### Programmstart #####################################################
+# ----------------------------------------------------------------------------------------------------------------------
+
+
+# zu_sort = 1001
+# anz_sort = 1
+# main(zu_sort, anz_sort)

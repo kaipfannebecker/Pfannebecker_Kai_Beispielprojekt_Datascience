@@ -6,9 +6,6 @@ logging.basicConfig(filename='example.log', level=logging.DEBUG)
 
 dataset_rki = pd.read_csv('C:\\Users\\Kai\\Documents\\GitHub\\Projekt_Datascience\\Datensatz_Neuinfektionen_gesamt.csv', low_memory=False)
 
-# dataset_rki = pd.read_csv(f'https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland_Archiv/blob/master/Archiv/{date_today}_Deutschland_SarsCov2_Infektionen.csv')
-
-
 # dataset_rki = pd.read_csv('.\\Datensatz_gesamt\\2021-04-02_Deutschland_SarsCov2_Infektionen.csv')
 tab_lk = pd.read_csv('C:\\Users\\Kai\\Documents\\GitHub\\Projekt_Datascience\\Liste_der_Landkreise_fuer_Projekt.csv')
 

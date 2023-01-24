@@ -65,26 +65,31 @@ def main(ebene, datensatz):
     print("Die notwendigen Variablen wurden generiert.")
     logger.info("Die Variablengeneration ist abgelaufen.")
     print("----------------------------")
+
     date = datumsabfrage()
     print(f"Das gewünschte Datum ist {date}")
     logger.info(f"Die Datumsabfrage ist abgelaufen, das gewünschte Datum ist {date}")
     print("----------------------------")
+
     date = datumspruefung(date)
     print("Das gewünschte Datum ist vorhanden.")
     logger.info("Die Datumsprüfung ist abgelaufen. Das gewünschte Datum ist vorhanden.")
     print("----------------------------")
+
     datacolvar = datacollection(date, var_da, var_da_sort, var_da_anz)
     anzfae_all_lk_1 = datacolvar[0]
     berlin_bez_1 = datacolvar[1]
     print("Die Daten wurden gesammelt.")
     logger.info("Die Daten wurden gesammelt.")
     print("----------------------------")
+
     dateshortvar = datashortage(ebene, anzfae_all_lk_1, var_da, var_da_anz, berlin_bez_1)
     anzfae_all_lk = dateshortvar[0]
     berlin_bez = dateshortvar[1]
     print("Die Daten wurden auf den gewünschten Zeitraum gekürzt.")
     logger.info("Die Daten wurden auf den gewünschten Zeitraum gekürzt.")
     print("----------------------------")
+
     mapgen = mapgeneration(ebene, anzfae_all_lk, var_da, berlin_bez)
     merged = mapgen[0]
     vmin = mapgen[1]
@@ -94,6 +99,7 @@ def main(ebene, datensatz):
     print("Die Karte wurde erstellt.")
     logger.info("Die Karte wurde erstellt.")
     print("----------------------------")
+
     createfigure(merged, var_da, var_da_verb, date, vmin, vmax, merged_add, merged_berlin, ebene)
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -267,85 +273,35 @@ def datacollection(date, var_da, var_da_sort, var_da_anz):
     # ------------------------------------------------------------------------------------------------------------------
 
     # Die einzelnen Datenpunkte für Berlin bestimmen und zusammenrechnen:
+    # ------------------------------------------------------------------------------------------------------------------
+    x = ["11001", "11002", "11003", "11004", "11005", "11006", "11007", "11008", "11009", "11010", "11011", "11012"]
+    y = ["11000001", "11000002", "11000003", "11000004", "11000005", "11000006", "11000007", "11000008", "11000009", "11000010", "11000011", "11000012"]
+    print(x)
+    print(type(x))
+
     berlin_bez_empt = {f"{var_da}": [0], "IdLandkreis": [0], "IdBundesland": [0]}
     berlin_bez_1 = pd.DataFrame(data=berlin_bez_empt)
+    berlin_spez_bez_var = {}
 
-    berlin_mitt = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11001"]
-    b_mit_val = berlin_mitt[f"{var_da}"].iloc[0]
-    berlin_mitt.loc[0, 'IdLandkreis'] = "11000001"
-    frame_mitt = [berlin_bez_1, berlin_mitt]
-    berlin_bez_1 = pd.concat(frame_mitt)
+    for i in range(0, 12):
+        x1 = x[i]
+        y1 = y[i]
+        berlin_spez_bez = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == x1]
+        print(berlin_spez_bez)
+        print(y1)
+        berlin_spez_bez_var[i] = berlin_spez_bez[f"{var_da}"].iloc[0]
+        berlin_spez_bez.loc[0, 'IdLandkreis'] = y1
+        frame_bez = [berlin_bez_1, berlin_spez_bez]
+        berlin_bez_1 = pd.concat(frame_bez)
 
-    berlin_frdk = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11002"]
-    b_frdk_val = berlin_frdk[f"{var_da}"].iloc[0]
-    berlin_frdk.loc[0, 'IdLandkreis'] = "11000002"
-    frame_frdk = [berlin_bez_1, berlin_frdk]
-    berlin_bez_1 = pd.concat(frame_frdk)
+    print(berlin_bez_1)
 
-    berlin_pank = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11003"]
-    b_pank_val = berlin_pank[f"{var_da}"].iloc[0]
-    berlin_pank.loc[0, 'IdLandkreis'] = "11000003"
-    frame_pank = [berlin_bez_1, berlin_pank]
-    berlin_bez_1 = pd.concat(frame_pank)
+    berlin_gesamt = (
+            berlin_spez_bez_var[0] + berlin_spez_bez_var[1] + berlin_spez_bez_var[2] + berlin_spez_bez_var[3] +
+            berlin_spez_bez_var[4] + berlin_spez_bez_var[5] + berlin_spez_bez_var[6] + berlin_spez_bez_var[7] +
+            berlin_spez_bez_var[8] + berlin_spez_bez_var[9] + berlin_spez_bez_var[10] + berlin_spez_bez_var[11]
+    )
 
-    berlin_char = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11004"]
-    b_char_val = berlin_char[f"{var_da}"].iloc[0]
-    berlin_char.loc[0, 'IdLandkreis'] = "11000004"
-    frame_char = [berlin_bez_1, berlin_char]
-    berlin_bez_1 = pd.concat(frame_char)
-
-    berlin_span = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11005"]
-    b_span_val = berlin_span[f"{var_da}"].iloc[0]
-    berlin_span.loc[0, 'IdLandkreis'] = "11000005"
-    frame_span = [berlin_bez_1, berlin_span]
-    berlin_bez_1 = pd.concat(frame_span)
-
-    berlin_steg = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11006"]
-    b_steg_val = berlin_steg[f"{var_da}"].iloc[0]
-    berlin_steg.loc[0, 'IdLandkreis'] = "11000006"
-    frame_steg = [berlin_bez_1, berlin_steg]
-    berlin_bez_1 = pd.concat(frame_steg)
-
-    berlin_temp = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11007"]
-    b_temp_val = berlin_temp[f"{var_da}"].iloc[0]
-    berlin_temp.loc[0, 'IdLandkreis'] = "11000007"
-    frame_temp = [berlin_bez_1, berlin_temp]
-    berlin_bez_1 = pd.concat(frame_temp)
-
-    berlin_neuk = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11008"]
-    b_neuk_val = berlin_neuk[f"{var_da}"].iloc[0]
-    berlin_neuk.loc[0, 'IdLandkreis'] = "11000008"
-    frame_neuk = [berlin_bez_1, berlin_neuk]
-    berlin_bez_1 = pd.concat(frame_neuk)
-
-    berlin_trep = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11009"]
-    b_trep_val = berlin_trep[f"{var_da}"].iloc[0]
-    berlin_trep.loc[0, 'IdLandkreis'] = "11000009"
-    frame_trep = [berlin_bez_1, berlin_trep]
-    berlin_bez_1 = pd.concat(frame_trep)
-
-    berlin_marz = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11010"]
-    b_marz_val = berlin_marz[f"{var_da}"].iloc[0]
-    berlin_marz.loc[0, 'IdLandkreis'] = "11000010"
-    frame_marz = [berlin_bez_1, berlin_marz]
-    berlin_bez_1 = pd.concat(frame_marz)
-
-    berlin_lich = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11011"]
-    b_lich_val = berlin_lich[f"{var_da}"].iloc[0]
-    berlin_lich.loc[0, 'IdLandkreis'] = "11000011"
-    frame_lich = [berlin_bez_1, berlin_lich]
-    berlin_bez_1 = pd.concat(frame_lich)
-
-    berlin_rein = anzfae_all_lk_1.loc[anzfae_all_lk_1["IdLandkreis"] == "11012"]
-    b_rein_val = berlin_rein[f"{var_da}"].iloc[0]
-    berlin_rein.loc[0, 'IdLandkreis'] = "11000012"
-    frame_rein = [berlin_bez_1, berlin_rein]
-    berlin_bez_1 = pd.concat(frame_rein)
-
-    # ------------------------------------------------------------------------------------------------------------------
-
-    berlin_gesamt = (b_mit_val + b_frdk_val + b_pank_val + b_char_val + b_span_val + b_steg_val + b_temp_val+ b_neuk_val
-                     + b_trep_val + b_marz_val + b_lich_val + b_rein_val)
     fall_t = pd.DataFrame({var_da: [berlin_gesamt], "IdLandkreis": ["11000"], "IdBundesland": [11]})
     frames = [anzfae_all_lk_1, fall_t]
     anzfae_all_lk_1 = pd.concat(frames)
@@ -526,6 +482,13 @@ def createfigure(merged, var_da, var_da_verb, date, vmin, vmax, merged_add, merg
     sm._A = []
     cbar = fig.colorbar(sm)
     fig.savefig('testmap_1.png', dpi=300)
+
+#    manager = plt.get_current_fig_manager()
+    #figManager = plt.get_current_fig_manager()
+    #figManager.window.showMaximized()
+    # manager.full_screen_toggle()
+    wm = plt.get_current_fig_manager()
+    wm.window.state('zoomed')
 
     plt.show()
 

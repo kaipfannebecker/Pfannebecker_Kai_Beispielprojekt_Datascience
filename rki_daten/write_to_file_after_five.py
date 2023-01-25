@@ -19,7 +19,7 @@ def main(next_url):
     if "Refdatum" not in df:
         df["Refdatum"] = 1
     df = df.drop(columns=["RefdatumISO", "Refdatum", "Datenstand", "ObjectId", "Meldedatum"])  # "DatenstandISO",
-    df.to_csv("Datensatz_Neuinfektionen_gesamt.csv")
+    df.to_csv("Datensatz_Neuinfektionen_gesamt.csv", mode="a")
     del df
     gc.collect()
     logging.info(f"{next_url}_fertig")

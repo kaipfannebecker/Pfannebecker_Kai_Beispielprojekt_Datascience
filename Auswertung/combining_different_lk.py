@@ -34,7 +34,7 @@ for file in os.listdir(directory):
         tempTuple = os.path.splitext(filename)
         # print("The tuple is:", tempTuple)
         lknr = tempTuple[0]
-        # Prüfe wie aktuell Daten sind und aktualisiere gegebenenfalls auf heute
+        # Prüfe wie aktuell Data_collection sind und aktualisiere gegebenenfalls auf heute
         if date is today:
             break
         else:

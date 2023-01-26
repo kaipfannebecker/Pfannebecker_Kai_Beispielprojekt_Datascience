@@ -1,14 +1,10 @@
 import matplotlib.pyplot as plt
 import geopandas as gpd
 import pandas as pd
-import numpy as np
 import sys
-import subprocess
-import runpy
 import os
 import logging
-import datumseingabe
-import aktualitaet
+from Methoden.Auswertung.Helper import datumseingabe
 
 # import datumseingabe
 # from datetime import datetime, timedelta, date
@@ -18,7 +14,7 @@ import aktualitaet
 # ----------------------------------------------------------------------------------------------------------------------
 
 # Aufgabe des Moduls:
-## Bestimmt über das Modul "aufruf_lk.py" genau einen Landkreis, prüft die Daten über das Module "aktualitaet.py" auf
+## Bestimmt über das Modul "aufruf_lk.py" genau einen Landkreis, prüft die Data_collection über das Module "aktualitaet.py" auf
 ## Aktualität und sortiert über "sort_meld.py" nach Meldedatum. Danach wird das Startdatum sowie Enddatum bestimmt und
 ## die Zahl der resultierenden Fälle pro Tag als Graph ausgegeben.
 
@@ -113,8 +109,8 @@ def data_bund(var_da, anzfae_all_lk_1):
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Abfrage Ebene:
-ebene = eval(input("Auf welcher Ebene möchten Sie die Daten betrachten:\n"
-                   "1) Landkreise\n"
+ebene = eval(input("Auf welcher Ebene möchten Sie die Data_collection betrachten:\n"
+                   "1) Landkreise_Bundeslaender\n"
                    "2) Bundesländer\n"
                    "3) Bundesgebiet\n"
                    "4) Abbruch\n"
@@ -125,7 +121,7 @@ if ebene == 4:
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Abgefragter Datensatz:
-datensatz = eval(input("Welche Daten möchten Sie angezeigt haben:\n"
+datensatz = eval(input("Welche Data_collection möchten Sie angezeigt haben:\n"
                        "1) Neue Fälle\n"
                        "2) Neue Genesene\n"
                        "3) Neue Todesfälle\n"
@@ -201,7 +197,7 @@ anzfae_all_lk_1 = pd.DataFrame(data=empty_df)
 #print(type(anzfae_all_lk_1))
 
 # ----------------------------------------------------------------------------------------------------------------------
-# Daten vom gewünschten Tag aus allen Landkreisen abfragen:
+# Data_collection vom gewünschten Tag aus allen Landkreisen abfragen:
 for file in os.listdir(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number"):
     if file.endswith(".csv"):
         data_single_lk = pd.read_csv(fr"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number\{file}")
@@ -231,7 +227,7 @@ for file in os.listdir(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_d
 
 
 # ----------------------------------------------------------------------------------------------------------------------
-# Daten auf relevante Ebene kürzen:
+# Data_collection auf relevante Ebene kürzen:
 if ebene == 1:
     data_lk(anzfae_all_lk_1)
 
@@ -253,7 +249,7 @@ else:
     anzfae_all_lk = anzfae_all_lk_1
 
 # ----------------------------------------------------------------------------------------------------------------------
-# Map generieren und mit Daten kombinieren:
+# Map generieren und mit Data_collection kombinieren:
 
 # import shapefile:
 if ebene == 1:
@@ -272,14 +268,14 @@ if ebene == 3:
     merged = map_lk_eind.set_index('AGS').join(anzfae_all_lk.set_index("Bundesgebiet"))
 
 # ----------------------------------------------------------------------------------------------------------------------
-# 1) Auswahl der Spalte mit den relevanten Daten:
+# 1) Auswahl der Spalte mit den relevanten Data_collection:
 column = merged[f'{var_da}']
 
 # 2) Auswahl des Maximums sowie Übertragen auf Legende rechts:
 max_betroffene = column.max()
 vmin, vmax = 0, max_betroffene
 
-# 3) Auswahl der Daten aus Geometry sowie Schreiben in einzelne Spalte:
+# 3) Auswahl der Data_collection aus Geometry sowie Schreiben in einzelne Spalte:
 merged['coords'] = merged['geometry'].apply(lambda x: x.representative_point().coords[:])
 merged['coords'] = [coords[0] for coords in merged['coords']]
 

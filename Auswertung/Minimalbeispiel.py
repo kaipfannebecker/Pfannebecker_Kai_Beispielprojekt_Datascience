@@ -10,7 +10,7 @@ import os
 empty_df = {"Gesamtzahl neue Infektionen": [0], "IdLandkreis": [0]}
 anzfae_all_lk = pd.DataFrame(data=empty_df)
 
-# Daten vom gewünschten Tag aus allen Landkreisen abfragen:
+# Data_collection vom gewünschten Tag aus allen Landkreisen abfragen:
 for file in os.listdir(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number"):
     if file.endswith(".csv"):
         data_single_lk = pd.read_csv(fr"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number\{file}")

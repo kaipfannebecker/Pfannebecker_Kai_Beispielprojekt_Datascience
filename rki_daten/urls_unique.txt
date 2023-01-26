@@ -1,4 +1,3 @@
-https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2021-05-02-01-57.ndjson.xz
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2021-05-03-02-00.ndjson.xz
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2021-05-04-02-03.ndjson.xz
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2021-05-05-02-20.ndjson.xz

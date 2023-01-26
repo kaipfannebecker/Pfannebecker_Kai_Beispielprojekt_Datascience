@@ -2,6 +2,7 @@ https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/dat
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-03-22-12-00.ndjson.xz
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-03-23-12-00.ndjson.xz
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-03-24-12-00.ndjson.xz
+https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-03-25-12-00.ndjson.xz #to do
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-03-25-12-00.ndjson.xz
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-03-26-12-00.ndjson.xz
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-03-27-12-00.ndjson.xz
@@ -404,3 +405,4 @@ https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/dat
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2021-04-29-02-23.ndjson.xz
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2021-04-30-01-55.ndjson.xz
 https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2021-05-01-02-05.ndjson.xz
+https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2021-05-02-01-57.ndjson.xz

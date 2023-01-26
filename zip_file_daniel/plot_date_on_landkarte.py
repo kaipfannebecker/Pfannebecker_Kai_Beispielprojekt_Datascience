@@ -12,7 +12,7 @@ datetime.strftime(yesterday, '%Y-%m-%d')
 # ----------------------------------------------------------------------------------------------------------------------
 
 # Aufgabe des Moduls:
-## Bestimmt über das Modul "aufruf_lk.py" genau einen Landkreis, prüft die Daten über das Module "aktualitaet.py" auf
+## Bestimmt über das Modul "aufruf_lk.py" genau einen Landkreis, prüft die Data_collection über das Module "aktualitaet.py" auf
 ## Aktualität und sortiert über "sort_meld.py" nach Meldedatum. Danach wird das Startdatum sowie Enddatum bestimmt und
 ## die Zahl der resultierenden Fälle pro Tag als Graph ausgegeben.
 
@@ -44,7 +44,7 @@ date = "2020-03-19"
 empty_df = {"Gesamtzahl neue Infektionen": [0], "IdLandkreis": [0]}
 anzfae_all_lk_1 = pd.DataFrame(data=empty_df)
 
-# Daten vom gewünschten Tag aus allen Landkreisen abfragen:
+# Data_collection vom gewünschten Tag aus allen Landkreisen abfragen:
 for file in os.listdir(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number"):
     if file.endswith(".csv"):
         data_single_lk = pd.read_csv(fr"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_daten\Datensatz_vereinzelt\by_number\{file}")
@@ -69,7 +69,7 @@ for file in os.listdir(r"C:\Users\Kai\Documents\GitHub\Projekt_Datascience\rki_d
         # print(type(fall_t))
         anzfae_all_lk_1.loc[len(anzfae_all_lk_1)] = fall_t
 
-# Einlesen von Daten funktioniert
+# Einlesen von Data_collection funktioniert
 
 # ----------------------------------------------------------------------------------------------------------------------
 # letzte Zeile löschen, funktioniert noch nicht
@@ -107,20 +107,20 @@ map_lk_eind = map_lk.loc[map_lk['GF'] == 9]
 #import2 = anzfae_all_lk['IdLandkreis']
 #print(import2)
 # ----------------------------------------------------------------------------------------------------------------------
-# Daten von Map und Datensatz kombinieren:
+# Data_collection von Map und Datensatz kombinieren:
 merged = map_lk_eind.set_index('AGS').join(anzfae_all_lk.set_index('IdLandkreis'))
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Generating plot:
 
-# 1) Auswahl der Spalte mit den relevanten Daten:
+# 1) Auswahl der Spalte mit den relevanten Data_collection:
 column = merged['Gesamtzahl neue Infektionen']
 
 # 2) Auswahl des Maximums sowie Übertragen auf Legende rechts:
 max_Infizierte = column.max()
 vmin, vmax = 0, max_Infizierte
 
-# 3) Auswahl der Daten aus Geometry sowie Schreiben in einzelne Spalte:
+# 3) Auswahl der Data_collection aus Geometry sowie Schreiben in einzelne Spalte:
 merged['coords'] = merged['geometry'].apply(lambda x: x.representative_point().coords[:])
 merged['coords'] = [coords[0] for coords in merged['coords']]
 

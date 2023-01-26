@@ -11,7 +11,7 @@ anzfae_lk_vs_t = pd.DataFrame(columns=["Datum", "Gesamtzahl neue Infektionen"])
 #print(anzfae_lk_vs_t)
 #print(type(anzfae_lk_vs_t))
 
-## iterieren über die einzelnen Daten von startdatum bis enddatum
+## iterieren über die einzelnen Data_collection von startdatum bis enddatum
 
 # meld_dat,
 

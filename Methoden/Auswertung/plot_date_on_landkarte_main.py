@@ -261,7 +261,8 @@ def datacollection(date, var_da, var_da_sort, var_da_anz):
     # Die einzelnen Datenpunkte für Berlin bestimmen und zusammenrechnen:
     # ------------------------------------------------------------------------------------------------------------------
     x = ["11001", "11002", "11003", "11004", "11005", "11006", "11007", "11008", "11009", "11010", "11011", "11012"]
-    y = ["11000001", "11000002", "11000003", "11000004", "11000005", "11000006", "11000007", "11000008", "11000009", "11000010", "11000011", "11000012"]
+    y = ["11000001", "11000002", "11000003", "11000004", "11000005", "11000006", "11000007", "11000008", "11000009",
+         "11000010", "11000011", "11000012"]
 
     berlin_bez_empt = {f"{var_da}": [0], "IdLandkreis": [0], "IdBundesland": [0]}
     berlin_bez_1 = pd.DataFrame(data=berlin_bez_empt)
@@ -540,8 +541,6 @@ def createfigure(merged, var_da, var_da_verb, date, vmin, vmax, merged_add, merg
             'Datenquelle: RKI', xy=(0.2, .06), xycoords='figure fraction', horizontalalignment='center',
             verticalalignment='top', fontsize=10, color='#555555'
         )
-
-
 
     # Die eigentliche Figure bauen:
 

@@ -27,8 +27,6 @@ def collection(akt):
         if finished == 0:
             next_url = get_next_url.main()
             next_url = download_url.main(next_url)
-            #print(next_url)
-            #print(type(next_url))
             xz_extract.main()
             x1 = "https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-03-21-12-00.ndjson.xz"
             x2 = "https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-03-22-12-00.ndjson.xz"
@@ -36,11 +34,8 @@ def collection(akt):
             x4 = "https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-03-24-12-00.ndjson.xz"
             x5 = "https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/data_2020-03-25-12-00.ndjson.xz"
             list_first_five = [x1, x2, x3, x4, x5]
-            #print(list_first_five)
-            #print(type(list_first_five))
             s = f"{next_url}"
             count = list_first_five.count(s)
-            #print(count)
 
             #if next_url in list_first_five:
             if count > 0:

@@ -168,12 +168,18 @@ def data_laender(var_da, anzfae_all_lk_1):
 def data_bund(var_da, anzfae_all_lk_1, var_da_anz):
     dataset_empt = {var_da: [0], "Bundesgebiet": "Bundesgebiet"}
     # Beispiel: Alle todesfälle auf Landkreisebene: {"Gesamtzahl neue Todesfälle": [0], IdLandkreis: [0]}
-    dataset = pd.DataFrame(data=dataset_empt)
+    frame_data_bund = pd.DataFrame(data=dataset_empt)
     anzfae_all_lk_neu = anzfae_all_lk_1.sum()
-    anzfae_all_lk_neu_ges = anzfae_all_lk_neu[f"{var_da_anz}"]
-    dataset = {anzfae_all_lk_neu_ges, "Bundesgebiet"}
-    dataset = list(dataset)
-    anzfae_all_lk_1.loc[len(anzfae_all_lk_1)] = dataset
+    frame_data_bund = [anzfae_all_lk_neu[f"{var_da}"], "Deutschland"]
+    print(frame_data_bund)
+    print(type(frame_data_bund))
+    # dataframe_data_bund = pd.DataFrame(frame_data_bund)
+    anzfae_all_lk_1 = pd.DataFrame([frame_data_bund], columns=[f"{var_da}", "Bundesgebiet"])
+    print(anzfae_all_lk_1)
+    print(type(anzfae_all_lk_1))
+    #anzfae_all_lk_1 = pd.concat(dataframe_data_bund)
+    #dataset = list(dataset)
+    #anzfae_all_lk_1.loc[len(anzfae_all_lk_1)] = dataset
 
     # ---------------------------------
     # berlin_bez_empt = {"Gesamtzahl neue Infektionen": [0], "IdLandkreis": [0], "IdBundesland": [0]}
@@ -232,6 +238,8 @@ def variablengeneration(ebene, datensatz):
 
 # Data_collection vom gewünschten Tag aus allen Landkreisen abfragen:
 def datacollection(date, var_da, var_da_sort, var_da_anz):
+    print(date)
+    print(type(date))
     empty_df = {var_da: [0], "IdLandkreis": [0], "IdBundesland": [0]}
     # Beispiel: Alle todesfälle auf Landkreisebene: {"Gesamtzahl neue Todesfälle": [0], IdLandkreis: [0]}
     anzfae_all_lk_1 = pd.DataFrame(data=empty_df)
@@ -243,14 +251,25 @@ def datacollection(date, var_da, var_da_sort, var_da_anz):
         if file.endswith(".csv"):
             data_single_lk = pd.read_csv(fr".\rki_daten\Datensatz_vereinzelt\by_number\{file}")
             id_bundesland = data_single_lk.iloc[0]['IdBundesland']
-            data_single_lk_neu = data_single_lk.loc[data_single_lk['MeldedatumISO'] == date]
+            #pd.set_option('display.expand_frame_repr', False)
+            #print(data_single_lk)
+            #pd.set_option('display.max_rows', None)
+            #print(data_single_lk['MeldedatumISO'])
+            data_single_lk_neu = data_single_lk.loc[data_single_lk['MeldedatumISO'] == f"{date}"]
+            #print(data_single_lk_neu)
             if data_single_lk_neu.empty:
                 data_neu_ges = 0
+                #print("true")
             else:
                 data_neu_ges = data_recovery(var_da_sort, var_da_anz, data_single_lk_neu)
+                #print("false")
             number_lk = file.removesuffix('.csv')
+
+            #input("enter")
+
             id_bundesland = int(id_bundesland)
             data_neu_ges = int(data_neu_ges)
+            #print(data_neu_ges)
             fall_t = pd.DataFrame({var_da: [data_neu_ges], "IdLandkreis": [f"{number_lk}"],
                                    "IdBundesland": [id_bundesland]})
             frames = [anzfae_all_lk_1, fall_t]
@@ -288,6 +307,7 @@ def datacollection(date, var_da, var_da_sort, var_da_anz):
     anzfae_all_lk_1 = pd.concat(frames)
 
     # ------------------------------------------------------------------------------------------------------------------
+
 
     return anzfae_all_lk_1, berlin_bez_1
 
@@ -410,7 +430,8 @@ def mapgeneration(ebene, anzfae_all_lk, var_da, berlin_bez):
             r"./Geoshape_Deutschland_vg2500_12-31.utm32s.shape/vg2500/VG2500_STA.shp"
         )
         map_lk_eind = map_lk.loc[map_lk['GF'] == 9]
-        merged = map_lk_eind.set_index('AGS').join(anzfae_all_lk.set_index("Bundesgebiet"))
+        merged = map_lk_eind.set_index('GEN').join(anzfae_all_lk.set_index("Bundesgebiet"))
+
         merged_add = ()
         merged_berlin = ()
 
@@ -428,7 +449,6 @@ def mapgeneration(ebene, anzfae_all_lk, var_da, berlin_bez):
     # 3) Auswahl der Data_collection aus Geometry sowie Schreiben in einzelne Spalte:
     merged['coords'] = merged['geometry'].apply(lambda x: x.representative_point().coords[:])
     merged['coords'] = [coords[0] for coords in merged['coords']]
-    print(merged)
 
     return merged, vmin, vmax, merged_add, merged_berlin, large, large_oversized
 
@@ -449,7 +469,7 @@ def createfigure(merged, var_da, var_da_verb, date, vmin, vmax, merged_add, merg
         # Grenzen Landkreise_Bundeslaender ausweisen:
         ax1 = plt.subplot2grid((2, 2), (0, 0), rowspan=2)
         merged.plot(
-            ax=ax1, column=f'{var_da}', cmap='YlOrRd', linewidth=0.8, edgecolor='0.8',
+            ax=ax1, column=f'{var_da}', cmap='YlOrRd', linewidth=0.8, edgecolor='0.8', vmin=vmin, vmax=vmax,
             missing_kwds={"color": "darkgrey", "edgecolor": "k", "label": "Missing values"}, alpha=0.5
         )
 
@@ -464,7 +484,7 @@ def createfigure(merged, var_da, var_da_verb, date, vmin, vmax, merged_add, merg
         # Subfigure Berlin definieren:
         ax2 = plt.subplot2grid((2, 2), (0, 1))
         merged_berlin.plot(
-            ax=ax2, column=f'{var_da}', cmap='YlOrRd', linewidth=0.8, edgecolor='0.8',
+            ax=ax2, column=f'{var_da}', cmap='YlOrRd', linewidth=0.8, edgecolor='0.8', vmin=vmin, vmax=vmax,
             missing_kwds={"color": "darkgrey", "edgecolor": "k", "label": "Missing values"}
         )  # , alpha=0.5
 
@@ -541,6 +561,21 @@ def createfigure(merged, var_da, var_da_verb, date, vmin, vmax, merged_add, merg
             'Datenquelle: RKI', xy=(0.2, .06), xycoords='figure fraction', horizontalalignment='center',
             verticalalignment='top', fontsize=10, color='#555555'
         )
+
+    if ebene == 3:
+        fig = plt.figure()
+
+        ax1 = plt.subplot2grid((1, 1), (0, 0))
+        merged.plot(ax=ax1, column=f'{var_da}', cmap='YlOrRd', linewidth=0.8, edgecolor='0.8',
+                    missing_kwds={"color": "darkgrey", "edgecolor": "k", "label": "Missing values"})  # , alpha=0.5
+
+        ax1.set_title(f'Coronavirus {var_da_verb} in Germany ({date})', fontdict={'fontsize': '18', 'fontweight': '3'})
+
+        ax1.axis('off')
+
+        sm = plt.cm.ScalarMappable(cmap='YlOrRd', norm=plt.Normalize(vmin=vmin, vmax=vmax))
+        sm._A = []
+        cbar = fig.colorbar(sm)
 
     # Die eigentliche Figure bauen:
 

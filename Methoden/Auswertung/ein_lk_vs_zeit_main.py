@@ -4,6 +4,8 @@ import pandas as pd
 import os
 import logging
 from datetime import datetime, timedelta, date
+import sys
+
 
 from Methoden.Auswertung.Helper import aktualitaet, gen_var, data_recovery, aufruf_lk, datumseingabe, sort_meld
 
@@ -60,12 +62,15 @@ def main(ebene, datensatz):
     logger.info("Die Variablengeneration ist abgelaufen.")
     print("-------------------------------------------")
 
-    liste_lk = lk_best()
+    lk_best_ret = lk_best()
+    liste_lk = lk_best_ret[0]
+    name_lk = lk_best_ret[1]
+    print(name_lk)
     print("Der Landkreis wurde erfolgreich bestimmt.")
     logger.info(f'Landkreis bestimmen erfolgreich, die ID lautet: {liste_lk}')
     print("-------------------------------------------")
 
-    akt = aktuali(akt, liste_lk)
+    akt = aktuali(akt)
     print("Der Datensatz  wurde erfolgreich aktualisiert.")
     logger.info(f'Der Datensatz  wurde erfolgreich aktualisiert, returncode: sort = {akt}')
     sort = sortieren(liste_lk)
@@ -101,7 +106,7 @@ def main(ebene, datensatz):
     logger.info("Der Datensatz wurde nach Datum sortiert.")
     print("-------------------------------------------")
 
-    build_print_figure(lk_vs_t, liste_lk, var_da_sort, datensatz)
+    build_print_figure(lk_vs_t, liste_lk, var_da_sort, datensatz, name_lk)
 
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -117,23 +122,39 @@ def define_dates():
 
 def lk_best():
     # Gesuchten Landkreis abfragen
-    liste_lk = aufruf_lk.main()
-    print(liste_lk)
-    print(type(liste_lk))
+    aufruf_lk_ret = aufruf_lk.main()
+    liste_lk = aufruf_lk_ret[0]
+    name_lk = aufruf_lk_ret[1]
+    #name_lk = name_lk_1[1]
+    print(name_lk)
+    #print(liste_lk)
+    #print(type(liste_lk))
     liste_lk = str(liste_lk).replace('[', '').replace(']', '').replace("'", "")
     print(liste_lk)
-    return liste_lk
+    return liste_lk, name_lk
 
 # ----------------------------------------------------------------------------------------------------------------------
 
 
 # aktualitaet.py aufrufen und Aktualität der .csv Datei prüfen
-def aktuali(akt, liste_lk):
+def aktuali(akt):
     if akt <= 1:
-        zu_akt = liste_lk
-        akt = aktualitaet.main()
+        ausw_frag = eval(input(
+            "Was möchten Sie tun? \n"
+            "1) vorhandene Daten nutzen\n"
+            "2) Daten aktualisieren\n"
+            "3) Abbruch\n"
+            ""
+        ))
+
+        if ausw_frag == 1:
+            print("Die vorhandenen Daten werden genutzt")
+        if ausw_frag == 2:
+            akt = aktualitaet.main()
+        if ausw_frag == 3:
+            sys.exit()
     else:
-        print("Keine Aktualisierung nötig")
+        print("Keine Aktualisierung nötig, Auswertung geht weiter.")
     return akt
 
 
@@ -255,7 +276,7 @@ def sort_datum(anzfae_lk_vs_t):
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-def build_print_figure(lk_vs_t, liste_lk, var_da_sort, datensatz):
+def build_print_figure(lk_vs_t, liste_lk, var_da_sort, datensatz, name_lk):
     data_plot = pd.DataFrame(lk_vs_t)
     data_plot = data_plot.rename(columns={0: "Gesamtzahl neue Infektionen", 1: "Datum", 2: "IdBundesland"})
     x = data_plot["Datum"]
@@ -279,13 +300,13 @@ def build_print_figure(lk_vs_t, liste_lk, var_da_sort, datensatz):
     fig.autofmt_xdate(rotation=45)
 
     ax.plot(x, y, linewidth=2.0)
-    plt.xticks(x[::2])
+    plt.xticks(x[::4])
 
-    plt.title(f"Verlauf der {fig_ueb} je Tag für den Landkreis {liste_lk}")
+    plt.title(f"Verlauf der {fig_ueb} je Tag für den Landkreis {name_lk}")
     ax.set_xlabel("Datum", fontsize=14)
     ax.set_ylabel(f"Anzahl der {fig_ueb}", color="black", fontsize=14)
 
-    fig.savefig(f'Anzahl_Faelle_vs_Zeit_für_{liste_lk}.png', dpi=200, pad_inches=5)
+    fig.savefig(f'Anzahl_Faelle_vs_Zeit_für_{name_lk}.png', dpi=200, pad_inches=5)
     plt.show()
 
 

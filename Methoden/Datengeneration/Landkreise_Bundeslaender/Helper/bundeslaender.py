@@ -16,7 +16,7 @@ import numpy as np
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-def create_liste_lk():
+def create_liste_bl():
     # Datensatz Schleswig-Holstein hinzufügen
     sh_data = dict(A="01", B="Schleswig-Holstein")
     df = pd.DataFrame(sh_data, index=[0])
@@ -58,6 +58,6 @@ def main():
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
-    create_liste_lk()
+    create_liste_bl()
 
 # main()

@@ -13,7 +13,7 @@ import logging
 
 # ----------------------------------------------------------------------------------------------------------------------
 def create_liste_lk():
-    # Ließt Idenitifier und Namen der Landkreise_Bundeslaender ein; ACHTUNG: resultierender Datatype String!
+    # Liest Idenitifier und Namen der Landkreise_Bundeslaender ein; ACHTUNG: resultierender Datatype String!
     lk_all = pd.read_excel(r"./landkreise/AuszugGV2QAktuell.xlsx",
                            sheet_name=1, header=6, usecols='C:F, H', na_values=['NA'], dtype=str
                            )
@@ -33,6 +33,38 @@ def create_liste_lk():
     # Spalte length löschen
     lk_small = lk_small.drop(columns=lk_small.columns[6])
 
+    # -----------------------------------------------------------------------
+    # Datensätze Landkreise nach Bundesländern geordnet erzeugen:
+    dataset_double = lk_small
+
+    bl_data = {
+        "IdBundesland": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "NameBundesland": [
+            "Schleswig-Holstein", "Hamburg", "Niedersachsen", "Bremen", "Nordrhein-Westfalen", "Hessen",
+            "Rheinland-Pfalz", "Baden-Württemberg", "Bayern", "Saarland", "Berlin", "Brandenburg",
+            "Mecklenburg-Vorpommern", "Sachsen", "Sachsen-Anhalt", "Thüringen"]
+    }
+    bl = pd.DataFrame(data=bl_data)
+
+    for Id_bl, dataset_double in dataset_double.groupby('01'):
+        Id_bl = int(Id_bl)-1
+        name_bl = bl.iloc[Id_bl]["NameBundesland"]
+
+        dataset_double['01'] = dataset_double['01'] + dataset_double["Unnamed: 3"] + dataset_double["Unnamed: 4"]
+
+        # löschen der Zeilen D und E sowie VB
+        dataset_double = dataset_double.drop(columns=dataset_double.columns[1])
+        dataset_double = dataset_double.drop(columns=dataset_double.columns[1])
+        dataset_double = dataset_double.drop(columns=dataset_double.columns[1])
+
+        dataset_double = dataset_double.rename(columns={"01": "IdLandkreis"})
+
+        nr = Id_bl+1
+
+        ## save the dataframe for each group to a csv; seperated for each Bundesland
+        dataset_double.to_csv(
+            f'.\\landkreise\\nach_Bundesland\\Liste_Landkreise_in_{nr}_{name_bl}.csv', index=False, mode='w'
+        )
+    # -----------------------------------------------------------------------
 
     # Zellen C, D, E zu einer Nummer verbinden
     zweiter_wert = lk_small["Unnamed: 3"]

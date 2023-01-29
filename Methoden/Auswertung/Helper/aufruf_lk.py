@@ -40,8 +40,11 @@ def main():
     lk_gesucht = eingabe_lk()
     lk_gesucht = check_user_input(lk_gesucht, lk_gesamt)
     liste_lk = lk_laden(lk_gesamt, lk_gesucht)
+    liste_lk_1 = np.int64(liste_lk)
+    reihe_lk = lk_gesamt.loc[lk_gesamt['IdLandkreis'] == liste_lk_1]
+    name_lk = reihe_lk["NameLandkreis"].values[0]
     logger.info(f"Das Subprogramm aufruf_lk ist erfolgreich durchgelaufen und gibt {liste_lk} zurück.")
-    return liste_lk
+    return liste_lk, name_lk
 
 # ----------------------------------------------------------------------------------------------------------------------
 

@@ -31,6 +31,8 @@ def write_file_after_five(data):
         df["RefdatumISO"] = 1
     if "Refdatum" not in df:
         df["Refdatum"] = 1
+    if "ObjectId" not in df:
+        df["ObjectId"] = 1
     df = df.drop(columns=["RefdatumISO", "Refdatum", "Datenstand", "ObjectId", "Meldedatum"])  # "DatenstandISO",
     df.to_csv(r"./rki_daten/Datensatz_Neuinfektionen_gesamt.csv", mode="a")
     del df

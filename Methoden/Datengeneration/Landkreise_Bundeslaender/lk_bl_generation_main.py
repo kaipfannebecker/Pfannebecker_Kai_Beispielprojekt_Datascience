@@ -1,4 +1,5 @@
 import logging
+
 from Methoden.Datengeneration.Landkreise_Bundeslaender.Helper \
     import liste_landkreise, liste_rki, combine_Listen_Landkreise, bundeslaender
 
@@ -6,13 +7,13 @@ from Methoden.Datengeneration.Landkreise_Bundeslaender.Helper \
 # ----------------------------------------------------------------------------------------------------------------------
 
 # Aufgabe des Moduls:
-## Ordnet die einzelnen Landkreise_Bundeslaender den jeweiligen Bundesländern zu.
+## erzeugt die Liste der Landkreise sowie die Liste der Bundesländer
 
 # Benötigt:
-##
+## Module: liste_landkreise.py, liste_rki.py, combine_Listen_Landkreise.py, bundeslaender.py
 
 # Gibt zurück:
-##
+## zwei separate Listen: einmal mit Bundesländern, einmal mit Landkreisen
 
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -27,10 +28,14 @@ def main():
 
     # Liste Landkreise generieren
     liste_landkreise.main()
+    logging.info("Die Liste der Landkreise wurde generiert.")
     liste_rki.main()
+    logging.info("Die Liste der Berliner Bezirke  wurde erstellt.")
     combine_Listen_Landkreise.main()
+    logging.info("Beide Listen wurden vereinigt.")
 
     # Liste Bundesländer generieren
     bundeslaender.main()
+    logging.info("Die Liste der Bundesländer ist generiert.")
 
     logging.info("Die Listengeneration ist abgeschlossen.")

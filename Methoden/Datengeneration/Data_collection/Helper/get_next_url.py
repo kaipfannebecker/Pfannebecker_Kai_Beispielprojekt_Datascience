@@ -2,24 +2,23 @@ import logging
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-## Bestimmt über das Modul "aufruf_lk.py" genau einen Landkreis, prüft die Data_collection über das Module "aktualitaet.py" auf
-## Aktualität und sortiert über "sort_meld.py" nach Meldedatum. Danach wird das Startdatum sowie Enddatum bestimmt und
-## die Zahl der resultierenden Fälle pro Tag als Graph ausgegeben.
+## liest die erste Zeile aus urls_unique.txt ein und gibt diese als Variable next_url aus
 
 # Benötigt:
-## "aufruf_lk.py"
-## "aktualitaet.py"
-## "sort_meld.py"
-## "datumseingabe.py"
+## Datei: "urls_unique.txt"
 
 # Gibt zurück:
-## 2d-Graph mit der x = Datum und Y = Anzahl Fälle
+## Variable: "next_url"
 
 # ----------------------------------------------------------------------------------------------------------------------
+
+
 def get_next_url():
     urls_unique = open("./rki_daten/urls_unique.txt", "r")
     next_url = urls_unique.readline()
     return next_url
+
+
 def main():
 
     logger = logging.getLogger(__name__)

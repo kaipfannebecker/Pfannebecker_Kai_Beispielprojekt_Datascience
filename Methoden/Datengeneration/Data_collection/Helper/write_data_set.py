@@ -144,3 +144,6 @@ def main():
 #archives_needed.close()
 #archives_done.close()
 #urls_todo.close
+
+
+# old?

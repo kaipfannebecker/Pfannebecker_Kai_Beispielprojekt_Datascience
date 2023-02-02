@@ -2,18 +2,13 @@ import logging
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-## Bestimmt über das Modul "aufruf_lk.py" genau einen Landkreis, prüft die Data_collection über das Module "aktualitaet.py" auf
-## Aktualität und sortiert über "sort_meld.py" nach Meldedatum. Danach wird das Startdatum sowie Enddatum bestimmt und
-## die Zahl der resultierenden Fälle pro Tag als Graph ausgegeben.
+## schreibt die genutzte URL in urls_used.txt
 
 # Benötigt:
-## "aufruf_lk.py"
-## "aktualitaet.py"
-## "sort_meld.py"
-## "datumseingabe.py"
+## Variable: "finished_url"
 
 # Gibt zurück:
-## 2d-Graph mit der x = Datum und Y = Anzahl Fälle
+## erweiterte "urls_used.txt"
 
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -21,7 +16,6 @@ import logging
 def delete_lin(finished_url):
     with open("./rki_daten/urls_used.txt", "a") as file_object:
         file_object.write(f"{finished_url}")
-
 
 
 def main(finished_url):

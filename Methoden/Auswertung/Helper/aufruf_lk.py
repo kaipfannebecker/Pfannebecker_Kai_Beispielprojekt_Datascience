@@ -1,22 +1,20 @@
-import pandas as pd
 import numpy as np
+import pandas as pd
 
-import sys
 import logging
+import sys
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-## Ruft "anz_lk" Landkreise_Bundeslaender ab, prüft diese über das Submodul aktualitaet.py auf Aktualität
-## und gibt die Liste der Landkreise_Bundeslaender "liste_lk" zurück
+## fragt die Eingabe eines Landkreises ab und gibt Tupel aus Namen und Nummer dieses Landkreises zurück
 
 # Benötigt:
-## Übergabe von Variable anz_lk; gibt Anzahl der insgesamt gewünschten Landkreise_Bundeslaender an
+## Dateien: "Liste_der_Landkreise_fuer_Projekt.csv", csv mit Nummer der Landkreise
 
 # Gibt zurück:
-## liste_lk = Liste der Landkreise_Bundeslaender
-## Ausgabe in geschweiften Klammern; im aufrufenden Programm danach folgende Zeile nötig:
-### liste_lk = aufruf_lk.main(anz_lk)
-### liste_lk = str(liste_lk).replace('[', '').replace(']', '')
+## Variablen: liste_lk (Nummer des gesuchten Landkreises), name_lk (Name des gesuchten Landkreises)
+
+# Error catching to do!
 
 # ----------------------------------------------------------------------------------------------------------------------
 ################################################ Definierte Funktionen #################################################
@@ -44,6 +42,7 @@ def main():
     reihe_lk = lk_gesamt.loc[lk_gesamt['IdLandkreis'] == liste_lk_1]
     name_lk = reihe_lk["NameLandkreis"].values[0]
     logger.info(f"Das Subprogramm aufruf_lk ist erfolgreich durchgelaufen und gibt {liste_lk} zurück.")
+
     return liste_lk, name_lk
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -110,17 +109,17 @@ def lk_laden(lk_gesamt, lk_gesucht):
                 alt_lk_2 = id_lk.iloc[(np.searchsorted(id_lk.values, [val_lk_ges]) - 1)]
                 print(f"Meinten Sie möglicherweise folgenden Landkreis: {alt_lk_2.iloc[0]} oder {alt_lk_1.iloc[0]}?")
             weiter = input("Was möchten Sie tun? Drücken Sie bitte 1 oder 2:\n" 
-                            "1. Erneute Eingabe eines Landkreises\n" 
-                            "2. Alle verfügbaren Landkreise_Bundeslaender anzeigen\n"
-                            "3. Programm beenden\n"
-                           "" )
+                           "1. Erneute Eingabe eines Landkreises\n" 
+                           "2. Alle verfügbaren Landkreise_Bundeslaender anzeigen\n"
+                           "3. Programm beenden\n"
+                           "")
             if weiter == "2":
                 pd.set_option('display.max_rows', None)
                 print(lk_gesamt['NameLandkreis'])
                 weiter1 = input("Was möchten Sie tun? Drücken Sie bitte 1 oder 2:\n"
-                               "1. Erneute Eingabe eines Landkreises\n"
-                               "2. Programm beenden\n"
-                               "")
+                                "1. Erneute Eingabe eines Landkreises\n"
+                                "2. Programm beenden\n"
+                                "")
                 if weiter1 == "2":
                     sys.exit()
                 if weiter1 == "1":

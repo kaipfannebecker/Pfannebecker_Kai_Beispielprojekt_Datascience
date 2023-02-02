@@ -1,22 +1,19 @@
 import requests
+
 import logging
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-## Bestimmt über das Modul "aufruf_lk.py" genau einen Landkreis, prüft die Data_collection über das Module "aktualitaet.py" auf
-## Aktualität und sortiert über "sort_meld.py" nach Meldedatum. Danach wird das Startdatum sowie Enddatum bestimmt und
-## die Zahl der resultierenden Fälle pro Tag als Graph ausgegeben.
+## liest vorhandene URLs aus und spreichert diese in output.txt"
 
 # Benötigt:
-## "aufruf_lk.py"
-## "aktualitaet.py"
-## "sort_meld.py"
-## "datumseingabe.py"
+## -
 
 # Gibt zurück:
-## 2d-Graph mit der x = Datum und Y = Anzahl Fälle
+## output.txt"
 
 # ----------------------------------------------------------------------------------------------------------------------
+
 
 def curl():
     url = 'https://storage.googleapis.com/brdata-public-data/rki-corona-archiv/2_parsed/index.html'
@@ -24,6 +21,7 @@ def curl():
     whole_download = reqs.text
     with open("./rki_daten/output.txt", "w") as text_file:
         print(whole_download, file=text_file)
+
 
 def main():
 

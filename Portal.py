@@ -6,10 +6,10 @@ from Methoden.Portal import port_abfrage_vorgehen, port_abfrage_ebene, port_abfr
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-##
+## ruft alle anderen Module auf
 
 # Benötigt:
-##
+## port_abfrage_vorgehen.py, port_abfrage_ebene.py, port_abfrage_datensatz.py, port_abfrage_visualisierung.py
 
 # Gibt zurück:
 ##
@@ -44,12 +44,13 @@ def main():
     ebene = abfrage_variablen_ebene()
     datensatz = abfrage_variablen_datensatz()
     abfrage_visualisierung(ebene, datensatz)
+
 # ----------------------------------------------------------------------------------------------------------------------
 
 
 # Begrüßung:
 def begruessung():
-    print("Herzlich Willkommen bei der Darstellung von Coronadaten in verschiedenen Visualisierungen.")
+    print("\nHerzlich Willkommen bei der Darstellung von Coronadaten in verschiedenen Visualisierungen.\n")
 
 
 # ----------------------------------------------------------------------------------------------------------------------

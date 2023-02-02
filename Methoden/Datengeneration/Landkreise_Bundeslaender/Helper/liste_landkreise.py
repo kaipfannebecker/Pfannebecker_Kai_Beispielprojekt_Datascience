@@ -1,17 +1,23 @@
 import pandas as pd
+
 import logging
+
 # ----------------------------------------------------------------------------------------------------------------------
 
 # Aufgabe des Moduls:
-## Ordnet die einzelnen Landkreise_Bundeslaender den jeweiligen Bundesländern zu.
+## gibt die gesamte Liste and Landkreisen aus sowie
+## ordnet die einzelnen Landkreise den jeweiligen Bundesländern zu und gibt diese Listen aus.
 
 # Benötigt:
-##
+## Datei "AuszugGV2QAktuell.xlsx"
 
 # Gibt zurück:
-##
+## liste_landkreise_org.csv
+## Liste_Landkreise_in_{nr}_{name_bl}.csv
 
 # ----------------------------------------------------------------------------------------------------------------------
+
+
 def create_liste_lk():
     # Liest Idenitifier und Namen der Landkreise_Bundeslaender ein; ACHTUNG: resultierender Datatype String!
     lk_all = pd.read_excel(r"./landkreise/AuszugGV2QAktuell.xlsx",
@@ -45,9 +51,9 @@ def create_liste_lk():
     }
     bl = pd.DataFrame(data=bl_data)
 
-    for Id_bl, dataset_double in dataset_double.groupby('01'):
-        Id_bl = int(Id_bl)-1
-        name_bl = bl.iloc[Id_bl]["NameBundesland"]
+    for id_bl, dataset_double in dataset_double.groupby('01'):
+        id_bl = int(id_bl)-1
+        name_bl = bl.iloc[id_bl]["NameBundesland"]
 
         dataset_double['01'] = dataset_double['01'] + dataset_double["Unnamed: 3"] + dataset_double["Unnamed: 4"]
 
@@ -58,7 +64,7 @@ def create_liste_lk():
 
         dataset_double = dataset_double.rename(columns={"01": "IdLandkreis"})
 
-        nr = Id_bl+1
+        nr = id_bl+1
 
         ## save the dataframe for each group to a csv; seperated for each Bundesland
         dataset_double.to_csv(
@@ -87,7 +93,7 @@ def main():
     logger = logging.getLogger(__name__)
     handler = logging.FileHandler(f"./log/{__name__}.log")
     formatter = logging.Formatter('%(asctime)s,%(msecs)d %(levelname)-8s [%(pathname)s:%(lineno)d in '
-               'function %(funcName)s] %(message)s', datefmt='%Y-%m-%d:%H:%M:%S')
+                                  'function %(funcName)s] %(message)s', datefmt='%Y-%m-%d:%H:%M:%S')
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 

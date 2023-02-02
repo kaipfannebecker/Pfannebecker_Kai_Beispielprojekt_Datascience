@@ -1,5 +1,19 @@
 import logging
 
+# ----------------------------------------------------------------------------------------------------------------------
+# Aufgabe des Moduls:
+## vergleicht die beiden Listen "urls_used.txt" und "urls_total.txt". Gibt die Differenz als "urls_unique.txt".
+## Bei Gleichheit beider Listen Finished = 1
+
+# Benötigt:
+## Datei: "urls_used.txt", "urls_total.txt"
+
+# Gibt zurück:
+## Variable Finished (0, solange noch URLs zu bearbeiten sind\ 1, wenn beide Listen identisch sind)
+## Datei: "urls_unique.txt"
+
+# ----------------------------------------------------------------------------------------------------------------------
+
 
 def remove_common(urls_total, urls_done):
     urls_total = urls_total.split("\n")
@@ -28,5 +42,3 @@ def main():
 
     logging.info(f"urls_unique.txt wurde aktualisiert. Es wurde der Wert finished = {finished} zurück gegeben")
     return finished
-
-

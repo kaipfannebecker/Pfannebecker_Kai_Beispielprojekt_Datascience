@@ -2,13 +2,14 @@ import logging
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-##
+## sortiert die eingegebenen Daten nach geünschter Varaible = 1 sowie = -1, rechnet die entsprechende Anzahl um
+## und addiert diese
 
 # Benötigt:
-##
+## Variablen: "var_da_sort", "var_da_anz", "data_single_lk_neu"
 
 # Gibt zurück:
-##
+## Variable: "data_neu_ges"
 
 # ----------------------------------------------------------------------------------------------------------------------
 ################################################ Definierte Funktionen #################################################
@@ -19,7 +20,7 @@ def main(var_da_sort, var_da_anz, data_single_lk_neu):
     logger = logging.getLogger(__name__)
     handler = logging.FileHandler(f"./log/{__name__}.log")
     formatter = logging.Formatter('%(asctime)s,%(msecs)d %(levelname)-8s [%(pathname)s:%(lineno)d in '
-               'function %(funcName)s] %(message)s', datefmt='%Y-%m-%d:%H:%M:%S')
+                                  'function %(funcName)s] %(message)s', datefmt='%Y-%m-%d:%H:%M:%S')
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 

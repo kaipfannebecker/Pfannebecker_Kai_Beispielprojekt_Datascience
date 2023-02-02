@@ -1,20 +1,16 @@
 from bs4 import BeautifulSoup
+
 import logging
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-## Bestimmt über das Modul "aufruf_lk.py" genau einen Landkreis, prüft die Data_collection über das Module "aktualitaet.py" auf
-## Aktualität und sortiert über "sort_meld.py" nach Meldedatum. Danach wird das Startdatum sowie Enddatum bestimmt und
-## die Zahl der resultierenden Fälle pro Tag als Graph ausgegeben.
+## schreibt die in output gespeicherten Links in URLs um
 
 # Benötigt:
-## "aufruf_lk.py"
-## "aktualitaet.py"
-## "sort_meld.py"
-## "datumseingabe.py"
+## Datei: "output.txt"
 
 # Gibt zurück:
-## 2d-Graph mit der x = Datum und Y = Anzahl Fälle
+## Datei: "urls_total.txt"
 
 # ----------------------------------------------------------------------------------------------------------------------
 def extract():

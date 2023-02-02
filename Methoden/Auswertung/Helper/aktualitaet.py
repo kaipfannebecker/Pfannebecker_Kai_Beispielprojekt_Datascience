@@ -1,27 +1,21 @@
 from datetime import datetime, timedelta, date
-import sys
+
 import logging
-from Methoden.Datengeneration.Data_collection import data_collcetion_main
+import sys
+
+from Methoden.Datengeneration.Data_collection import data_collection_main
 from Methoden.Datengeneration.Landkreise_Bundeslaender import lk_bl_generation_main
+from Methoden.Datengeneration.Data_processing import data_processing_main
 # ----------------------------------------------------------------------------------------------------------------------
 
 # Aufgabe des Moduls:
-## Ruft "anz_lk" Landkreise_Bundeslaender ab, prüft diese über das Submodul aktualitaet.py auf Aktualität
-## und gibt die Liste der Landkreise_Bundeslaender "liste_lk" zurück
+## ruft die Submodule zur Aktualisierung des Datensatzes auf
 
 # Benötigt:
-## Übergabe von String mit den gewünschten Datensätzen als "zu_akt"
-## in der ersten Spalte nach dem Index als dataframe zu_akt
+## Module: data_collection_main.py,  lk_bl_generation_main.py, data_processing_main.py
 
 # Gibt zurück:
-## akt = 1 als Nachweis, das Modul durchgelaufen ist
-
-# ----------------------------------------------------------------------------------------------------------------------
-
-## zu Testzwecken:
-# akt = 1
-# sort = 1
-# anz_lk=2
+## -
 
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -34,20 +28,15 @@ sort = 0
 # NÖTIG: Übergabe von String mit den gewünschten Datensätzen
 # in der ersten Spalte nach dem Index als dataframe zu_akt
 
-# sort_meld.py aufrufen und Data_collection nach Meldedatum sortieren
-# if sort <= 1:
-    # zu_sort = zu_akt
-    # runpy.run_module(mod_name="sort_meld", mod_name=f"{zu_sort}")
-
 
 def aktualisierung():
     vorgehen_akt = eval(input(
         "Wie genau möchten Sie die Data_collection aktualisieren?\n"
         "1) den aktuellen Datenstand anzeigen\n"
         "2) die Tabelle der Landkreise und Bundesländer (neu) anlegen\n"
-        "3) Neue Data_collection herunterladen\n"
-        "4) Data_collection (erneut) einlesen\n"
-        "5) 'Datensatz_Neuinfektionen_gesamt' (erneut) splitten\n"
+        "3) Neue Data_collection herunterladen\n"  # auf neue URLs prüfen
+        "4) Data_collection (erneut) einlesen\n"  # URLs erneut herunterladen
+        "5) 'Datensatz_Neuinfektionen_gesamt' (erneut) splitten\n" 
         "6) Zurück zur Auswertung\n"
         "7) Abbruch\n"
         "")
@@ -60,13 +49,13 @@ def aktualisierung():
         lk_bl_generation_main.main()
 
     if vorgehen_akt == 3:
-        data_collcetion_main.main(vorgehen_akt)
+        data_collection_main.main(vorgehen_akt)
 
     if vorgehen_akt == 4:
-        data_collcetion_main.main(vorgehen_akt)
+        data_collection_main.main(vorgehen_akt)
 
     if vorgehen_akt == 5:
-        print("zu implementieren")
+        data_processing_main.main()
 
     if vorgehen_akt == 6:
         print("zu implementieren")

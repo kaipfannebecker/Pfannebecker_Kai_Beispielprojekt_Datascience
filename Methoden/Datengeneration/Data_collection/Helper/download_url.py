@@ -1,26 +1,23 @@
-import logging
 import urllib.request
+
+import logging
+
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-## Bestimmt über das Modul "aufruf_lk.py" genau einen Landkreis, prüft die Data_collection über das Module "aktualitaet.py" auf
-## Aktualität und sortiert über "sort_meld.py" nach Meldedatum. Danach wird das Startdatum sowie Enddatum bestimmt und
-## die Zahl der resultierenden Fälle pro Tag als Graph ausgegeben.
+## läd den Inhalt der URL in date.xz
 
 # Benötigt:
-## "aufruf_lk.py"
-## "aktualitaet.py"
-## "sort_meld.py"
-## "datumseingabe.py"
+## Variable: next_url
 
 # Gibt zurück:
-## 2d-Graph mit der x = Datum und Y = Anzahl Fälle
+## Datei: date.xz
 
 # ----------------------------------------------------------------------------------------------------------------------
 
+
 def download(next_url):
     urllib.request.urlretrieve(next_url, "./rki_daten/date.xz")
-    return next_url
 
 
 def main(next_url):

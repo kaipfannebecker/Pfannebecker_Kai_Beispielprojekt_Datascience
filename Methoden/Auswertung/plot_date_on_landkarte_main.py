@@ -9,27 +9,23 @@ import sys
 
 from Methoden.Auswertung.Helper import gen_var, datumseingabe
 
-
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-##
+## fragt das gewünschte Datum ab, liest aus allen Landkreisen die zugehörigen Daten ein und setzt diese auf eine
+## Deutschlandkarte mit der gewählten Auflösung.
 
 # Benötigt:
-##
+## übergebene Variablen: Ebene, Datensatz
+## Module: gen_var.py, datumseingabe.py
 
 # Gibt zurück:
-##
-
-# ----------------------------------------------------------------------------------------------------------------------
-
-## zu Testzwecken:
-# date = "2020-08-20"
+## Heatmap auf Deutschlandkarte zum gewünschten Zeitraum
 
 # ----------------------------------------------------------------------------------------------------------------------
 #################################################### Programmstart #####################################################
 # ----------------------------------------------------------------------------------------------------------------------
 
-# Main function:
+
 def main(ebene, datensatz):
 
     logger = logging.getLogger(__name__)
@@ -47,7 +43,6 @@ def main(ebene, datensatz):
     var_da_anz = variablen[2]
     var_da_sort = variablen[3]
     var_da_verb = variablen[4]
-    print(variablen)
     print("-------------------------------------------")
     print("Die notwendigen Variablen wurden generiert.")
     logger.info("Die Variablengeneration ist abgelaufen.")
@@ -171,22 +166,8 @@ def data_bund(var_da, anzfae_all_lk_1, var_da_anz):
     frame_data_bund = pd.DataFrame(data=dataset_empt)
     anzfae_all_lk_neu = anzfae_all_lk_1.sum()
     frame_data_bund = [anzfae_all_lk_neu[f"{var_da}"], "Deutschland"]
-    print(frame_data_bund)
-    print(type(frame_data_bund))
     # dataframe_data_bund = pd.DataFrame(frame_data_bund)
     anzfae_all_lk_1 = pd.DataFrame([frame_data_bund], columns=[f"{var_da}", "Bundesgebiet"])
-    print(anzfae_all_lk_1)
-    print(type(anzfae_all_lk_1))
-    #anzfae_all_lk_1 = pd.concat(dataframe_data_bund)
-    #dataset = list(dataset)
-    #anzfae_all_lk_1.loc[len(anzfae_all_lk_1)] = dataset
-
-    # ---------------------------------
-    # berlin_bez_empt = {"Gesamtzahl neue Infektionen": [0], "IdLandkreis": [0], "IdBundesland": [0]}
-    # berlin_bez_1 = pd.DataFrame(data=berlin_bez_empt)
-    # frame_mitt = [berlin_bez_1, berlin_mitt]
-    # berlin_bez_1 = pd.concat(frame_mitt)
-    # -------------------------------------------
 
     return anzfae_all_lk_1
 
@@ -208,20 +189,32 @@ def datumspruefung(date):
     if date_dataset > date or date_dataset == date:
         print("Das gewünschte Datum ist im Datensatz vorhanden.")
     if date_dataset < date:
-        entscheidung = eval(input(
-            "Das gewünschte Datum ist nicht im Datensatz vorhanden. Sie können nun entweder:"
-            "1) Ein neues Datum eingeben"
-            "2) Den Datensatz aktualisieren"
-            "3) Den Vorgang abbrechen "
-        ))
-        if entscheidung == 1:
-            date = datumseingabe.eindatum()
-        if entscheidung == 2:
-            # aktualitaet.eindatum()
-            # date = datumseingabe.datum
-            data_test()
-        if entscheidung == 3:
-            sys.exit()
+        try:
+            entscheidung = eval(input(
+                "Das gewünschte Datum ist nicht im Datensatz vorhanden. Sie können nun entweder:"
+                "1) Ein neues Datum eingeben"
+                "2) Den Datensatz aktualisieren"
+                "3) Den Vorgang abbrechen "
+            ))
+            if entscheidung == 1:
+                date = datumseingabe.eindatum()
+            if entscheidung == 2:
+                # aktualitaet.eindatum()
+                # date = datumseingabe.datum
+                data_test()
+            if entscheidung == 3:
+                sys.exit()
+
+            pos_values = [1, 2, 3]
+
+            if entscheidung not in pos_values:
+                print("Ihre Eingabe konnte nicht zugeordnet werden.")
+                datumspruefung(date)
+
+        except SyntaxError:
+            print("Ihre Eingabe konnte nicht zugeordnet werden.")
+            datumspruefung(date)
+
     return date
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -238,8 +231,6 @@ def variablengeneration(ebene, datensatz):
 
 # Data_collection vom gewünschten Tag aus allen Landkreisen abfragen:
 def datacollection(date, var_da, var_da_sort, var_da_anz):
-    print(date)
-    print(type(date))
     empty_df = {var_da: [0], "IdLandkreis": [0], "IdBundesland": [0]}
     # Beispiel: Alle todesfälle auf Landkreisebene: {"Gesamtzahl neue Todesfälle": [0], IdLandkreis: [0]}
     anzfae_all_lk_1 = pd.DataFrame(data=empty_df)
@@ -251,25 +242,15 @@ def datacollection(date, var_da, var_da_sort, var_da_anz):
         if file.endswith(".csv"):
             data_single_lk = pd.read_csv(fr".\rki_daten\Datensatz_vereinzelt\by_number\{file}")
             id_bundesland = data_single_lk.iloc[0]['IdBundesland']
-            #pd.set_option('display.expand_frame_repr', False)
-            #print(data_single_lk)
-            #pd.set_option('display.max_rows', None)
-            #print(data_single_lk['MeldedatumISO'])
             data_single_lk_neu = data_single_lk.loc[data_single_lk['MeldedatumISO'] == f"{date}"]
-            #print(data_single_lk_neu)
             if data_single_lk_neu.empty:
                 data_neu_ges = 0
-                #print("true")
             else:
                 data_neu_ges = data_recovery(var_da_sort, var_da_anz, data_single_lk_neu)
-                #print("false")
             number_lk = file.removesuffix('.csv')
-
-            #input("enter")
 
             id_bundesland = int(id_bundesland)
             data_neu_ges = int(data_neu_ges)
-            #print(data_neu_ges)
             fall_t = pd.DataFrame({var_da: [data_neu_ges], "IdLandkreis": [f"{number_lk}"],
                                    "IdBundesland": [id_bundesland]})
             frames = [anzfae_all_lk_1, fall_t]
@@ -308,11 +289,12 @@ def datacollection(date, var_da, var_da_sort, var_da_anz):
 
     # ------------------------------------------------------------------------------------------------------------------
 
-
     return anzfae_all_lk_1, berlin_bez_1
 
 # data_neu_pos_1 = data_single_lk_neu.loc[data_single_lk_neu[f'{var_da_sort}'] == 1.0]
-# fall_t = pd.DataFrame({"Datum": [f"{meld_dat}"], "Gesamtzahl neue Infektionen": [data_neu_ges], "IdBundesland": [IdBundesland]})
+# fall_t = pd.DataFrame({
+#                           "Datum": [f"{meld_dat}"], "Gesamtzahl neue Infektionen": [data_neu_ges],
+#                           "IdBundesland": [IdBundesland]})
 # frames = [anzfae_lk_vs_t_1,fall_t]
 # anzfae_lk_vs_t_1 = pd.concat(frames)
 
@@ -352,17 +334,17 @@ def datashortage(ebene, anzfae_all_lk_1, var_da, var_da_anz, berlin_bez_1):
 def mapgeneration(ebene, anzfae_all_lk, var_da, berlin_bez):
     if ebene == 1:
         # import shapefile:
-        map_lk = gpd.read_file(r"./Geoshape_Deutschland_vg2500_12-31.utm32s.shape/vg2500/VG2500_KRS.shp")
+        map_lk = gpd.read_file(r"./Geodaten_Deutschland/vg2500/VG2500_KRS.shp")
         map_lk_eind = map_lk.loc[map_lk['GF'] == 9]
         merged = map_lk_eind.set_index('AGS').join(anzfae_all_lk.set_index('IdLandkreis'))
 
         # zusätzlich Grenzen Bundesländer verstärken:
-        map_lk_add = gpd.read_file(r"./Geoshape_Deutschland_vg2500_12-31.utm32s.shape/vg2500/VG2500_LAN.shp")
+        map_lk_add = gpd.read_file(r"./Geodaten_Deutschland/vg2500/VG2500_LAN.shp")
         map_lk_add_eind = map_lk_add.loc[map_lk['GF'] == 9]
         merged_add = map_lk_add_eind.set_index('AGS').join(anzfae_all_lk.set_index("IdLandkreis"))
 
         # Berlin extra ausweisen:
-        karte_berlin = gpd.read_file(r"./Geoshape_Deutschland_vg2500_12-31.utm32s.shape/vg2500/bezirksgrenzen.geojson")
+        karte_berlin = gpd.read_file(r"./Geodaten_Deutschland/vg2500/bezirksgrenzen.geojson")
         merged_berlin = karte_berlin.set_index('Schluessel_gesamt').join(berlin_bez.set_index("IdLandkreis"))
 
         merged_berlin['coords'] = merged_berlin['geometry'].apply(lambda x: x.representative_point().coords[:])
@@ -409,7 +391,7 @@ def mapgeneration(ebene, anzfae_all_lk, var_da, berlin_bez):
         large = large.rename(columns={"NameBundesland_y": "Bundesland"})
 
     if ebene == 2:
-        map_lk = gpd.read_file(r"./Geoshape_Deutschland_vg2500_12-31.utm32s.shape/vg2500/VG2500_LAN.shp")
+        map_lk = gpd.read_file(r"./Geodaten_Deutschland/vg2500/VG2500_LAN.shp")
         map_lk_eind = map_lk.loc[map_lk['GF'] == 9]
         merged = map_lk_eind.set_index('AGS').join(anzfae_all_lk.set_index("IdBundesland"))
         merged_add = ()
@@ -427,7 +409,7 @@ def mapgeneration(ebene, anzfae_all_lk, var_da, berlin_bez):
 
     if ebene == 3:
         map_lk = gpd.read_file(
-            r"./Geoshape_Deutschland_vg2500_12-31.utm32s.shape/vg2500/VG2500_STA.shp"
+            r"./Geodaten_Deutschland/vg2500/VG2500_STA.shp"
         )
         map_lk_eind = map_lk.loc[map_lk['GF'] == 9]
         merged = map_lk_eind.set_index('GEN').join(anzfae_all_lk.set_index("Bundesgebiet"))

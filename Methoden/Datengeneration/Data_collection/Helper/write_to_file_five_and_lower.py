@@ -1,17 +1,18 @@
-import gc
-import pandas as pd
 import json
+import pandas as pd
+
+import gc
 import logging
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-##
+## öffnet die Datei "next_dataset.ndjson" und schreibt den Inhalt der JSONs in eine csv Datei
 
 # Benötigt:
-##
+## Datei: "next_dataset.ndjson"
 
 # Gibt zurück:
-##
+## Datei: "Datensatz_Neuinfektionen_gesamt.csv"
 
 # ----------------------------------------------------------------------------------------------------------------------
 

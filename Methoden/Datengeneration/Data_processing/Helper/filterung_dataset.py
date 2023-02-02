@@ -4,27 +4,23 @@ import logging
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-## Bestimmt über das Modul "aufruf_lk.py" genau einen Landkreis, prüft die Data_collection über das Module "aktualitaet.py" auf
-## Aktualität und sortiert über "sort_meld.py" nach Meldedatum. Danach wird das Startdatum sowie Enddatum bestimmt und
-## die Zahl der resultierenden Fälle pro Tag als Graph ausgegeben.
+## liest den Gesamtdatensatz ein und splittet diesen in verschiedene Subdatensätze, getrennt nach Landkreis
+## und/oder Bundesland
 
 # Benötigt:
-## "aufruf_lk.py"
-## "aktualitaet.py"
-## "sort_meld.py"
-## "datumseingabe.py"
+## "Datensatz_Neuinfektionen_gesamt.csv", "Liste_der_Landkreise_fuer_Projekt_1.csv"
 
 # Gibt zurück:
-## 2d-Graph mit der x = Datum und Y = Anzahl Fälle
+## vereinzelte Listen in den entsprechenden Ordnern
 
 # ----------------------------------------------------------------------------------------------------------------------
 
 def filterung():
     ## aktuellen Datensatz des RKI importieren
-    dataset_rki = pd.read_csv('/Datensatz_Neuinfektionen_gesamt.csv', low_memory=False)
+    dataset_rki = pd.read_csv('./Datensatz_Neuinfektionen_gesamt.csv', on_bad_lines="warn")
 
     # dataset_rki = pd.read_csv('.\\Datensatz_gesamt\\2021-04-02_Deutschland_SarsCov2_Infektionen.csv')
-    tab_lk = pd.read_csv('/Liste_der_Landkreise_fuer_Projekt.csv')
+    tab_lk = pd.read_csv('./Liste_der_Landkreise_fuer_Projekt_1.csv')
 
     # groupby the desired column and iterate through the groupby object
     for Id_lk, dataset_rki in dataset_rki.groupby('IdLandkreis'):
@@ -44,16 +40,17 @@ def filterung():
 
     for Id_bl, dataset_rki in dataset_rki.groupby('IdBundesland'):
         row_bl = tab_lk.loc[tab_lk["IdBundesland"] == Id_bl]
-        #if Id_bl != -1:
+        # if Id_bl != -1:
         #    name_bl = row_lk['NameLandkreis']
         #   name_bl_2 = name_bl.iat[0]
-            #print(name_lk_2)
-            #dataset_rki.to_csv(f'.\\Datensatz_vereinzelt\\by_name\\{name_lk_2}.csv', index=False, mode='w')
+            # print(name_lk_2)
+            # dataset_rki.to_csv(f'.\\Datensatz_vereinzelt\\by_name\\{name_lk_2}.csv', index=False, mode='w')
         ## save the dataframe for each group to a csv; seperated for each Landkreis
         # dataset_rki.to_csv(f'.\\Datensatz_vereinzelt\\by_number\\Bundesland\\by_name\\{name_bl_2}.csv', index=False, mode='a')
         # dataset_rki.to_csv(f'.\\Datensatz_vereinzelt\\by_number\\Bundesland\\by_name\\{name_bl_2}.csv', index=False, mode='a')
         dataset_rki.to_csv(f'.\\Datensatz_vereinzelt\\by_number\\Bundesland\\{Id_bl}.csv', index=False, mode='w')
         # dataset_rki.to_csv(f'.\\Datensatz_vereinzelt\\by_number_name\\Bundesland\\{Id_bl}_{name_bl}.csv', index=False, mode='a')
+
 
 def main():
 

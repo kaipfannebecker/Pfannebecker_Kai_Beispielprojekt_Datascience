@@ -1,23 +1,24 @@
-import gc
-import pandas as pd
 import json
+import pandas as pd
+
+import gc
 import logging
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-##
+## öffnet die Datei "next_dataset.ndjson" und schreibt den Inhalt der JSONs in eine csv Datei
 
 # Benötigt:
-##
+## Datei: "next_dataset.ndjson"
 
 # Gibt zurück:
-##
+## Datei: "Datensatz_Neuinfektionen_gesamt.csv"
 
 # ----------------------------------------------------------------------------------------------------------------------
 
 
 def write_file_after_five(data):
-    #with open('./rki_daten/next_dataset.ndjson', mode='r', encoding='utf-8') as myfile:
+    # with open('./rki_daten/next_dataset.ndjson', mode='r', encoding='utf-8') as myfile:
     with open(r'./rki_daten/next_dataset.ndjson', mode='r', encoding='utf-8') as myfile:
 
         for line in myfile:
@@ -55,4 +56,3 @@ def main(next_url):
     logging.info(f"{next_url}_fertig")
     finished_url = next_url
     return finished_url
-

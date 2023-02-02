@@ -1,5 +1,6 @@
-import requests
 from bs4 import BeautifulSoup
+import requests
+
 import logging
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -44,3 +45,6 @@ def main():
 
     get_urls()
     logging.info(f"{next_url} wurde ausgelesen und übergeben.")
+
+
+    # old?

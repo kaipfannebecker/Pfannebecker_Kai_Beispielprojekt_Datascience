@@ -1,28 +1,23 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
+from datetime import datetime, timedelta, date
 import os
 import logging
-from datetime import datetime, timedelta, date
 import sys
-
 
 from Methoden.Auswertung.Helper import aktualitaet, gen_var, data_recovery, aufruf_lk, datumseingabe, sort_meld
 
-today = date.today()
-yesterday = datetime.now() - timedelta(1)
-datetime.strftime(yesterday, '%Y-%m-%d')
+
 # ----------------------------------------------------------------------------------------------------------------------
 
 # Aufgabe des Moduls:
-## Bestimmt über das Modul "aufruf_lk.py" genau einen Landkreis, prüft die Data_collection über das Module "aktualitaet.py" auf
-## Aktualität und sortiert über "sort_meld.py" nach Meldedatum. Danach wird das Startdatum sowie Enddatum bestimmt und
-## die Zahl der resultierenden Fälle pro Tag als Graph ausgegeben.
+## liest die Daten für ein Element einer Ebene (z. B. ein Landkreis oder ein Bundesland) ein und gibt die Werte des
+## gewünschten Datensatzes (z. B. Neuinfizierte oder neue Genesene) im gewünschten Zeitraum als XY PLot wieder.
 
 # Benötigt:
-## "aufruf_lk.py"
-## "aktualitaet.py"
-## "sort_meld.py"
+## Module: aktualitaet.py, gen_var.py, data_recovery.py, aufruf_lk.py, datumseingabe.py, sort_meld.py
+## Variablen: ebene, datensatz
 
 # Gibt zurück:
 ## 2d-Graph mit der x = Datum und Y = Anzahl Fälle
@@ -32,9 +27,14 @@ datetime.strftime(yesterday, '%Y-%m-%d')
 ## zu Testzwecken:
 # liste_lk = 1001
 
+## Error catching to do!
+
 # ----------------------------------------------------------------------------------------------------------------------
 #################################################### Programmstart #####################################################
 # ----------------------------------------------------------------------------------------------------------------------
+today = date.today()
+yesterday = datetime.now() - timedelta(1)
+datetime.strftime(yesterday, '%Y-%m-%d')
 
 
 def main(ebene, datensatz):
@@ -125,10 +125,7 @@ def lk_best():
     aufruf_lk_ret = aufruf_lk.main()
     liste_lk = aufruf_lk_ret[0]
     name_lk = aufruf_lk_ret[1]
-    #name_lk = name_lk_1[1]
     print(name_lk)
-    #print(liste_lk)
-    #print(type(liste_lk))
     liste_lk = str(liste_lk).replace('[', '').replace(']', '').replace("'", "")
     print(liste_lk)
     return liste_lk, name_lk
@@ -237,7 +234,7 @@ def datacollection(ebene, dataset_final, var_da_anz, var_da_sort, datensatz):
 
             fall_t = pd.DataFrame({"Datum": [f"{meld_dat}"], "Gesamtzahl neue Infektionen": [data_neu_ges], "IdBundesland": [IdBundesland]})
 
-            frames = [anzfae_lk_vs_t_1,fall_t]
+            frames = [anzfae_lk_vs_t_1, fall_t]
             anzfae_lk_vs_t_1 = pd.concat(frames)
 
     if ebene == 2:
@@ -264,7 +261,6 @@ def datacollection(ebene, dataset_final, var_da_anz, var_da_sort, datensatz):
     return anzfae_lk_vs_t_1
 
 # ----------------------------------------------------------------------------------------------------------------------
-
 
 
 def sort_datum(anzfae_lk_vs_t):
@@ -294,7 +290,6 @@ def build_print_figure(lk_vs_t, liste_lk, var_da_sort, datensatz, name_lk):
     if datensatz == 3:
         fig_ueb = "neuen hinzugekommenen Toten"
 
-
     # plot
     fig, ax = plt.subplots()
     fig.autofmt_xdate(rotation=45)
@@ -309,16 +304,15 @@ def build_print_figure(lk_vs_t, liste_lk, var_da_sort, datensatz, name_lk):
     fig.savefig(f'Anzahl_Faelle_vs_Zeit_für_{name_lk}.png', dpi=200, pad_inches=5)
     plt.show()
 
-
-    #fig, ax = plt.subplots(figsize=(10, 10))  # Create a figure containing a single axes.
+    # fig, ax = plt.subplots(figsize=(10, 10))  # Create a figure containing a single axes.
     # ax.plot(anzfae_lk_vs_t[0], anzfae_lk_vs_t[1], color="black")  # Plot some data on the axes.
     # ax.plot(lk_vs_t[0], lk_vs_t[1], color="black")  # Plot some data on the axes.
-    #ax.plot(x[0], y[0], color="black")  # Plot some data on the axes.
+    # ax.plot(x[0], y[0], color="black")  # Plot some data on the axes.
     # plt.xticks(lk_vs_t[1])
-    #ax.set_xlabel("Datum", fontsize=14)
-    #ax.set_ylabel(f"Anzahl {var_da_sort}", color="black", fontsize=14)
-    #plt.show()
-    #fig.savefig(f'Anzahl_Faelle_vs_Zeit_für_{liste_lk}.png', dpi=200, pad_inches=5)
+    # ax.set_xlabel("Datum", fontsize=14)
+    # ax.set_ylabel(f"Anzahl {var_da_sort}", color="black", fontsize=14)
+    # plt.show()
+    # fig.savefig(f'Anzahl_Faelle_vs_Zeit_für_{liste_lk}.png', dpi=200, pad_inches=5)
 
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -331,10 +325,11 @@ def variablengeneration(ebene, datensatz):
 
 # ----------------------------------------------------------------------------------------------------------------------
 
+
 def add_dates_without_data(anzfae_lk_vs_t_1, datestart, dateend):
     # Fülle die Tage ein, bei denen keine neuen Werte gemeldet wurden:
     buis_dates = pd.bdate_range(start=datestart, end=dateend, inclusive="both")
-    buis_dates_time = buis_dates.strftime('%Y-%m-%d') # , %r
+    buis_dates_time = buis_dates.strftime('%Y-%m-%d')  # , %r
     buis_dates_ser = pd.Series(dtype='float64')
     dates_meld = anzfae_lk_vs_t_1["Datum"]
     for i in buis_dates_time:
@@ -346,7 +341,7 @@ def add_dates_without_data(anzfae_lk_vs_t_1, datestart, dateend):
 
     for i in dates_final:
         df = pd.DataFrame({"Gesamtzahl neue Infektionen": ["0"], "Datum": [i], "IdBundesland": ["NaN"]})  # maybe IdBundesland anpassen
-        frames = [anzfae_lk_vs_t_1,df]
+        frames = [anzfae_lk_vs_t_1, df]
         anzfae_lk_vs_t_1 = pd.concat(frames)
 
     return anzfae_lk_vs_t_1

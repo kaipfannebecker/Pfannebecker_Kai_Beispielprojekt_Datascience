@@ -1,16 +1,19 @@
 import lzma
+
 import logging
+
 # ----------------------------------------------------------------------------------------------------------------------
 # Aufgabe des Moduls:
-##
+## liest die Datei "date.xz" ein, extrahiert den Inhalt und speichert diesen als "next_dataset.ndjson"
 
 # Benötigt:
-##
+## "date.xz"
 
 # Gibt zurück:
-##
+## "next_dataset.ndjson"
 
 # ----------------------------------------------------------------------------------------------------------------------
+
 
 def open_xz():
     with lzma.open("./rki_daten/date.xz", mode='rt', encoding='utf-8') as fin:
